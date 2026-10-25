@@ -67,3 +67,11 @@ Bài học chưng cất theo chủ đề, mỗi dòng ghi nguồn (ngày, dự �
 40. Bài học nằm trong bộ nhớ của một ứng dụng chat không đi theo skill; chưng cất vào skill thì AI ở nơi khác mới dùng được. [skill] (16/10/2026)
 41. Mỗi bản nháp kèm ghi chú bàn giao: vai cầm bè, chỗ AI đã quyết thay người viết, chất liệu còn thiếu, trạng thái nguồn, điều chưa chắc về giọng. [skill] (16/10/2026)
 42. Phán đoán không thay được bảng từ ở những chỗ hỏi lại mỗi lần là phí sức: thuật ngữ đã chốt, cụm sáo AI, kết hợp từ sai. Bốn danh sách có luật đọc riêng: cấm tuyệt đối (gặp là thay), từ đặc thù của người viết (dấu vân tay, và là cửa ngoại lệ có điều kiện cho từ ngờ), từ ngờ (mặc định thay), cấu trúc có trần. [chuẩn] `chuan/04`; [skill] `viet-nguyen-ban/references/tu-vung-va-cau-truc.md` (16/10/2026)
+
+## Tên gọi, tập viết và bộ soi (26/10/2026)
+
+43. Mỗi khái niệm một danh từ, giữ ở một nơi (`chuan/00`): vòng viết Tiếp nhận - Nội quán - Đồng kiến tạo - Nghiền ngẫm - Học hỏi; "hạt giống của bài"; tám phẩm chất; bốn mức nguyên bản Trung thành, Chuyên môn, Hiện diện, Căn tính. Tên gọi cũng tránh từ một âm tiết cụt. [chuẩn] `chuan/00`
+44. Xưởng có hai nửa: AI soạn từ chất liệu đủ (`viet-nguyen-ban`), và người viết tự nghĩ, tự viết trong khi AI hỏi, soi, khai vấn (`tap-viet`). Thiếu nửa sau, xưởng chỉ hoàn thành công việc mà lấy mất phần sinh lợi nhất của việc viết. [skill] `tap-viet`
+45. Bộ tiêu chí thẩm định nghiêm ngặt (ACCORD-ACCEPT) dùng linh hoạt: cường độ theo chất lượng mong muốn và thời gian, mỗi mức ghi ra có chứng cứ và hướng sửa, không tác phẩm nào phải đạt mức cao nhất ở mọi tiêu chí. [skill] `tap-viet/references/accord-accept.md`
+46. Khi được đề nghị dựng chất liệu, từ chối có lối mở: nói ngắn vì sao, đưa lối thay theo ba hạng chất liệu (ca thật, ca ghép có ghi rõ, hư cấu gọi rõ). [skill] `viet-nguyen-ban`, `tap-viet`
+

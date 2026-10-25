@@ -147,10 +147,10 @@ def ra_file(duong, A1, A3, C):
 
     # A5: dấu câu
     a5 = []
-    for ky, ten in (('—', 'em dash'), ('“', 'ngoặc cong'), ('”', 'ngoặc cong'),
-                    ('…', 'ba chấm Unicode')):
-        for m in re.finditer(re.escape(ky), text):
-            a5.append('dòng %d: %s' % (dong_cua(text, m.start()), ten))
+    for kys, ten in (('—', 'em dash'), ('“”', 'ngoặc cong'), ('…', 'ba chấm Unicode')):
+        dong = sorted({dong_cua(text, m.start()) for m in re.finditer('[' + re.escape(kys) + ']', text)})
+        if dong:
+            a5.append('%s ở %d dòng (dòng %s)' % (ten, len(dong), ', '.join(map(str, dong[:15]))))
     for m in re.finditer(r'^#{1,6} (.+)$', text, re.M):
         tu = re.findall(W + '+', m.group(1))
         if len(tu) >= 3 and all(t[0].isupper() for t in tu) and not m.group(1).isupper():
@@ -200,7 +200,7 @@ def ra_file(duong, A1, A3, C):
     for i, phan in enumerate(re.split(r'^#{1,6} .*$', text, flags=re.M)):
         hoi = phan.count('?')
         if hoi > 1:
-            ket.append('section thứ %d có %d câu hỏi, trần câu hỏi tu từ 1 mỗi section' % (i, hoi))
+            ket.append('section thứ %d có %d câu hỏi: trần 1 cho câu hỏi tu từ; câu hỏi phản tư trao người đọc (F4) không tính, kiểm từng câu' % (i, hoi))
     bao('D. Cấu trúc hạn chế (so trần, rồi hỏi từng lần):', ket)
 
     viet_hoa = [dong_cua(text, m.start()) for m in re.finditer(r':\s+[A-ZÀ-Ỹ]', text)]

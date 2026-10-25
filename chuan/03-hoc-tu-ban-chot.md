@@ -1,6 +1,6 @@
 # Chuẩn 03. Học từ bản chốt
 
-Cập nhật: 16/10/2026. Đây là bản tóm cho người của chặng Học trong skill `viet-nguyen-ban` (mục VII). Hai bên lệch nhau thì theo skill.
+Cập nhật: 26/10/2026. Đây là bản tóm cho người của chặng Học hỏi trong skill `viet-nguyen-ban` (mục VII); mục cuối là chiều thứ hai, vận hành bằng skill `tap-viet`. Hai bên lệch nhau thì theo skill.
 
 ## 1. Vì sao bản chốt là nguồn học chính
 
@@ -39,3 +39,13 @@ Khi bài học mới đi ngược bài học cũ, tìm điều kiện phân bi�
 - Không ghi bài học dưới dạng khen chê người viết; bài học mô tả lựa chọn.
 
 Ví dụ trước và sau từ bản chốt thật (đã ẩn danh): `skills-nguon/viet-nguyen-ban/references/vi-du-ban-chot.md`.
+
+## Chiều thứ hai: người viết học
+
+Các mục trên giúp AI viết giống người viết hơn sau mỗi bài. Chiều thứ hai giúp người viết giỏi hơn và hiểu mình sâu hơn sau mỗi bài; mọi thực hành dưới đây là lời mời, bỏ qua được, và vận hành bằng skill `tap-viet`.
+
+- **Tự soi trước:** với bài mức căn tính, người viết tự đọc lại theo Chân thật, Nguyên bản, Làm chủ trước khi AI bình duyệt; khoảng cách giữa hai nhận định là chỗ học.
+- **Nhìn lại sau bài:** hai câu hỏi theo tinh thần phản tư có độ sâu (Jennifer Moon, 2004), đổi theo bài.
+- **Hồ sơ người viết:** điểm mạnh đang dùng, mẫu lặp đáng để ý, thể loại đã thử, điều đang tập; người viết giữ, AI chỉ đề xuất dòng mới.
+
+Chiều thứ hai không chấm điểm người viết, không khen sáo hay chê để thúc, không suy ra tâm lý người viết từ văn bản.

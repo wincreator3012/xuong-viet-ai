@@ -1,8 +1,9 @@
 # Xưởng viết AI
 
-Một bộ năng lực viết dùng cùng AI (Claude, ChatGPT, Gemini) cho người viết có uy tín nghề nghiệp: nhà giáo dục, nhà tham vấn, nhà khai vấn, giảng viên, chuyên gia viết cho công chúng bằng tiếng Việt dưới tên mình. Xưởng có hai phần đã dùng được:
+Một bộ năng lực viết dùng cùng AI (Claude, ChatGPT, Gemini) cho người viết có uy tín nghề nghiệp: nhà giáo dục, nhà tham vấn, nhà khai vấn, giảng viên, chuyên gia viết cho công chúng bằng tiếng Việt dưới tên mình. Xưởng có ba phần đã dùng được:
 
 - **Viết nguyên bản cùng AI**: viết thế nào để văn vẫn là của bạn, theo năm vai của người viết chuyên gia (STEPP), một vòng viết có phản tư, và cách để AI học giọng bạn từ chính những gì bạn sửa. Chưng cất từ nhiều tháng viết bài báo, newsletter, bài mạng xã hội và sách thực hành cùng AI.
+- **Tập viết cùng AI**: bạn tự nghĩ, tự viết; AI hỏi để khơi chất liệu, phản biện để ý chín, soi bản bạn tự viết theo tám phẩm chất, FACTUAL và bộ tiêu chí ACCORD-ACCEPT (dùng linh hoạt theo chất lượng mong muốn và thời gian), rồi cùng bạn nhìn lại sau mỗi bài để bạn viết giỏi lên.
 - **Kiểm chứng và trình bày nghiên cứu trong văn bản**, chưng cất từ một đợt rà soát trích dẫn thật cho một cuốn sách thực hành (214 nguồn, hơn 300 chỗ cần chỉnh, ba vòng làm việc với ban biên tập).
 
 ## Xưởng giúp bạn làm gì
@@ -29,12 +30,14 @@ Khi kiểm chứng, AI cần công cụ tìm kiếm web để truy nguồn gốc
 | File | Nội dung |
 |---|---|
 | `CLAUDE.md` | Điểm vào cho AI làm việc với repo |
+| `chuan/00-ten-goi-va-he-mo-hinh.md` | Tên gọi chính thức và hệ mô hình: vòng viết, chất liệu, mức nguyên bản, ba bộ soi |
 | `chuan/02-viet-nguyen-ban-nam-vai.md` | Chuẩn viết nguyên bản: năm vai, vai của AI theo mức nguyên bản, vòng viết năm chặng, thang thẩm quyền; bản tóm cho người |
 | `chuan/03-hoc-tu-ban-chot.md` | Chuẩn học từ bản chốt: đọc ba tầng, ghi bài học có điều kiện, thang nâng mức; bản tóm cho người |
 | `chuan/01-kiem-chung-va-trinh-bay-nghien-cuu.md` | Chuẩn kiểm chứng, bản tóm cho người |
 | `chuan/04-tu-vung-va-cau-truc-tieng-viet.md` | Chuẩn từ và cấu trúc tiếng Việt: từ cấm tuyệt đối, từ đặc thù của người viết, từ ngờ, cấu trúc có trần; bản tóm cho người |
 | `skills-nguon/viet-nguyen-ban/SKILL.md` | Skill viết nguyên bản đầy đủ, đứng được một mình |
 | `skills-nguon/viet-nguyen-ban/references/vi-du-ban-chot.md` | Các cặp trước và sau từ bản chốt thật (đã ẩn danh), xếp theo vai bị diễn |
+| `skills-nguon/tap-viet/SKILL.md` | Skill tập viết đầy đủ, đứng được một mình; `references/` có bộ tiêu chí ACCORD-ACCEPT, câu hỏi cùng nghĩ, các phiếu |
 | `skills-nguon/kiem-chung/SKILL.md` | Skill kiểm chứng đầy đủ, đứng được một mình |
 | `skills-nguon/kiem-chung/references/so-tay-loi-thuc-te.md` | Lỗi thật theo bốn lớp của trích dẫn, để luyện mắt |
 | `skills-nguon/kiem-chung/references/mau-trinh-bay.md` | Mẫu sổ nguồn, mục gửi biên tập, file việc tác giả cần chốt |
@@ -45,6 +48,6 @@ Khi kiểm chứng, AI cần công cụ tìm kiếm web để truy nguồn gốc
 
 ## Ghi công và giấy phép
 
-Phương pháp và nội dung: Thạc sĩ Lương Dũng Nhân (M.Ed, PCC, Humanistic AI Practitioner), gồm khung năm vai STEPP (phần mô tả từng vai là bản đầu, 10/2026), chu trình ICC và nguyên lý "ý sinh theo duyên, mạch thuận theo pháp". Tài liệu theo giấy phép CC BY 4.0; mã trong `cong-cu/` theo giấy phép MIT (xem `LICENSE`). Khi dùng lại, ghi công tác giả.
+Phương pháp và nội dung: Thạc sĩ Lương Dũng Nhân (M.Ed, PCC, Humanistic AI Practitioner), gồm khung năm vai STEPP (phần mô tả từng vai là bản đầu, 10/2026), chu trình ICC, nguyên lý "ý sinh theo duyên, mạch thuận theo pháp", tám phẩm chất của văn bản, khung FACTUAL và bộ tiêu chí ACCORD-ACCEPT. Tài liệu theo giấy phép CC BY 4.0; mã trong `cong-cu/` theo giấy phép MIT (xem `LICENSE`). Khi dùng lại, ghi công tác giả.
 
-Cập nhật lần cuối: 16/10/2026.
+Cập nhật lần cuối: 26/10/2026.

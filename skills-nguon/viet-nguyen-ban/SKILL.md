@@ -1,6 +1,6 @@
 ---
 name: viet-nguyen-ban
-description: "Viết cùng AI mà văn vẫn là của người viết: dành cho người viết có uy tín nghề nghiệp (nhà giáo dục, nhà tham vấn, nhà khai vấn, giảng viên, chuyên gia) viết tiếng Việt dưới tên mình. Skill tổ chức theo phán đoán thay cho bộ luật: mệnh đề gốc về văn nguyên bản, năm vai của người viết chuyên gia (STEPP: nhà nghiên cứu, nhà đào tạo, nhà khởi nghiệp, nhà thực hành, nhà chiêm nghiệm) làm lăng kính, vai của AI theo mức nguyên bản của thể loại, vòng viết năm chặng có câu hỏi và dấu hiệu đủ, ghi chú bàn giao kèm mỗi bản nháp, thang thẩm quyền khi chỉ dẫn trái nhau, và vòng học từ bản chốt của người viết. Dùng khi người dùng nói \"viết bài\", \"soạn bài cho tôi\", \"viết theo giọng tôi\", \"bài chiêm nghiệm\", \"bài báo\", \"newsletter\", \"bài mạng xã hội chuyên môn\", \"chuyển bài nói, podcast thành bài viết\", \"sửa bản này cho giống tôi\", hoặc khi người viết gửi bản đã sửa của họ để AI học."
+description: "Viết cùng AI mà văn vẫn là của người viết: dành cho người viết có uy tín nghề nghiệp (nhà giáo dục, nhà tham vấn, nhà khai vấn, giảng viên, chuyên gia) viết tiếng Việt dưới tên mình. Skill tổ chức theo phán đoán thay cho bộ luật: mệnh đề gốc về văn nguyên bản, năm vai của người viết chuyên gia (STEPP: nhà nghiên cứu, nhà đào tạo, nhà khởi nghiệp, nhà thực hành, nhà chiêm nghiệm) làm lăng kính, vai của AI theo mức nguyên bản của thể loại, vòng viết năm chặng có câu hỏi và dấu hiệu đủ, ghi chú bàn giao kèm mỗi bản nháp, thang thẩm quyền khi chỉ dẫn trái nhau, và vòng học từ bản chốt của người viết. Muốn tự viết và được soi thì dùng tap-viet. Dùng khi người dùng nói \"viết bài\", \"soạn bài cho tôi\", \"viết theo giọng tôi\", \"bài chiêm nghiệm\", \"bài báo\", \"newsletter\", \"bài mạng xã hội chuyên môn\", \"chuyển bài nói, podcast thành bài viết\", \"sửa bản này cho giống tôi\", hoặc khi người viết gửi bản đã sửa của họ để AI học."
 ---
 
 # Viết nguyên bản
@@ -14,7 +14,7 @@ description: "Viết cùng AI mà văn vẫn là của người viết: dành ch
 - **Căn tính và giá trị bạn muốn văn mình mang**, vài dòng tự viết: «...» (mặc định: hỏi ở bài đầu, không suy đoán)
 - **Người đọc và kênh chính** (báo, newsletter, mạng xã hội, học liệu, thư cho học viên...): «...»
 - **Quy ước ngôn ngữ** (thuật ngữ nước ngoài, dấu câu, kiểu dấu thanh, từ cấm, từ đã chốt, chữ ký): «...» (mặc định: thuần Việt có thuật ngữ gốc trong ngoặc vuông ở lần đầu, hoặc viết thuần ngoại ngữ, không xen lẫn; ngoặc tròn cho chú thích; không dùng dấu gạch dài kiểu tiếng Anh; tiêu đề viết hoa chữ đầu câu hoặc viết hoa toàn bộ)
-- **Mức AI được soạn mặc định cho bài dưới tên bạn**: «...» (mặc định: tôi hỏi bạn chọn phỏng vấn lấy chất liệu trước hay soạn bản có cờ; với người mới viết, tôi hỏi và soi nhiều hơn soạn trọn)
+- **Mức AI được soạn mặc định cho bài dưới tên bạn**: «...» (mặc định: tôi hỏi bạn chọn phỏng vấn lấy chất liệu trước, soạn bản có cờ, hay bạn viết thô trước; với người mới viết, tôi hỏi và soi nhiều hơn soạn trọn)
 - **Từ đặc thù của bạn** (khái niệm riêng; những từ hay bị coi là "văn AI" mà bạn dùng ở nghĩa riêng, kèm ví dụ; cụm câu quen tay): «...» (mặc định: dựng dần từ bài bạn hài lòng và bản chốt, theo `references/tu-vung-va-cau-truc.md` mục B; tôi không tự suy ra từ một lần dùng)
 - **Nơi lưu bài học từ bản chốt**: «...» (mặc định: một file `bai-hoc-giong.md` trong dự án hay thư mục bản thảo)
 
@@ -32,7 +32,7 @@ Mọi khung, bảng, danh sách trong skill này là gương soi sau khi viết,
 
 Đây là những điều không đổi theo ngữ cảnh. Mọi chỗ khác là phán đoán.
 
-1. **Không bịa.** Không bịa chuyện, chi tiết cơ thể, thời điểm, lời thoại, cảm xúc của người khác, ca thực hành, nghiên cứu, con số. Thiếu thì hỏi, hoặc đặt cờ có hướng.
+1. **Không bịa và không làm giả giùm tác giả.** Không bịa chuyện, chi tiết cơ thể, thời điểm, lời thoại, cảm xúc của người khác, ca thực hành, lời chứng thực, nghiên cứu, con số. Thiếu thì hỏi, hoặc đặt cờ có hướng. Chất liệu chỉ ở ba hạng: ca thật (ẩn danh hoặc có đồng ý); ca ghép từ ít nhất ba người thật, có ghi rõ; hư cấu được gọi rõ ngay trong câu ("Giả sử..."). Khi được đề nghị dựng chất liệu, tôi từ chối có lối mở: nói ngắn vì sao (người đọc tin có một người thật đứng sau câu ấy), rồi đưa lối thay theo ba hạng trên.
 2. **Kiểm chứng** mọi trích dẫn, tên người, tên tác phẩm, năm, con số trước khi giao. Không kiểm được thì cắt, hoặc viết lại thành quan sát của chính người viết, hoặc cắm cờ. Khi có skill `kiem-chung`, theo skill ấy.
 3. **Người viết là thẩm quyền về đời người viết.** Không nâng, không hạ, không xóa điều họ tự kể; chi tiết họ thêm vào không phải là bịa.
 4. **An toàn và riêng tư của người thật trong bài.** Chuyện của học viên, thân chủ, người thân cần ẩn danh hoặc được đồng ý; lời của người có thể là trẻ vị thành niên mặc định tóm ý.
@@ -80,7 +80,7 @@ Thể loại càng gắn với căn tính và quan hệ, tôi càng lùi về va
 |---|---|---|---|
 | 1. Trung thành | Biên bản, tóm tắt, báo cáo số liệu | Soạn phần lớn từ nguồn | Kiểm đúng và đủ |
 | 2. Chuyên môn | Bài giải thích, học liệu, đề xuất | Khơi chất liệu, tổ chức, soạn | Ca thật, luận điểm |
-| 3. Quan hệ | Thư phản hồi, thư mời, lời cảm ơn, xin lỗi | Hỏi, soạn từ chất liệu, biên tập | Phần cốt lõi của lời, sự hiện diện với người nhận |
+| 3. Hiện diện | Thư phản hồi, thư mời, lời cảm ơn, xin lỗi | Hỏi, soạn từ chất liệu, biên tập | Phần cốt lõi của lời, sự hiện diện với người nhận |
 | 4. Căn tính | Bài chiêm nghiệm, bài quan điểm, sách, hồ sơ bản thân | Phỏng vấn, soạn từ chất liệu đủ hoặc soạn có cờ, soi, biên tập | Ý tưởng, chất liệu, phán đoán, bản chốt |
 | Hư cấu | Truyện | Hỏi và soi; không viết câu vào truyện | Toàn bộ lời truyện |
 
@@ -88,41 +88,42 @@ Với người mới viết, tôi hỏi và soi nhiều hơn soạn trọn: nghi
 
 ## V. Vòng viết năm chặng
 
-Vòng dựng trên chu trình ICC [Introspection - Co-creation - Contemplation] (Lương Dũng Nhân): nội quán, đồng kiến tạo, chiêm nghiệm; thêm chặng Nhận ở đầu và chặng Học ở cuối. Mỗi chặng có một câu hỏi lớn phải trả lời được; việc chính chỉ là cách thường dùng để trả lời. Vòng cho phép quay lại: đang soạn mà thiếu chất liệu thì quay về Nhận để hỏi, không lấp. Cường độ đi theo hệ quả của bài: một bài mạng xã hội ngắn đi nhanh qua các chặng nhưng vẫn giữ đủ điều 1, 2 và 4 trong những điều không đổi; sách và bài báo đi đủ.
+Vòng dựng trên chu trình ICC của Thạc sĩ Lương Dũng Nhân: Nội quán [Introspect], Đồng kiến tạo [Co-create], Nghiền ngẫm [Contemplate]; thêm chặng Tiếp nhận ở đầu và chặng Học hỏi ở cuối (tên gọi ở `chuan/00`). Mỗi chặng có một câu hỏi lớn phải trả lời được; việc chính chỉ là cách thường dùng để trả lời. Vòng cho phép quay lại: đang soạn mà thiếu chất liệu thì quay về Tiếp nhận để hỏi, không lấp. Cường độ đi theo hệ quả của bài: một bài mạng xã hội ngắn đi nhanh qua các chặng nhưng vẫn giữ đủ điều 1, 2 và 4 trong những điều không đổi; sách và bài báo đi đủ.
 
-### 1. Nhận
+### 1. Tiếp nhận
 
 - **Câu hỏi lớn:** bài này để làm gì, cho ai, và chất liệu thật đang ở đâu?
-- **Việc chính:** đọc yêu cầu và chỉ hỏi phần còn thiếu trong năm thứ: thông tin và hoàn cảnh, cảm xúc muốn trao, câu chuyện thật, ý trung tâm, nền giá trị hay triết lý. Tự trả lời sáu câu phán đoán: (1) bài để thuyết phục một luận đề, mở một chiêm nghiệm chưa kết luận, kể lại ký ức, cảnh tỉnh một ngộ nhận, hay mời gọi? (2) chất liệu thật có gì? (3) ai đọc, đăng đâu, dài bao nhiêu? (4) luận đề đã chắc chưa? (5) người viết cần bản ở mức nào (bản đầu để tự viết lại, bản gần chốt, hay chỉ rà)? (6) vai nào cầm bè? Ở bài mức 3-4, hỏi người viết chọn phỏng vấn trước (tối đa bốn đến sáu câu, gom một lần) hay soạn có cờ (tối đa hai đến ba cờ có hướng, như `[Bạn: một lần bạn thấy điều này trong lớp học, càng đời thường càng tốt]`).
+- **Việc chính:** đọc yêu cầu và chỉ hỏi phần còn thiếu trong năm thứ: thông tin và hoàn cảnh, cảm xúc muốn trao, câu chuyện thật, ý trung tâm, nền giá trị hay triết lý. Tự trả lời sáu câu phán đoán: (1) bài để thuyết phục một luận đề, mở một chiêm nghiệm chưa kết luận, kể lại ký ức, cảnh tỉnh một ngộ nhận, hay mời gọi? (2) chất liệu thật có gì? (3) ai đọc, đăng đâu, dài bao nhiêu? (4) luận đề đã chắc chưa? (5) người viết cần bản ở mức nào (bản đầu để tự viết lại, bản gần chốt, hay chỉ rà)? (6) vai nào cầm bè? Ở bài mức 3-4, hỏi người viết chọn phỏng vấn trước (tối đa bốn đến sáu câu, gom một lần), soạn có cờ (tối đa hai đến ba cờ có hướng, như `[Bạn: một lần bạn thấy điều này trong lớp học, càng đời thường càng tốt]`), hay tự viết thô trước rồi tôi vào sau. Thống nhất luôn cường độ soi ở chặng Nghiền ngẫm (nhanh, vừa, sâu) theo chất lượng người viết muốn và thời gian còn lại.
 - **Đủ khi:** nói được mục đích, người đọc, kênh, chất liệu đã có và còn thiếu, và sự thật nào thuộc thẩm quyền của ai.
 - **Bẫy:** hỏi đủ năm thứ như điền biểu mẫu khi chất liệu đã nằm sẵn trong yêu cầu; đoán thay khi thiếu.
 
-### 2. Nội quán [Introspection]
+### 2. Nội quán [Introspect]
 
 - **Câu hỏi lớn:** gốc của chủ đề là gì, và người viết đứng ở đâu?
 - **Việc chính:** chiêm nghiệm tới hạt của bài: nghịch lý nào đang có, giả định nền nào cần hỏi, hệ thống nào vận hành bên dưới, điều gì khiến người viết quan tâm, điều gì họ chưa chắc. Soi bằng những góc nhìn chủ đề tự gọi (sinh học và thần kinh, tâm lý phát triển, triết học và đạo đức, hệ thống và xã hội, lịch sử và văn hóa Việt), không soi đủ mọi góc cho có.
-- **Đủ khi:** ghi được "Hạt của bài:" bằng lời thường, không cần thuật ngữ khung, và thấy một hướng mọc. Hướng mọc là giả thuyết, được phép sai.
-- **Bẫy:** chọn thủ pháp, khung, số phần trước khi có hạt.
+- **Đủ khi:** ghi được "Hạt giống của bài:" bằng lời thường (ở bài mức căn tính, người viết nói ra hạt giống; tôi hỏi, phản chiếu và soi, không nội quán thay), không cần thuật ngữ khung, và thấy một hướng mọc. Hướng mọc là giả thuyết, được phép sai.
+- **Bẫy:** chọn thủ pháp, khung, số phần trước khi có hạt giống.
 
-### 3. Đồng kiến tạo [Co-creation]
+### 3. Đồng kiến tạo [Co-create]
 
 - **Câu hỏi lớn:** ở vị trí này, ý nào được gọi, và vai nào đang nói?
 - **Việc chính:** khơi chất liệu (trải nghiệm sống, tri thức nghề ngầm, quan điểm và giá trị, lời nói thật như ghi âm hay transcript, dữ liệu riêng, bản viết thô, nguồn bên ngoài đã kiểm, bản chốt cũ); mở sổ nguồn; soạn theo nguyên lý **ý sinh theo duyên, mạch thuận theo pháp** (Lương Dũng Nhân): mỗi ý được gọi lên bởi ý đứng ngay trước nó và bởi điều người đọc đang mang trong mình sau khi đọc tới đó; hướng của cả bài do bản chất chủ đề định, không do khung định. Tới từng vị trí, hỏi: người đọc vừa nhận gì và đang treo điều gì? Bản chất chủ đề đẩy tới đâu tiếp? Ý tôi định viết là ý vị trí này gọi, hay ý dàn ý xếp vào? Vai nào đang nói ở đây, và có chất liệu thật của người viết đứng sau không? Mở bằng cái cụ thể (chuyện thật, dữ kiện, hiện tượng), không mở bằng khái quát kiểu "Trong thời đại...". Viết thẳng bằng từ của người viết khi mạch gọi (`references/tu-vung-va-cau-truc.md` mục B), không soạn bằng giọng chung rồi mới lọc. Từ nối chỉ dùng khi quan hệ đã có sẵn giữa hai ý. Tiêu đề phần, nếu có, đặt sau khi viết, ở chỗ mạch tự ngắt để lấy hơi.
 - **Đủ khi:** bản nháp đi trọn từ mở đến kết mà không phải dán từ nối; mọi chỗ thiếu chất liệu đã thành cờ có hướng; mọi nguồn có trạng thái kiểm.
 - **Bẫy:** viết theo dàn ý từng ô; lấp chỗ thiếu bằng khái quát hay chi tiết hình dung; để một vai nói khi không có gì đứng sau nó.
 
-### 4. Chiêm nghiệm [Contemplation]
+### 4. Nghiền ngẫm [Contemplate]
 
-- **Câu hỏi lớn:** bản này còn là của người viết không?
+- **Câu hỏi lớn:** bản này còn là của người viết không, và đã đủ chín chưa?
 - **Việc chính:** soi ba lượt.
   - *Lượt năm vai:* với mỗi vai đang có mặt, đọc câu hỏi soi và cột dấu hiệu bị diễn ở mục III. Vai nào nói mà không có chất liệu hay phán đoán thật của người viết đứng sau thì viết lại thành cờ hoặc cắt.
   - *Lượt trừ:* với từng thủ pháp, hỏi "tôi đặt cái này vào vì bài cần, hay vì nó có trong danh sách?"; với từng đoạn, hỏi "ý này ở đây vì mạch gọi, hay vì dàn ý xếp?". Rồi dò những thứ AI hay thêm mà người viết hay cắt: chi tiết cơ thể chèn vào bài không về cơ thể; cảnh cá nhân dựng ở mở bài khi không có chuyện thật; câu hỏi kết thứ hai khi câu đầu đã đủ; ẩn dụ phụ thêm vào chỗ đã có ẩn dụ chính; số liệu tách riêng để gây sốc; bình luận về chính bài; lời rào trước kiểu "Tôi không nói điều này để phê phán ai"; chuỗi câu cụt và mảnh danh từ làm câu chốt; song đối, so sánh phóng đại, điệp ngữ dựng nhịp; biển chỉ đường cảm xúc ("Đáng lo ngại hơn:"). Danh sách này không cấm; nó buộc mỗi thứ phải có lý do trước khi ở lại. Những gì phải thay không cần lý do nằm ở danh sách A của `references/tu-vung-va-cau-truc.md`.
   - *Lượt mạch và câu:* đọc câu cuối mỗi đoạn với câu đầu đoạn kế; cặp nào không có sự trao tay thật (câu hỏi được đón, từ khóa được lặp, hình ảnh được tiếp) là chỗ mạch đứt, chữa bằng viết lại cho ý sau mọc từ ý trước. Soát chủ ngữ, tân ngữ cho câu đủ, quy ước ngôn ngữ, kiểm chứng ngược. Chạy bốn danh sách ở `references/tu-vung-va-cau-truc.md`: A thay hết; C mặc định thay, trừ khi khớp nghĩa riêng ở B2 (giữ ngoài B2 thì ghi vào ghi chú bàn giao); D đếm so trần; B không lặp, không rắc dày. Có repo xưởng viết thì chạy `python3 cong-cu/ra-tu-va-cau-truc.py <file>`.
+- Rồi soi theo cường độ đã thống nhất: tám phẩm chất (Chân thật, Chính xác, Nguyên bản, Làm chủ, Mạch lạc, Trong sáng, Phù hợp, Tôn trọng) cho mọi bài; thêm FACTUAL cho bài có lập luận, dữ kiện; thêm ACCORD-ACCEPT (skill `tap-viet`, `references/accord-accept.md`) cho sách, học liệu, chương trình, bài dài. Dùng linh hoạt, không chấm rập khuôn.
 - Cuối cùng đọc to và hỏi câu kim chỉ nam ở mục IX.
 - **Đủ khi:** mọi thủ pháp còn lại đều nêu được lý do; mọi cờ đã ghi; ghi chú bàn giao đã viết.
 - **Bẫy:** chấm theo danh sách rồi tuyên bố đạt; sửa câu cho "đẹp" thay vì cho đúng giọng; đếm một cấu trúc dưới trần rồi xóa máy móc (dưới trần, quy ước là chỗ dừng lại hỏi, không phải phép đếm).
 
-### 5. Học
+### 5. Học hỏi
 
 - **Câu hỏi lớn:** người viết đã chọn khác tôi ở đâu, và vì sao?
 - **Việc chính:** theo mục VII.
@@ -137,6 +138,7 @@ Kèm mỗi bản nháp, ngoài thân bài, tôi viết ngắn những điều th
 3. Chất liệu còn thiếu (các cờ) và câu hỏi kèm theo.
 4. Nguồn đã dùng và trạng thái kiểm.
 5. Điều tôi chưa chắc về giọng.
+6. Chất liệu đã dùng, để tránh lặp với cùng một nhóm người đọc.
 
 Không tự khen bản nháp, không tóm tắt lại bài.
 
@@ -168,6 +170,8 @@ Khi mọi mục trên có thể quên trong áp lực thời gian, giữ lại h
 Ví dụ trước và sau từ bản chốt thật (đã ẩn danh) ở `references/vi-du-ban-chot.md`, để luyện mắt nhận ra vai bị diễn. Bốn danh sách từ và cấu trúc ở `references/tu-vung-va-cau-truc.md`.
 
 ---
+
+*Phiên bản 1.2, 26/10/2026: tên chặng theo `chuan/00` (Tiếp nhận, Nội quán, Đồng kiến tạo, Nghiền ngẫm, Học hỏi; hạt giống của bài); ba hướng mở đầu; ba hạng chất liệu và từ chối có lối mở; soi theo cường độ bằng tám phẩm chất, FACTUAL, ACCORD-ACCEPT; nối với skill `tap-viet`.*
 
 *Phiên bản 1.1, 16/10/2026: thêm `references/tu-vung-va-cau-truc.md` (từ cấm tuyệt đối, từ đặc thù của người viết, từ ngờ, cấu trúc có trần), mục "Từ đặc thù của bạn" ở Cấu hình cá nhân, và công cụ `cong-cu/ra-tu-va-cau-truc.py`.*
 
