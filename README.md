@@ -23,7 +23,7 @@ AI viết rất nhanh và rất trơn. Nhưng người viết lâu năm nào dù
 
 Phần lớn những nghiên cứu này làm bằng tiếng Anh, trên những bài viết ngắn; với tiếng Việt, chúng là gợi ý đáng để ý hơn là kết luận chắc chắn. Dù vậy, chúng khớp với điều người viết cảm thấy: vấn đề không nằm ở câu chữ, mà ở chỗ AI đang làm thay phần lẽ ra thuộc về người viết.
 
-Xưởng này chưng cất từ nhiều tháng tác giả Lương Dũng Nhân viết bài báo, bản tin, bài mạng xã hội, sách thực hành cùng AI, và từ mỗi lần tác giả tự tay sửa bản AI soạn. Phần kiểm chứng chưng cất từ một đợt rà soát trích dẫn thật cho một cuốn sách thực hành: 214 nguồn, hơn 300 chỗ cần chỉnh, ba vòng làm việc với ban biên tập.
+Xưởng này chưng cất từ 3 năm tác giả Lương Dũng Nhân viết bài báo, bản tin, bài mạng xã hội, sách thực hành cùng AI, và từ mỗi lần tác giả tự tay sửa bản AI soạn. Phần kiểm chứng chưng cất từ một đợt rà soát trích dẫn thật cho một cuốn sách thực hành: 214 nguồn, hơn 300 chỗ cần chỉnh, ba vòng làm việc với ban biên tập.
 
 ## Tinh thần của xưởng
 
