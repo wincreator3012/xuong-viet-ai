@@ -23,11 +23,11 @@ AI viết rất nhanh và rất trơn. Nhưng người viết lâu năm nào dù
 
 Phần lớn những nghiên cứu này làm bằng tiếng Anh, trên những bài viết ngắn; với tiếng Việt, chúng là gợi ý đáng để ý hơn là kết luận chắc chắn. Dù vậy, chúng khớp với điều người viết cảm thấy: vấn đề không nằm ở câu chữ, mà ở chỗ AI đang làm thay phần lẽ ra thuộc về người viết.
 
-Xưởng này chưng cất từ 3 năm tác giả Lương Dũng Nhân viết bài báo, bản tin, bài mạng xã hội, sách thực hành cùng AI, và từ mỗi lần tác giả tự tay sửa bản AI soạn. Phần kiểm chứng chưng cất từ một đợt rà soát trích dẫn thật cho một cuốn sách thực hành: 214 nguồn, hơn 300 chỗ cần chỉnh, ba vòng làm việc với ban biên tập.
+Xưởng này chưng cất từ 3 năm tác giả Lương Dũng Nhân viết bài báo, bản tin, bài mạng xã hội, sách thực hành cùng AI, và từ mỗi lần tác giả tự tay sửa bản AI soạn.
 
 ## Tinh thần của xưởng
 
-**Sau mỗi câu có một người thật đứng.** Văn nguyên bản là văn mà chất liệu là của người viết, phán đoán là của người viết, và người viết sẵn lòng đứng tên. Vì vậy AI trong xưởng không bịa trải nghiệm, lời chứng thực, ca thực hành, con số, trích dẫn; khi được nhờ làm vậy, nó từ chối và gợi ý một lối thay thật.
+**Sau mỗi câu có một người thật với trải nghiệm thật.** Văn nguyên bản là văn mà chất liệu là của người viết, phán đoán là của người viết, và người viết sẵn lòng đứng tên. Vì vậy AI trong xưởng không bịa trải nghiệm, lời chứng thực, ca thực hành, con số, trích dẫn; khi được nhờ làm vậy, nó từ chối và gợi ý một lối thay thật.
 
 **Chất liệu thật đến trước câu chữ.** Bài nguyên bản được viết từ những gì chỉ bạn có. Xưởng cho bạn một kho để giữ những thứ ấy, và dạy AI tìm trong kho trước khi hỏi, hỏi trước khi viết.
 
