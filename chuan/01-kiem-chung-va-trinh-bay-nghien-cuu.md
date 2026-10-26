@@ -1,6 +1,6 @@
 # Chuẩn 01. Kiểm chứng và trình bày nghiên cứu trong văn bản
 
-Cập nhật: 16/10/2026. Chưng cất từ đợt rà soát trích dẫn một cuốn sách thực hành về sức khỏe tinh thần (2026). Đây là bản tóm cho người. Bản đầy đủ là skill `kiem-chung` (`skills/kiem-chung/SKILL.md`), vì skill phải đứng được một mình khi đưa vào AI. Hai bên lệch nhau thì theo skill.
+Cập nhật: 26/10/2026. Chưng cất từ đợt rà soát trích dẫn một cuốn sách thực hành về sức khỏe tinh thần và các bài báo phân tích nghiên cứu (2026). Đây là bản tóm cho người. Bản đầy đủ là skill `kiem-chung` (`skills/kiem-chung/SKILL.md`), vì skill phải đứng được một mình khi đưa vào AI. Hai bên lệch nhau thì theo skill.
 
 Chuẩn này áp dụng cho mọi văn bản có nhắc nhà nghiên cứu, công trình, con số, phát hiện khoa học, lời trích, ở mọi thể loại: sách, bài báo, bài mạng xã hội, học liệu, đề xuất, tham luận. Mức kiểm sâu hay nhẹ đi theo hệ quả của sai sót, không theo độ dài văn bản. Một bài mạng xã hội chỉ dẫn một nghiên cứu vẫn phải dẫn đúng nghiên cứu ấy.
 
@@ -45,23 +45,23 @@ Sổ tay ví dụ thật cho từng lớp: `skills/kiem-chung/references/so-tay-
 | Ghi công chưa chắc | thường được gắn với tên, thường được ghi công cho |
 | Suy rộng của người viết | Tôi cho rằng, Tôi thấy rằng, Theo quan sát của tôi |
 
-Thêm một câu giới hạn riêng chỉ khi giới hạn ấy đổi cách người đọc hành động (lưu ý an toàn sức khỏe; kết quả trên chuột được dùng để gợi ý một thực hành cho người).
+Thêm một câu giới hạn riêng chỉ khi giới hạn ấy đổi cách người đọc hành động (lưu ý an toàn sức khỏe; kết quả trên chuột được dùng để gợi ý một thực hành cho người; hoặc giới hạn cấu trúc của một can thiệp khi theo dõi dọc dài hạn, như sự chững lại do rào cản tích lũy vốn ở một nhóm nhân khẩu học). Với bài phân tích nghiên cứu và tạp chí trí thức, diễn đạt kết quả nghiên cứu phải cụ thể và không mơ hồ: nêu rõ cỡ mẫu, nhóm đối chứng, các biến số được kiểm soát đồng nhất giữa các nhóm so sánh (như cùng thời lượng đào tạo, cùng mức chi phí), và con số độ lớn hiệu ứng cụ thể thay cho lối nói tương đối mơ hồ ("cao gấp đôi", "nhiều hồ sơ").
 
 Ba mức khoảng cách với nguồn: nguyên văn trong ngoặc kép; diễn giải gần, giữ phạm vi; suy rộng, mang giọng sở hữu. Suy rộng được phép và là chỗ người viết dung hợp, miễn không đội lốt diễn giải gần.
 
 ## 5. Danh xưng và ghi công trong văn tiếng Việt
 
-- Lần nhắc đầu: vai trò hoặc chức danh, họ tên đầy đủ theo cách người ấy ký, cơ quan tại thời điểm công bố, năm viết vào câu. Các lần sau: họ hoặc tên quen gọi.
-- "Giáo sư" chỉ dùng khi đã xác minh người ấy giữ chức danh này vào thời điểm công bố. Không chắc thì dùng vai trò nghề nghiệp: nhà tâm lý học, nhà thần kinh học, nhà nghiên cứu. Học vị "tiến sĩ" cũng cần kiểm. Phó giáo sư, assistant professor, associate professor không gọi thành giáo sư.
-- Lần đầu luôn có một vai trò hay danh xưng, kể cả khi không có chức danh.
+- Lần nhắc đầu (áp dụng cho cả tác giả chính lẫn mọi đồng tác giả được gọi tên): bắt buộc có chức danh học thuật hoặc chuyên môn đã xác minh tại thời điểm công bố, họ tên đầy đủ theo cách người ấy ký, cơ quan tại thời điểm công bố, năm viết vào câu. Tuyệt đối không để tên nhà nghiên cứu đứng trơn và không dùng danh xưng chung chung kiểu "nhà nghiên cứu" khi có thể xác minh chức danh cụ thể (Giáo sư, Phó Giáo sư, Giáo sư trợ lý, Tiến sĩ, Chuyên gia kinh tế trưởng, Chuyên gia kinh tế cao cấp...). Các lần sau: họ hoặc tên quen gọi.
+- "Giáo sư" chỉ dùng khi đã xác minh người ấy giữ chức danh này vào thời điểm công bố. Phân biệt rõ full professor ("giáo sư"), associate professor ("phó giáo sư") và assistant professor ("giáo sư trợ lý"). Chỉ khi tác giả không có chức danh học thuật hay chức vụ chuyên môn cụ thể mới dùng vai trò nghề nghiệp theo chuyên ngành ("nhà tâm lý học", "nhà thần kinh học", "nhà kinh tế học"). Học vị "tiến sĩ" cũng cần kiểm.
+- Lần đầu luôn có chức danh hoặc vai trò chuyên ngành cụ thể, kể cả khi liệt kê đồng tác giả thứ hai, thứ ba trong câu.
 - Chức danh viết thường giữa câu.
 - Cơ quan: tên Việt khi đã quen; tên gốc khi không có tên Việt ổn định (ví dụ University College London).
-- Nhiều tác giả: tác giả đầu và các cộng sự; nêu thêm đồng tác giả khi vai trò của họ đáng nói.
+- Nhiều tác giả: tác giả đầu và các cộng sự; khi nêu tên thêm đồng tác giả vì vai trò đáng nói, mỗi đồng tác giả được gọi tên đều phải có chức danh và cơ quan năm công bố.
 - Danh xưng nêu một lần, dệt vào câu; không lặp chuỗi đồng vị ngữ "X, nhà... tại..., người..." mỗi lần nhắc.
 - Người thầy và người quen của người viết: theo cách gọi người viết đã chốt (ghi ở mục Cấu hình cá nhân của skill).
 - Tên bản dịch tiếng Việt theo bản in đã phát hành; tên sách đã xuất bản giữ nguyên.
 
-Danh mục tham khảo: từng mục định dạng theo APA 7; thứ tự theo cách người đọc tra (sách bài tập: theo chương, bài, lệch APA có chủ ý và nói rõ ở đầu danh mục). Chỉ ghi nguồn chính văn có nhắc; nguồn chỉ để kiểm thì ghi chú riêng, không in. Chính văn đổi thì danh mục đổi ngay.
+Danh mục tham khảo: từng mục định dạng chuẩn APA 7 (kèm đường dẫn DOI); bắt buộc có ở cuối bài đối với bài đăng tạp chí trí thức, bài phân tích nghiên cứu chuyên sâu, tham luận và sách. Thứ tự theo bảng chữ cái họ tác giả đầu theo chuẩn APA 7 (riêng sách bài tập: theo chương, bài, lệch APA có chủ ý và nói rõ ở đầu danh mục). Chỉ ghi nguồn chính văn có nhắc; nguồn chỉ để kiểm thì ghi chú riêng, không in. Chính văn đổi thì danh mục đổi ngay.
 
 ## 6. Khi kiểm ra sai hoặc không kiểm được
 

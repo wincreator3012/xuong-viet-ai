@@ -97,8 +97,8 @@
   {
    "duong": "chuan/01-kiem-chung-va-trinh-bay-nghien-cuu.md",
    "loai": "chep",
-   "sha256": "9e29378e80fac352ddac9d659458798f63486675c18763408cbc4166190da145",
-   "byte": 9156
+   "sha256": "5fb3b10faa0d29704025f2d8273c7729faab6595977d8c2b8b3c06a84e6569ea",
+   "byte": 10878
   },
   {
    "duong": "chuan/02-viet-nguyen-ban-nam-vai.md",
@@ -127,8 +127,8 @@
   {
    "duong": "docs/BAI-HOC.md",
    "loai": "chep",
-   "sha256": "17b5fe440050287587cba70d0dd2cdb32e8c53b144b7fbf25d9645372d6e0889",
-   "byte": 13517
+   "sha256": "7925e4e94fc40075abf8ec7d21e805178985e44003e69abc4a0c7042c18a520d",
+   "byte": 14879
   },
   {
    "duong": "docs/DONG-GOP.md",
@@ -151,8 +151,8 @@
   {
    "duong": "dong-goi/kiem-chung.zip",
    "loai": "chi-ban-ve",
-   "sha256": "3eb30f0aa69076eef0f3960778a560ffdf081df5daa2f03983add1a7ca327ee1",
-   "byte": 19267
+   "sha256": "9bdc0c7e19319bbef3e1e381880034b2b586df1262dcd24a033054209dd824d5",
+   "byte": 19852
   },
   {
    "duong": "dong-goi/tap-viet.zip",
@@ -187,8 +187,8 @@
   {
    "duong": "dong-goi/tep-cho-du-an/kiem-chung.md",
    "loai": "chi-ban-ve",
-   "sha256": "e23f501d16448b0295a8513d39db4881379aba48d1bf930b1af2445ac805181b",
-   "byte": 33969
+   "sha256": "5f498092006cdab2bdbbef83ee6192a208d5004d7a67ac85e3468da30bbab2b5",
+   "byte": 35956
   },
   {
    "duong": "dong-goi/tep-cho-du-an/tap-viet--accord-accept.md",
@@ -400,8 +400,8 @@
   {
    "duong": "skills/kiem-chung/SKILL.md",
    "loai": "chep",
-   "sha256": "e23f501d16448b0295a8513d39db4881379aba48d1bf930b1af2445ac805181b",
-   "byte": 33969
+   "sha256": "5f498092006cdab2bdbbef83ee6192a208d5004d7a67ac85e3468da30bbab2b5",
+   "byte": 35956
   },
   {
    "duong": "skills/kiem-chung/kem.json",
