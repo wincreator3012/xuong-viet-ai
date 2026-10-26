@@ -16,7 +16,7 @@ Vòng viết thêm một chặng ở đầu và một chặng ở cuối: **Ti�
 
 ## 2. Chất liệu nguyên bản
 
-Năm yếu tố IF-SIP: thông tin độc đáo [Information], cảm xúc chân thật [Feeling], câu chuyện cá nhân [Story], ý tưởng nguyên bản [Idea], triết lý sống [Philosophy]. Chất liệu nằm ở năm hình thái: ký ức và nội tâm; lời nói (ghi âm); bản viết của chính người viết; dữ liệu và tư liệu do người khác tạo; hình ảnh và đồ vật.
+Năm yếu tố IF-SIP: thông tin độc đáo [Information], cảm xúc chân thật [Feeling], câu chuyện cá nhân [Story], ý tưởng nguyên bản [Idea], triết lý sống [Philosophy]. Chất liệu nằm ở năm hình thái: ký ức và nội tâm; lời nói (ghi âm); bản viết của chính người viết; dữ liệu và tư liệu do người khác tạo; hình ảnh và đồ vật. Trong xưởng đã dựng, năm hình thái là năm ngăn của **kho tư liệu nguyên bản** (thêm ngăn `0 Moi them` cho tư liệu chưa xếp), có mục lục ghi nguồn, mức riêng tư và nơi đã dùng (khuôn ở `khuon/kho-tu-lieu/`).
 
 Ba hạng chất liệu: ca thật (ẩn danh hoặc có đồng ý); ca ghép từ ít nhất ba người thật, có ghi rõ; hư cấu được gọi rõ ngay trong câu. Không trình bày nhân vật dựng như người thật.
 
@@ -34,9 +34,9 @@ Bốn mức nguyên bản và mức dùng AI mặc định: Trung thành (biên 
 
 **Tám phẩm chất của văn bản**, chia theo bốn quan hệ: với sự thật (Chân thật, Chính xác); với tác giả (Nguyên bản, Làm chủ); với chính văn bản (Mạch lạc, Trong sáng); với người đọc và người liên quan (Phù hợp, Tôn trọng). Chân thật, Nguyên bản, Làm chủ chỉ người viết thẩm định được.
 
-**FACTUAL**: khung rà bảy chiều của lập luận và dữ kiện: Facts [dữ kiện], Assumptions [giả định], Completeness [độ đầy đủ], Threats & Bias [rủi ro và thiên lệch], Uncertainty [mức chắc chắn], Arguments [lập luận], Limitations [giới hạn].
+**FACTUAL**: khung rà bảy chiều của lập luận và dữ kiện: Facts [dữ kiện], Assumptions [giả định], Completeness [độ đầy đủ], Threats & Bias [rủi ro và thiên lệch], Uncertainty [mức chắc chắn], Arguments [lập luận], Limitations [giới hạn]. Skill: `skills/factual-review/`.
 
-**ACCORD-ACCEPT**: mười hai tiêu chí thẩm định tác phẩm hướng tới chuyển hóa (sách, chương trình, khóa học, học liệu, bài dài), ba mức Xuất sắc, Đạt chuẩn, Cần cải thiện. ACCORD (nội tại): Tính toàn vẹn [Adequacy], Tính tường minh [Clarity], Tính nhất quán [Consistency], Tính hệ thống [Organization], Tính hợp lý [Rationale], Cách truyền đạt [Delivery]. ACCEPT (ngoại tại): Tính chính xác [Accuracy], Tính kháng phản biện [Counter-arguments], Tính sáng tạo [Creativity], Tính đạo đức [Ethics], Tính thực tiễn [Pragmatism], Tính chuyển hóa [Transformation]. Bản đầy đủ: `skills-nguon/tap-viet/references/accord-accept.md`.
+**ACCORD-ACCEPT**: mười hai tiêu chí thẩm định tác phẩm hướng tới chuyển hóa (sách, chương trình, khóa học, học liệu, bài dài), ba mức Xuất sắc, Đạt chuẩn, Cần cải thiện. ACCORD (nội tại): Tính toàn vẹn [Adequacy], Tính tường minh [Clarity], Tính nhất quán [Consistency], Tính hệ thống [Organization], Tính hợp lý [Rationale], Cách truyền đạt [Delivery]. ACCEPT (ngoại tại): Tính chính xác [Accuracy], Tính kháng phản biện [Counter-arguments], Tính sáng tạo [Creativity], Tính đạo đức [Ethics], Tính thực tiễn [Pragmatism], Tính chuyển hóa [Transformation]. Bản đầy đủ: `skills/tap-viet/references/accord-accept.md`.
 
 Cường độ soi do người viết chọn theo chất lượng mong muốn và thời gian: nhanh (tám phẩm chất), vừa (thêm FACTUAL và những tiêu chí ACCORD-ACCEPT mà thể loại đặt nặng), sâu (đủ mười hai tiêu chí, FACTUAL đầy đủ, kiểm chứng toàn bộ nguồn). Bộ soi là gương để hỏi và hướng dẫn, không phải phiếu chấm.
 

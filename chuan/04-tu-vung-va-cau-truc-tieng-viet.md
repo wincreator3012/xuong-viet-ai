@@ -1,6 +1,6 @@
 # Chuẩn 04. Từ và cấu trúc tiếng Việt: cấm, đặc thù, hạn chế
 
-Cập nhật: 16/10/2026. Bản tóm cho người; bản đầy đủ (mọi danh sách, bảng thay, ví dụ) ở `skills-nguon/viet-nguyen-ban/references/tu-vung-va-cau-truc.md`. Công cụ: `cong-cu/ra-tu-va-cau-truc.py`. Phương pháp: Thạc sĩ Lương Dũng Nhân.
+Cập nhật: 16/10/2026. Bản tóm cho người; bản đầy đủ (mọi danh sách, bảng thay, ví dụ) ở `skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md`. Công cụ: `tools/ra-tu-va-cau-truc.py`. Phương pháp: Thạc sĩ Lương Dũng Nhân.
 
 ## 1. Vì sao một xưởng viết theo phán đoán vẫn cần bảng từ
 
@@ -38,4 +38,4 @@ Người viết là thẩm quyền về chính họ. Khi một từ ở A xuất
 
 ## 7. Máy kiểm gì, người kiểm gì
 
-`cong-cu/ra-tu-va-cau-truc.py` đếm phần đếm được: dấu câu, tiêu đề viết hoa mọi chữ đầu từ, từ và cụm ở A và C, cấu trúc ở D, viết hoa sau hai chấm, số câu hỏi mỗi phần. Nó không biết một từ C có khớp nghĩa riêng của người viết không, không biết một cấu trúc có mang luận điểm không, và không thấy nhịp. Những việc ấy thuộc lượt rà của AI và cuối cùng là của người viết.
+`tools/ra-tu-va-cau-truc.py` đếm phần đếm được: dấu câu, tiêu đề viết hoa mọi chữ đầu từ, từ và cụm ở A và C, cấu trúc ở D, viết hoa sau hai chấm, số câu hỏi mỗi phần. Nó không biết một từ C có khớp nghĩa riêng của người viết không, không biết một cấu trúc có mang luận điểm không, và không thấy nhịp. Những việc ấy thuộc lượt rà của AI và cuối cùng là của người viết.

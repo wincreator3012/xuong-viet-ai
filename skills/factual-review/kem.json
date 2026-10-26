@@ -1,0 +1,8 @@
+{
+ "_huong-dan": "Tệp đi kèm skill khi đóng gói (tools/dong-goi-skill.py), không nằm trong gói. moTaNgan: mô tả tối đa 200 ký tự cho gói tải lên Claude. kem: tệp của xưởng đưa vào mọi gói (đích trong gói: nguồn trong xưởng; nguồn kết thúc bằng / là cả thư mục). chup: tệp riêng của người dùng chụp vào gói skill riêng, không bao giờ vào gói chung.",
+ "moTaNgan": "Rà văn bản theo khung FACTUAL: dữ kiện, giả định, độ đầy đủ, thiên lệch, mức chắc chắn, lập luận, giới hạn. Dùng khi: rà FACTUAL, fact-check, văn bản này có đáng tin không.",
+ "kem": {},
+ "chup": {
+  "references/GIONG-VAN.md": "phong-cach/GIONG-VAN.md"
+ }
+}

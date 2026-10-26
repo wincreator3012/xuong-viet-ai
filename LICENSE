@@ -1,14 +1,3 @@
-Tài liệu (mọi file .md trong repo này)
-Copyright (c) 2026 Lương Dũng Nhân
-Cấp phép theo Creative Commons Attribution 4.0 International (CC BY 4.0).
-Toàn văn giấy phép: https://creativecommons.org/licenses/by/4.0/legalcode
-Bạn được chia sẻ và chỉnh sửa cho mọi mục đích, kể cả thương mại, miễn là ghi công tác giả,
-dẫn đường tới giấy phép và nói rõ nếu đã có thay đổi.
-
----
-
-Mã nguồn (các file trong cong-cu/)
-
 MIT License
 
 Copyright (c) 2026 Lương Dũng Nhân
@@ -30,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Tài liệu của xưởng (mọi tệp .md, khuôn, bản khởi đầu) theo giấy phép CC BY 4.0: xem LICENSE-TAI-LIEU.md.

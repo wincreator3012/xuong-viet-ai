@@ -64,6 +64,6 @@ Tám phẩm chất cho mọi văn bản; FACTUAL cho lập luận và dữ kiệ
 
 | Máy bắt được | AI soi được | Chỉ người viết thẩm định được |
 |---|---|---|
-| Dấu gạch dài, kiểu dấu thanh (`cong-cu/chuan-hoa-dau-thanh.py`), từ cần đổi và cấu trúc vượt trần (`cong-cu/ra-tu-va-cau-truc.py`), tiêu đề viết hoa từng chữ | Chính xác (chuẩn 01), Mạch lạc, Trong sáng, Phù hợp, Tôn trọng; dấu hiệu vai bị diễn | Chân thật (chất liệu có thật không), Nguyên bản (có giọng và góc nhìn của mình không), Làm chủ (hiểu, nhớ, bảo vệ được từng câu không) |
+| Dấu gạch dài, kiểu dấu thanh (`tools/chuan-hoa-dau-thanh.py`), từ cần đổi và cấu trúc vượt trần (`tools/ra-tu-va-cau-truc.py`), tiêu đề viết hoa từng chữ | Chính xác (chuẩn 01), Mạch lạc, Trong sáng, Phù hợp, Tôn trọng; dấu hiệu vai bị diễn | Chân thật (chất liệu có thật không), Nguyên bản (có giọng và góc nhìn của mình không), Làm chủ (hiểu, nhớ, bảo vệ được từng câu không) |
 
 Vì ba phẩm chất ở cột cuối chỉ người viết kiểm được, một bài viết chưa qua người viết thì chưa xong.

@@ -1,6 +1,6 @@
 # Chuẩn 01. Kiểm chứng và trình bày nghiên cứu trong văn bản
 
-Cập nhật: 16/10/2026. Chưng cất từ đợt rà soát trích dẫn một cuốn sách thực hành về sức khỏe tinh thần (2026). Đây là bản tóm cho người. Bản đầy đủ là skill `kiem-chung` (`skills-nguon/kiem-chung/SKILL.md`), vì skill phải đứng được một mình khi đưa vào AI. Hai bên lệch nhau thì theo skill.
+Cập nhật: 16/10/2026. Chưng cất từ đợt rà soát trích dẫn một cuốn sách thực hành về sức khỏe tinh thần (2026). Đây là bản tóm cho người. Bản đầy đủ là skill `kiem-chung` (`skills/kiem-chung/SKILL.md`), vì skill phải đứng được một mình khi đưa vào AI. Hai bên lệch nhau thì theo skill.
 
 Chuẩn này áp dụng cho mọi văn bản có nhắc nhà nghiên cứu, công trình, con số, phát hiện khoa học, lời trích, ở mọi thể loại: sách, bài báo, bài mạng xã hội, học liệu, đề xuất, tham luận. Mức kiểm sâu hay nhẹ đi theo hệ quả của sai sót, không theo độ dài văn bản. Một bài mạng xã hội chỉ dẫn một nghiên cứu vẫn phải dẫn đúng nghiên cứu ấy.
 
@@ -28,7 +28,7 @@ Lý do chuẩn này nặng với người viết có uy tín nghề nghiệp (nh
 | Nội dung | Nghiên cứu đo gì, trên ai, so với ai, thiết kế gì, mạnh tới đâu, là kết quả hay lời bàn luận, còn đứng vững không (rút bài, lặp lại thất bại, bản tiền ấn phẩm)? | Nói quá; biến không được đo; giả thuyết thành sự thật; chuột thành người; tương quan thành nhân quả; phát hiện nhiều nhóm gom cho một tên lớn; ý người viết gán cho nghiên cứu |
 | Lời | Lời trong ngoặc kép có nguyên văn ở nguồn không? Ghi công có chắc không? | Câu nổi tiếng gán sai người; "cha đẻ" của một kỹ thuật không có nguồn |
 
-Sổ tay ví dụ thật cho từng lớp: `skills-nguon/kiem-chung/references/so-tay-loi-thuc-te.md`.
+Sổ tay ví dụ thật cho từng lớp: `skills/kiem-chung/references/so-tay-loi-thuc-te.md`.
 
 ## 4. Diễn giải đúng mực
 
@@ -75,14 +75,14 @@ Thứ tự ưu tiên: sửa cho đúng nguồn, giữ ý và giọng; thay bằn
 - Mục còn chờ thì đánh dấu tạm và gỡ khi xong; ghi ngày kiểm và giới hạn của đợt kiểm.
 - Mỗi vòng mới đếm lại trên bản dàn mới nhất, không chép số từ vòng trước.
 
-Mẫu: `skills-nguon/kiem-chung/references/mau-trinh-bay.md`.
+Mẫu: `skills/kiem-chung/references/mau-trinh-bay.md`.
 
 ## 8. Cổng máy và cổng người
 
 | Cổng máy (công cụ) | Cổng người (đọc) |
 |---|---|
-| Văn bản đang dàn khớp nguyên văn bản dàn (`cong-cu/doi-chieu-nguyen-van.py`) | Nguồn nói gì, câu văn nói gì, hai bên có khớp không |
-| Dấu gạch dài, kiểu dấu thanh (`cong-cu/chuan-hoa-dau-thanh.py`, nếu người viết dùng kiểu hóa, tùy), thuật ngữ cần đổi | Động từ có khớp loại chứng cứ không |
+| Văn bản đang dàn khớp nguyên văn bản dàn (`tools/doi-chieu-nguyen-van.py`) | Nguồn nói gì, câu văn nói gì, hai bên có khớp không |
+| Dấu gạch dài, kiểu dấu thanh (`tools/chuan-hoa-dau-thanh.py`, nếu người viết dùng kiểu hóa, tùy), thuật ngữ cần đổi | Động từ có khớp loại chứng cứ không |
 | Mã mục trùng, trỏ chéo sai | Danh xưng có được xác minh không |
 | Số bị rơi ("hơn  năm") | Chuyện đời người viết có được chính họ xác nhận không |
 

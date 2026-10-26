@@ -1,0 +1,16 @@
+{
+ "_huong-dan": "Mẫu XUONG.json: trợ lý dựng xưởng điền rồi ghi thành XUONG.json ở gốc xưởng (DUNG-XUONG.md bước 4), bỏ khóa _huong-dan. Tệp này đánh dấu thư mục là XƯỞNG ĐÃ DỰNG, không phải bản vẽ, giữ địa chỉ bản vẽ để cập nhật, và nói các công cụ tìm kho tư liệu, thư mục bài ở đâu (đường dẫn tương đối tính từ gốc xưởng, hoặc đường dẫn tuyệt đối). Không chứa mật khẩu, khóa.",
+ "banVe": "https://github.com/wincreator3012/xuong-viet-ai",
+ "nguonTho": "https://raw.githubusercontent.com/wincreator3012/xuong-viet-ai/main/",
+ "phienBan": "[phienBan trong BAN-DUNG.json lúc dựng]",
+ "ngayDung": "[YYYY-MM-DD]",
+ "ngayCapNhat": "[YYYY-MM-DD, bằng ngayDung khi mới dựng]",
+ "troLyDung": "[ứng dụng AI đã dựng, ví dụ Claude Cowork]",
+ "thuMucLamViec": "[đường dẫn thư mục làm việc như người dùng thấy trên máy, ví dụ ~/Documents/Viet AI]",
+ "thuMucKho": "../Kho tu lieu",
+ "thuMucBai": "../Bai viet",
+ "xungHoNguoiDung": "[trợ lý gọi người dùng là gì: bạn, anh, chị, thầy, cô, tên riêng]",
+ "ungDungHangNgay": "[ứng dụng AI người dùng dùng hằng ngày, quyết định cách lưu skill: Claude, ChatGPT, khác]",
+ "buoc": {},
+ "khongPhaiBanSao": "Xưởng dựng từ bản vẽ, không nối git với bản vẽ: không pull; cập nhật bằng python3 tools/ban-dung.py --so-ban-ve rồi --doc-tho."
+}

@@ -1,0 +1,563 @@
+{
+ "_huong-dan": "Danh mục tệp của bản vẽ Xưởng viết AI. Trợ lý AI dựng xưởng riêng theo DUNG-XUONG.md: tệp \"chep\" ghi lại vào xưởng đúng từng byte (sha256 khớp; .bat lưu CRLF), tệp \"mau\" điền rồi ghi theo \"dich\", tệp \"chi-ban-ve\" không đưa vào xưởng. Lập bằng: python3 tools/ban-dung.py --lap",
+ "banVe": "https://github.com/wincreator3012/xuong-viet-ai",
+ "nguonTho": "https://raw.githubusercontent.com/wincreator3012/xuong-viet-ai/main/",
+ "phienBan": "2026.10.26",
+ "ngayLap": "2026-10-26",
+ "tong": {
+  "chep": 57,
+  "mau": 3,
+  "chi-ban-ve": 31
+ },
+ "tep": [
+  {
+   "duong": ".gitattributes",
+   "loai": "chi-ban-ve",
+   "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+   "byte": 66
+  },
+  {
+   "duong": ".gitignore",
+   "loai": "chi-ban-ve",
+   "sha256": "53f0c100a33a56ebada040287b3d0f5dbab21c6ec6b66209fec5515c508f1144",
+   "byte": 29
+  },
+  {
+   "duong": "AGENTS.md",
+   "loai": "chi-ban-ve",
+   "sha256": "5fc4e1165b1df0b7953e4b1f20d35a90991f7b8289cd139e5d5c23ebd0c11d4e",
+   "byte": 6043
+  },
+  {
+   "duong": "BAT-DAU.md",
+   "loai": "chi-ban-ve",
+   "sha256": "590f3ca39673b5a1a448f2e0c5766eda1d15397af9c400252c68240d2e97ec91",
+   "byte": 16999
+  },
+  {
+   "duong": "CHANGELOG.md",
+   "loai": "chi-ban-ve",
+   "sha256": "5985f143a5725331c0f04b51cf3f24ba1de7bcd906815e44bd3598a6bc1403a5",
+   "byte": 2574
+  },
+  {
+   "duong": "CLAUDE.md",
+   "loai": "chi-ban-ve",
+   "sha256": "a00fda99f1f0f1eb201d82c341f5b538ba30fbd4b6202b0d0988b37e25d1de08",
+   "byte": 391
+  },
+  {
+   "duong": "DUNG-XUONG.md",
+   "loai": "chi-ban-ve",
+   "sha256": "a93ccfbce72c4ca684e20de9ffb55afedd673dd53737642cdc99652b524245fe",
+   "byte": 16204
+  },
+  {
+   "duong": "GEMINI.md",
+   "loai": "chi-ban-ve",
+   "sha256": "7c7d785813d610ef83aa4517a970ddfb24ad75046fc87eab5859a709a59a7932",
+   "byte": 391
+  },
+  {
+   "duong": "GHI-CONG.md",
+   "loai": "chep",
+   "sha256": "46cc1d8ee0d21bf3573c7f12f9cd3b165955bd76034a40e23a310e9816282d63",
+   "byte": 2259
+  },
+  {
+   "duong": "HUONG-DAN.md",
+   "loai": "chep",
+   "sha256": "58acb8c46046d7bcb83f573ffc39c6fadf956b9b5401b323f88b0f15f481c3c8",
+   "byte": 8121
+  },
+  {
+   "duong": "LICENSE",
+   "loai": "chep",
+   "sha256": "65431973445d6c97587d627c6e42b3000e3b2d1851065b2c24945e20c3887b0d",
+   "byte": 1210
+  },
+  {
+   "duong": "LICENSE-TAI-LIEU.md",
+   "loai": "chep",
+   "sha256": "08990b09e1c348cb3f7e1f7494acda34600cb75d48310b18346267951ae2ef90",
+   "byte": 1765
+  },
+  {
+   "duong": "README.md",
+   "loai": "chi-ban-ve",
+   "sha256": "d5fe146a2a2a8441d8261db38dc8c0962e20d90f07be1b1e7f33ba889446a212",
+   "byte": 30586
+  },
+  {
+   "duong": "chuan/00-ten-goi-va-he-mo-hinh.md",
+   "loai": "chep",
+   "sha256": "02f04ec80a0c5307f5ac1b48acca73c80d26e6ea9440002560e882662c06fd96",
+   "byte": 5294
+  },
+  {
+   "duong": "chuan/01-kiem-chung-va-trinh-bay-nghien-cuu.md",
+   "loai": "chep",
+   "sha256": "9e29378e80fac352ddac9d659458798f63486675c18763408cbc4166190da145",
+   "byte": 9156
+  },
+  {
+   "duong": "chuan/02-viet-nguyen-ban-nam-vai.md",
+   "loai": "chep",
+   "sha256": "50924e4cc883703ee02b141f8fde4fe3f9f87663eb4e9650a187feab2a861682",
+   "byte": 10572
+  },
+  {
+   "duong": "chuan/03-hoc-tu-ban-chot.md",
+   "loai": "chep",
+   "sha256": "3d44f6fb41c0d11561408cb917cea5df8562ed7b17b6b182313c4e3ca1e336a7",
+   "byte": 4799
+  },
+  {
+   "duong": "chuan/04-tu-vung-va-cau-truc-tieng-viet.md",
+   "loai": "chep",
+   "sha256": "d4894fe8e821663248ed4d0212cbb90679b96ce72593344f35293b3abc8e888b",
+   "byte": 5256
+  },
+  {
+   "duong": "chuan/README.md",
+   "loai": "chep",
+   "sha256": "5012828ed0ea8339dc767278b75bc742626bce0530d0345b31d2c844d6b9a6bf",
+   "byte": 1723
+  },
+  {
+   "duong": "docs/BAI-HOC.md",
+   "loai": "chep",
+   "sha256": "17b5fe440050287587cba70d0dd2cdb32e8c53b144b7fbf25d9645372d6e0889",
+   "byte": 13517
+  },
+  {
+   "duong": "docs/DONG-GOP.md",
+   "loai": "chi-ban-ve",
+   "sha256": "9d740a16fda908064be3b4f54be71aed03399014336bb8a1119ea4d11cd97c55",
+   "byte": 2369
+  },
+  {
+   "duong": "dong-goi/README.md",
+   "loai": "chi-ban-ve",
+   "sha256": "c4830070779c751ba3ff11f4d719361efc86ca4483675a7eabf1d0e8b6ed7ab7",
+   "byte": 1001
+  },
+  {
+   "duong": "dong-goi/factual-review.zip",
+   "loai": "chi-ban-ve",
+   "sha256": "48c9651018ed3d4a65b602165fb995e0bbd765edd9b0e3bb747fc4bd8d2ba532",
+   "byte": 11909
+  },
+  {
+   "duong": "dong-goi/kiem-chung.zip",
+   "loai": "chi-ban-ve",
+   "sha256": "3eb30f0aa69076eef0f3960778a560ffdf081df5daa2f03983add1a7ca327ee1",
+   "byte": 19267
+  },
+  {
+   "duong": "dong-goi/tap-viet.zip",
+   "loai": "chi-ban-ve",
+   "sha256": "1564c3cf4838f44e8fbafb227e01dd73355dd1aa37ee19813bdcdf18666d9eec",
+   "byte": 16919
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/factual-review--factual-checklist-full.md",
+   "loai": "chi-ban-ve",
+   "sha256": "8020559dd649b7af7277259529753ff4d7c7d4bf58f3d3a7c918b567fe522a1a",
+   "byte": 13064
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/factual-review.md",
+   "loai": "chi-ban-ve",
+   "sha256": "4ab98f6ec370430f16c8a0997c6dd107b32302955427e67beb6d13c9a9be3ca7",
+   "byte": 15315
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/kiem-chung--mau-trinh-bay.md",
+   "loai": "chi-ban-ve",
+   "sha256": "a67419d94c6c7b60adac7830f3bb24ae4a2b72d21e6488dd9fa1d3ca283fbecd",
+   "byte": 4631
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/kiem-chung--so-tay-loi-thuc-te.md",
+   "loai": "chi-ban-ve",
+   "sha256": "2e9ce9829de3554147fce5336995475baa2867b117ab20fdff9d17240b163f5a",
+   "byte": 12573
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/kiem-chung.md",
+   "loai": "chi-ban-ve",
+   "sha256": "e23f501d16448b0295a8513d39db4881379aba48d1bf930b1af2445ac805181b",
+   "byte": 33969
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/tap-viet--accord-accept.md",
+   "loai": "chi-ban-ve",
+   "sha256": "4093dea3d804d5784f4fccadcc012e367b3e676a193afbfbfe9a5a004e8fc631",
+   "byte": 20054
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/tap-viet--cau-hoi-cung-nghi.md",
+   "loai": "chi-ban-ve",
+   "sha256": "837e611d9fc4cd7132805a6495a6e4da57b0144fe854e573b23177e9516550bd",
+   "byte": 5500
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/tap-viet--phieu.md",
+   "loai": "chi-ban-ve",
+   "sha256": "1c4fed72c509c5ca459e09e4a12dd7f42906a05b2fd5e380e78c3d68f0e2bc74",
+   "byte": 2586
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/tap-viet.md",
+   "loai": "chi-ban-ve",
+   "sha256": "675448e05902fb87cbef4047b597e322cf786fb361f7627af63a5e663badbdb6",
+   "byte": 17855
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban--tu-vung-va-cau-truc.md",
+   "loai": "chi-ban-ve",
+   "sha256": "07f5a360db416c5e0f2a5b32832eae5fd162ef48dd3d95aa868c34cd5bf6cca3",
+   "byte": 18992
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban--vi-du-ban-chot.md",
+   "loai": "chi-ban-ve",
+   "sha256": "2ed5e7b620ce3f40047d8413fd3161f9b361a2fce2c53be29793ccf0b47ef121",
+   "byte": 6387
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban.md",
+   "loai": "chi-ban-ve",
+   "sha256": "d0e275e36b9ad5b8e033095287fb1f56cb9e39be1245e9a1d9a42592194922cc",
+   "byte": 32577
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/viet-thiet-lap--HUONG-DAN.md",
+   "loai": "chi-ban-ve",
+   "sha256": "58acb8c46046d7bcb83f573ffc39c6fadf956b9b5401b323f88b0f15f481c3c8",
+   "byte": 8121
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/viet-thiet-lap--gioi-thieu-xuong.md",
+   "loai": "chi-ban-ve",
+   "sha256": "6bf1a5a3dd0eaa6f5faf7690bb95467bfc57e53372a707f74b503b8c17085112",
+   "byte": 7597
+  },
+  {
+   "duong": "dong-goi/tep-cho-du-an/viet-thiet-lap.md",
+   "loai": "chi-ban-ve",
+   "sha256": "f96b91bd99a25bcb2bd56d98708e22822be055ea042af2c4c559f0fe65e0b7a1",
+   "byte": 18584
+  },
+  {
+   "duong": "dong-goi/viet-nguyen-ban.zip",
+   "loai": "chi-ban-ve",
+   "sha256": "6e018638ca38de24afa5fa78683b9283e062feb15b3904b6be2575251d3c82af",
+   "byte": 25740
+  },
+  {
+   "duong": "dong-goi/viet-thiet-lap.zip",
+   "loai": "chi-ban-ve",
+   "sha256": "a6c2fed3f826d38d4c22fc723d0a994e45fb3eff72b4f88e62583f6d7c7dab66",
+   "byte": 27812
+  },
+  {
+   "duong": "khuon/bai-viet/HUONG-DAN-BAI-VIET.md",
+   "loai": "chep",
+   "sha256": "25dd41e827b8704f522d39faa31312e36b834e506f5e24e9cb0c7ec7897c3218",
+   "byte": 1477
+  },
+  {
+   "duong": "khuon/bai-viet/mot-bai/chat-lieu.md",
+   "loai": "chep",
+   "sha256": "4a210a5564189eeaeb446328cd5b8c99acdaea27d2c368794107e7b276837e89",
+   "byte": 920
+  },
+  {
+   "duong": "khuon/kho-co-san/HUONG-DAN-KHO.md",
+   "loai": "chep",
+   "sha256": "07868d2adeb0795b5f3a9da5cef2f93d0f9d7f5d7b1788cac0579d0e96440a9b",
+   "byte": 1906
+  },
+  {
+   "duong": "khuon/kho-co-san/MUC-LUC.md",
+   "loai": "chep",
+   "sha256": "7950aabbd7d748f643eb4fac238a3713110621cdc57cefefd40dce114e57a230",
+   "byte": 1088
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/0 Moi them/_huong-dan.md",
+   "loai": "chep",
+   "sha256": "90b71c681844261444072aaf29641a4c10d7bcc3f6f672d330d41190b09070de",
+   "byte": 509
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/1 Ky uc va noi tam/_huong-dan.md",
+   "loai": "chep",
+   "sha256": "9146426fc2a247511be09366ee98732fac9df5255940518f9eceb011b9d039bc",
+   "byte": 1061
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/2 Loi noi/_huong-dan.md",
+   "loai": "chep",
+   "sha256": "1a7c4f6ecee877aadd982509a7957f22be5dce88570cad34adaec68365e2cc40",
+   "byte": 940
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/3 Ban viet cua toi/_huong-dan.md",
+   "loai": "chep",
+   "sha256": "e2510b058d08581961121d48419dae7bdd667f81ad19be536d94fb7e6ae6baef",
+   "byte": 984
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/4 Tu lieu tham khao/_huong-dan.md",
+   "loai": "chep",
+   "sha256": "01c6577c3fb0082d30963284db165dc576da0e980b39e9a1a79173c2ea837b1a",
+   "byte": 989
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/5 Hinh anh va do vat/_huong-dan.md",
+   "loai": "chep",
+   "sha256": "cf24171d3526d0650f76caa81d7411e8b48f4d4de42dbd51cbe6f18b0848a432",
+   "byte": 904
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/HUONG-DAN-KHO.md",
+   "loai": "chep",
+   "sha256": "126ff5425f005390d616e6bf0fd96105cec93b3b3702db18517cdae8df90bc59",
+   "byte": 5185
+  },
+  {
+   "duong": "khuon/kho-tu-lieu/MUC-LUC.md",
+   "loai": "chep",
+   "sha256": "7950aabbd7d748f643eb4fac238a3713110621cdc57cefefd40dce114e57a230",
+   "byte": 1088
+  },
+  {
+   "duong": "mau-xuong/AGENTS.md",
+   "loai": "mau",
+   "sha256": "cdfed2f442cdaeb4142310806fb07fdef424d96e07a13e00cfc0c0b5644a392a",
+   "byte": 2627,
+   "dich": "AGENTS.md"
+  },
+  {
+   "duong": "mau-xuong/CLAUDE.md",
+   "loai": "mau",
+   "sha256": "2c7a848cce86406de913f26b00eb6763279358c4a78745c8c17f295878d402b1",
+   "byte": 9522,
+   "dich": "CLAUDE.md"
+  },
+  {
+   "duong": "mau-xuong/XUONG.mau.json",
+   "loai": "mau",
+   "sha256": "ffb932e2b590cba1b6d1017bbd211f8bf7a065e125a89633b493741ded0ce128",
+   "byte": 1509,
+   "dich": "XUONG.json"
+  },
+  {
+   "duong": "phong-cach/GIONG-VAN.mau.md",
+   "loai": "chep",
+   "sha256": "7b53e8dba8fc15eb3d6e3b7f5408366fc443d0f1216ea1da1070dff8e666ab2b",
+   "byte": 4197
+  },
+  {
+   "duong": "phong-cach/bai-hoc-giong.mau.md",
+   "loai": "chep",
+   "sha256": "874d826be5c1f40f80b85914d5b67b1c5963e0599aece0ad8f2fa617be91e1ad",
+   "byte": 1042
+  },
+  {
+   "duong": "phong-cach/ho-so-nguoi-viet.mau.md",
+   "loai": "chep",
+   "sha256": "77b31928637da7d7d7b6da282af2880ce2b66f03f05c9bbf406a26fb9fddb366",
+   "byte": 566
+  },
+  {
+   "duong": "skills/README.md",
+   "loai": "chep",
+   "sha256": "5ab923b81aa06482175ff04b6d4896ddf183cee6e2c1a72b017c8b1523da4166",
+   "byte": 10510
+  },
+  {
+   "duong": "skills/factual-review/SKILL.md",
+   "loai": "chep",
+   "sha256": "2c53e15c6a0647a7845e369934b6cddda6921b3e707227c87a6c5b9f4e40f9cb",
+   "byte": 15295
+  },
+  {
+   "duong": "skills/factual-review/kem.json",
+   "loai": "chep",
+   "sha256": "fa809effa1825cf1cbcae432e1632e3f3979446f2979347226ddfe8e6f444c1e",
+   "byte": 748
+  },
+  {
+   "duong": "skills/factual-review/references/factual-checklist-full.md",
+   "loai": "chep",
+   "sha256": "8020559dd649b7af7277259529753ff4d7c7d4bf58f3d3a7c918b567fe522a1a",
+   "byte": 13064
+  },
+  {
+   "duong": "skills/kiem-chung/SKILL.md",
+   "loai": "chep",
+   "sha256": "e23f501d16448b0295a8513d39db4881379aba48d1bf930b1af2445ac805181b",
+   "byte": 33969
+  },
+  {
+   "duong": "skills/kiem-chung/kem.json",
+   "loai": "chep",
+   "sha256": "a8752c5c923bfe6774ca57f50d49df4ddaaf62a63e84936e187b5a20b9c35555",
+   "byte": 763
+  },
+  {
+   "duong": "skills/kiem-chung/references/mau-trinh-bay.md",
+   "loai": "chep",
+   "sha256": "a67419d94c6c7b60adac7830f3bb24ae4a2b72d21e6488dd9fa1d3ca283fbecd",
+   "byte": 4631
+  },
+  {
+   "duong": "skills/kiem-chung/references/so-tay-loi-thuc-te.md",
+   "loai": "chep",
+   "sha256": "2e9ce9829de3554147fce5336995475baa2867b117ab20fdff9d17240b163f5a",
+   "byte": 12573
+  },
+  {
+   "duong": "skills/tap-viet/SKILL.md",
+   "loai": "chep",
+   "sha256": "675448e05902fb87cbef4047b597e322cf786fb361f7627af63a5e663badbdb6",
+   "byte": 17855
+  },
+  {
+   "duong": "skills/tap-viet/kem.json",
+   "loai": "chep",
+   "sha256": "2c05524700a9a3aef4056998fd799ba4d3180a85a1fcf9683aaddc6b33f0ef54",
+   "byte": 823
+  },
+  {
+   "duong": "skills/tap-viet/references/accord-accept.md",
+   "loai": "chep",
+   "sha256": "4093dea3d804d5784f4fccadcc012e367b3e676a193afbfbfe9a5a004e8fc631",
+   "byte": 20054
+  },
+  {
+   "duong": "skills/tap-viet/references/cau-hoi-cung-nghi.md",
+   "loai": "chep",
+   "sha256": "837e611d9fc4cd7132805a6495a6e4da57b0144fe854e573b23177e9516550bd",
+   "byte": 5500
+  },
+  {
+   "duong": "skills/tap-viet/references/phieu.md",
+   "loai": "chep",
+   "sha256": "1c4fed72c509c5ca459e09e4a12dd7f42906a05b2fd5e380e78c3d68f0e2bc74",
+   "byte": 2586
+  },
+  {
+   "duong": "skills/viet-nguyen-ban/SKILL.md",
+   "loai": "chep",
+   "sha256": "d0e275e36b9ad5b8e033095287fb1f56cb9e39be1245e9a1d9a42592194922cc",
+   "byte": 32577
+  },
+  {
+   "duong": "skills/viet-nguyen-ban/kem.json",
+   "loai": "chep",
+   "sha256": "db0f24f17da7c43c8a4cb2906b5eff4aa9b2ab24ee03758ef0d21961b0adcefb",
+   "byte": 892
+  },
+  {
+   "duong": "skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md",
+   "loai": "chep",
+   "sha256": "07f5a360db416c5e0f2a5b32832eae5fd162ef48dd3d95aa868c34cd5bf6cca3",
+   "byte": 18992
+  },
+  {
+   "duong": "skills/viet-nguyen-ban/references/vi-du-ban-chot.md",
+   "loai": "chep",
+   "sha256": "2ed5e7b620ce3f40047d8413fd3161f9b361a2fce2c53be29793ccf0b47ef121",
+   "byte": 6387
+  },
+  {
+   "duong": "skills/viet-thiet-lap/SKILL.md",
+   "loai": "chep",
+   "sha256": "f96b91bd99a25bcb2bd56d98708e22822be055ea042af2c4c559f0fe65e0b7a1",
+   "byte": 18584
+  },
+  {
+   "duong": "skills/viet-thiet-lap/kem.json",
+   "loai": "chep",
+   "sha256": "31b22bf5a24e0215000c7ce65305efb7fbf7a7eab518c5673b43408aa6b0c435",
+   "byte": 1073
+  },
+  {
+   "duong": "skills/viet-thiet-lap/references/gioi-thieu-xuong.md",
+   "loai": "chep",
+   "sha256": "6bf1a5a3dd0eaa6f5faf7690bb95467bfc57e53372a707f74b503b8c17085112",
+   "byte": 7597
+  },
+  {
+   "duong": "tools/bai-moi.py",
+   "loai": "chep",
+   "sha256": "e48d26eb5047828ecdda623deb97e9de61529e43a72411e35a103093829919e9",
+   "byte": 2412
+  },
+  {
+   "duong": "tools/ban-dung.py",
+   "loai": "chep",
+   "sha256": "fc82ce63d043aeba7d9fb3990f0a62c5e51e6dfdf6fc9c456403f7c2b2cdf084",
+   "byte": 16719
+  },
+  {
+   "duong": "tools/cai-dat.py",
+   "loai": "chep",
+   "sha256": "c3b1b3b303ce5e5c64207b238657605d3634867df7140e25052f4d11501d111c",
+   "byte": 8144
+  },
+  {
+   "duong": "tools/chuan-hoa-dau-thanh.py",
+   "loai": "chep",
+   "sha256": "b2ec33dc11759f6da70e48c70d6bb9fe80c2582cd432977c38f750a82277ba78",
+   "byte": 1982
+  },
+  {
+   "duong": "tools/chung.py",
+   "loai": "chep",
+   "sha256": "369618925bbe727772f6b2874e01e9634d36ade11c717dd5474b74cdac17a4c1",
+   "byte": 4734
+  },
+  {
+   "duong": "tools/doi-chieu-nguyen-van.py",
+   "loai": "chep",
+   "sha256": "0206204f2cb3659dfc5b2c2453ded11f42c32a2f71421a08cf9ac4f8a3c56927",
+   "byte": 4200
+  },
+  {
+   "duong": "tools/dong-goi-skill.py",
+   "loai": "chep",
+   "sha256": "f7e3a9f613b36c68fe14d6cb41aa79bff30c4608744480f41a45e4fc576e6161",
+   "byte": 14829
+  },
+  {
+   "duong": "tools/kho.py",
+   "loai": "chep",
+   "sha256": "44b888e400a5b7776321733430d0092a1cd8dbb35567e9199da3a8eb0bf17446",
+   "byte": 5636
+  },
+  {
+   "duong": "tools/kiem-sach.py",
+   "loai": "chep",
+   "sha256": "a407d95a7be123f16223449ef446a1cd517776952e53a2ba2bfa9a69cf97b122",
+   "byte": 3286
+  },
+  {
+   "duong": "tools/kiem-tai-lieu.py",
+   "loai": "chep",
+   "sha256": "02d4039e31d51800cdb86a3cdd6e39be4fa2480b4a61db60a1c33513f6a5d6e5",
+   "byte": 6200
+  },
+  {
+   "duong": "tools/ra-tu-va-cau-truc.py",
+   "loai": "chep",
+   "sha256": "c1ac93e2bd38297b86f71cd89a5c270238be28710a8d12e933f81d02ec3e9d9b",
+   "byte": 11823
+  }
+ ]
+}

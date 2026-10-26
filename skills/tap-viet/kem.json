@@ -1,0 +1,9 @@
+{
+ "_huong-dan": "Tệp đi kèm skill khi đóng gói (tools/dong-goi-skill.py), không nằm trong gói. moTaNgan: mô tả tối đa 200 ký tự cho gói tải lên Claude. kem: tệp của xưởng đưa vào mọi gói (đích trong gói: nguồn trong xưởng; nguồn kết thúc bằng / là cả thư mục). chup: tệp riêng của người dùng chụp vào gói skill riêng, không bao giờ vào gói chung.",
+ "moTaNgan": "Tập viết: người viết tự nghĩ, tự viết; AI hỏi, phản biện, soi, khai vấn, không viết thay. Dùng khi: nghĩ cùng tôi, nên viết thành gì, góp ý bản tự viết, thẩm định ACCORD-ACCEPT.",
+ "kem": {},
+ "chup": {
+  "references/GIONG-VAN.md": "phong-cach/GIONG-VAN.md",
+  "references/ho-so-nguoi-viet.md": "phong-cach/ho-so-nguoi-viet.md"
+ }
+}

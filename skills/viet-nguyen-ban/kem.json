@@ -1,0 +1,11 @@
+{
+ "_huong-dan": "Tệp đi kèm skill khi đóng gói (tools/dong-goi-skill.py), không nằm trong gói. moTaNgan: mô tả tối đa 200 ký tự cho gói tải lên Claude. kem: tệp của xưởng đưa vào mọi gói (đích trong gói: nguồn trong xưởng; nguồn kết thúc bằng / là cả thư mục). chup: tệp riêng của người dùng chụp vào gói skill riêng, không bao giờ vào gói chung.",
+ "moTaNgan": "Soạn bài tiếng Việt dưới tên người viết từ chất liệu thật của họ: hỏi trước, không bịa, kèm ghi chú bàn giao, học từ bản chốt. Dùng khi nhờ viết bài, bản tin, bài mạng xã hội.",
+ "kem": {
+  "scripts/ra-tu-va-cau-truc.py": "tools/ra-tu-va-cau-truc.py"
+ },
+ "chup": {
+  "references/GIONG-VAN.md": "phong-cach/GIONG-VAN.md",
+  "references/bai-hoc-giong.md": "phong-cach/bai-hoc-giong.md"
+ }
+}

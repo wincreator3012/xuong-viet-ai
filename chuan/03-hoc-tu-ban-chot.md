@@ -38,7 +38,7 @@ Khi bài học mới đi ngược bài học cũ, tìm điều kiện phân bi�
 - Không mang lại nội dung người viết đã cắt.
 - Không ghi bài học dưới dạng khen chê người viết; bài học mô tả lựa chọn.
 
-Ví dụ trước và sau từ bản chốt thật (đã ẩn danh): `skills-nguon/viet-nguyen-ban/references/vi-du-ban-chot.md`.
+Ví dụ trước và sau từ bản chốt thật (đã ẩn danh): `skills/viet-nguyen-ban/references/vi-du-ban-chot.md`.
 
 ## Chiều thứ hai: người viết học
 
