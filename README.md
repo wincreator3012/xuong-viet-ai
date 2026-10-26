@@ -2,9 +2,9 @@
 
 **Viết cùng trí năng nhân tạo [AI] mà văn vẫn là của mình, và mình viết giỏi lên sau mỗi bài.**
 
-Xưởng viết AI là một bộ cách làm việc (gọi là "skill") kèm chuẩn nghề, công cụ nhỏ và một kho tư liệu nguyên bản, để trợ lý AI của bạn (Claude, ChatGPT, Gemini, Codex...) làm việc với bạn như một cộng sự biết điều: hỏi trước khi viết, tìm trong tư liệu của chính bạn trước khi hỏi, không bịa chuyện thay bạn, kiểm từng nguồn trước khi trích, nói rõ những chỗ nó đã quyết thay bạn, và giúp bạn tự viết giỏi hơn thay vì viết hộ bạn mãi.
+Xưởng viết AI là một bộ cách làm việc (gọi là "skill") kèm chuẩn nghề, công cụ nhỏ và một kho tư liệu nguyên bản, để trợ lý AI của bạn (Claude, ChatGPT, Gemini, Codex...) làm việc với bạn như một cộng sự biết điều: hỏi trước khi viết, tìm trong tư liệu của chính bạn trước khi hỏi, không bịa chuyện thay bạn, kiểm từng nguồn trước khi trích dẫn, nói rõ những chỗ nó đã quyết thay bạn, và giúp bạn tự viết giỏi hơn thay vì viết hộ bạn mãi.
 
-Xưởng dành trước hết cho người viết có uy tín nghề nghiệp, viết tiếng Việt dưới tên mình: nhà giáo dục, giáo viên, giảng viên, nhà tham vấn, nhà trị liệu, nhà khai vấn [coach], người làm đào tạo, chuyên gia làm nghề độc lập: những người mà người đọc tin vì tin chính con người họ.
+Xưởng dành trước hết cho người viết có uy tín nghề nghiệp, viết tiếng Việt, công bố dưới tên tuổi của mình: nhà giáo dục, giáo viên, giảng viên, nhà tham vấn, nhà trị liệu, nhà khai vấn [coach], người làm đào tạo, chuyên gia làm nghề độc lập... những người mà người đọc tin vì tin chính con người họ chứ không chỉ thông tin.
 
 Xưởng miễn phí, mở, dùng lại được theo giấy phép CC BY 4.0 (tài liệu) và MIT (mã). Bạn không cần biết lập trình.
 
