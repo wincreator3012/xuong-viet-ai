@@ -3,7 +3,7 @@
  "banVe": "https://github.com/wincreator3012/xuong-viet-ai",
  "nguonTho": "https://raw.githubusercontent.com/wincreator3012/xuong-viet-ai/main/",
  "phienBan": "2026.10.26",
- "ngayLap": "2026-10-26",
+ "ngayLap": "2026-10-28",
  "tong": {
   "chep": 57,
   "mau": 3,
@@ -85,8 +85,8 @@
   {
    "duong": "README.md",
    "loai": "chi-ban-ve",
-   "sha256": "d5fe146a2a2a8441d8261db38dc8c0962e20d90f07be1b1e7f33ba889446a212",
-   "byte": 30586
+   "sha256": "fad37f669342f9b8bf1cd7417c80abc500db2a07c5d280ae392e50ac9c8b7edd",
+   "byte": 30455
   },
   {
    "duong": "chuan/00-ten-goi-va-he-mo-hinh.md",
@@ -97,8 +97,8 @@
   {
    "duong": "chuan/01-kiem-chung-va-trinh-bay-nghien-cuu.md",
    "loai": "chep",
-   "sha256": "5fb3b10faa0d29704025f2d8273c7729faab6595977d8c2b8b3c06a84e6569ea",
-   "byte": 10878
+   "sha256": "a9f5b93b949edd1b021d552738f35f2f67144e75cc6c69353a162be24f708b24",
+   "byte": 11129
   },
   {
    "duong": "chuan/02-viet-nguyen-ban-nam-vai.md",
@@ -127,8 +127,8 @@
   {
    "duong": "docs/BAI-HOC.md",
    "loai": "chep",
-   "sha256": "7925e4e94fc40075abf8ec7d21e805178985e44003e69abc4a0c7042c18a520d",
-   "byte": 14879
+   "sha256": "abcde3a0c07ec7d498d948617af5d9d380ab5ff13edc7f474188acf090b34905",
+   "byte": 15971
   },
   {
    "duong": "docs/DONG-GOP.md",
@@ -151,8 +151,8 @@
   {
    "duong": "dong-goi/kiem-chung.zip",
    "loai": "chi-ban-ve",
-   "sha256": "9bdc0c7e19319bbef3e1e381880034b2b586df1262dcd24a033054209dd824d5",
-   "byte": 19852
+   "sha256": "8bc1c0fef10e59c7c8349be79d0dd307e2e93bd63fe0ca95cfb47b2130e4664a",
+   "byte": 19940
   },
   {
    "duong": "dong-goi/tap-viet.zip",
@@ -187,8 +187,8 @@
   {
    "duong": "dong-goi/tep-cho-du-an/kiem-chung.md",
    "loai": "chi-ban-ve",
-   "sha256": "5f498092006cdab2bdbbef83ee6192a208d5004d7a67ac85e3468da30bbab2b5",
-   "byte": 35956
+   "sha256": "74b00291b11d2b2263adb7b5f3782eb2d2aedab6bbfbe6373981633f74e885f6",
+   "byte": 36309
   },
   {
    "duong": "dong-goi/tep-cho-du-an/tap-viet--accord-accept.md",
@@ -400,8 +400,8 @@
   {
    "duong": "skills/kiem-chung/SKILL.md",
    "loai": "chep",
-   "sha256": "5f498092006cdab2bdbbef83ee6192a208d5004d7a67ac85e3468da30bbab2b5",
-   "byte": 35956
+   "sha256": "74b00291b11d2b2263adb7b5f3782eb2d2aedab6bbfbe6373981633f74e885f6",
+   "byte": 36309
   },
   {
    "duong": "skills/kiem-chung/kem.json",
