@@ -1,6 +1,6 @@
 # Chuẩn 04. Từ và cấu trúc tiếng Việt: cấm, đặc thù, hạn chế
 
-Cập nhật: 16/10/2026. Bản tóm cho người; bản đầy đủ (mọi danh sách, bảng thay, ví dụ) ở `skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md`. Công cụ: `tools/ra-tu-va-cau-truc.py`. Phương pháp: Thạc sĩ Lương Dũng Nhân.
+Cập nhật: 31/10/2026 (thêm mục 8, hai nếp tiếng Việt tự nhiên). Bản tóm cho người; bản đầy đủ (mọi danh sách, bảng thay, ví dụ) ở `skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md`. Công cụ: `tools/ra-tu-va-cau-truc.py`. Phương pháp: Thạc sĩ Lương Dũng Nhân.
 
 ## 1. Vì sao một xưởng viết theo phán đoán vẫn cần bảng từ
 
@@ -39,3 +39,18 @@ Người viết là thẩm quyền về chính họ. Khi một từ ở A xuất
 ## 7. Máy kiểm gì, người kiểm gì
 
 `tools/ra-tu-va-cau-truc.py` đếm phần đếm được: dấu câu, tiêu đề viết hoa mọi chữ đầu từ, từ và cụm ở A và C, cấu trúc ở D, viết hoa sau hai chấm, số câu hỏi mỗi phần. Nó không biết một từ C có khớp nghĩa riêng của người viết không, không biết một cấu trúc có mang luận điểm không, và không thấy nhịp. Những việc ấy thuộc lượt rà của AI và cuối cùng là của người viết.
+
+## 8. Hai nếp tiếng Việt tự nhiên: nhịp song âm tiết và thoát lối dịch sát
+
+Hai lỗi văn máy khó thấy nhất không nằm ở từ cấm mà ở chỗ câu đúng ngữ pháp, sạch danh sách, nhưng người viết tiếng Việt chuẩn mực không viết như thế. Tác giả phương pháp đã sửa hai nếp này lặp lại qua nhiều bản chốt (newsletter, bài tạp chí, sách thực hành và ứng dụng đi kèm, 10/2026), nên chúng được gom thành một nguyên lý, mỗi nếp một bảng ở một nơi.
+
+| Nếp | Phép thử | Nơi giữ bảng | Luật đọc |
+|---|---|---|---|
+| Nhịp song âm tiết | Đọc to; dừng ở mỗi động từ, tính từ, danh từ trừu tượng đứng một tiếng ("cần được chăm", "đang khá vững", "nặng", "lời"); hỏi người viết chuẩn mực có viết đủ hai tiếng không | `tu-vung-va-cau-truc.md` D1 | Trần 0 ở mục D; ngoại lệ có điều kiện |
+| Thoát lối dịch sát | Dịch ngược cụm đáng ngờ sang tiếng Anh; ra trọn một cụm quen thuộc ("mang một gánh khá nặng", "tìm bộ lạc của mình", "tự thoại nội tâm") thì viết theo cách người Việt nói | `tu-vung-va-cau-truc.md` A4b | Danh sách A, gặp là thay |
+
+Ngoại lệ chung của hai nếp: thành ngữ và cụm cố định ("biết đủ"); nhãn cột bảng; lời trích nguyên văn; tên gọi ngoài đời đúng như người ta dùng; thuật ngữ chuyên môn đã chốt, định danh một lần ở phần dẫn nghiên cứu rồi đời thường hóa ở phần hành động. Khi nới từ hay đổi cụm, không đẻ từ ghép gượng gạo chỉ để qua phép thử: đó là một kiểu văn máy khác.
+
+Quy ước trình bày đi cùng là mặc định, không phải nguyên lý, nên đứng riêng ở A5: chữ số Ả Rập cho mọi số đếm và đại lượng ở mọi văn bản, không trộn chữ và số; ngoặc vuông tiếng Anh chỉ khi tiếng Việt chưa tự đủ nghĩa, khi là tên phương pháp cố định hoặc gốc sẽ dùng lại; tên ấn phẩm đúng từng chữ theo bản in cuối.
+
+`tools/ra-tu-va-cau-truc.py` dò các cụm dịch sát đã có trong bảng, các từ đơn âm tiết đứng cuối mệnh đề và câu trộn chữ với số, để người đọc xem lại. Nó không biết một cụm mới có phải dịch sát không, cũng không nghe được nhịp; phép thử đọc to và dịch ngược vẫn là việc của người đọc.

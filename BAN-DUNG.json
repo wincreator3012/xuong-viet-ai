@@ -2,7 +2,7 @@
  "_huong-dan": "Danh mục tệp của bản vẽ Xưởng viết AI. Trợ lý AI dựng xưởng riêng theo DUNG-XUONG.md: tệp \"chep\" ghi lại vào xưởng đúng từng byte (sha256 khớp; .bat lưu CRLF), tệp \"mau\" điền rồi ghi theo \"dich\", tệp \"chi-ban-ve\" không đưa vào xưởng. Lập bằng: python3 tools/ban-dung.py --lap",
  "banVe": "https://github.com/wincreator3012/xuong-viet-ai",
  "nguonTho": "https://raw.githubusercontent.com/wincreator3012/xuong-viet-ai/main/",
- "phienBan": "2026.10.26",
+ "phienBan": "2026.10.31",
  "ngayLap": "2026-10-30",
  "tong": {
   "chep": 57,
@@ -37,8 +37,8 @@
   {
    "duong": "CHANGELOG.md",
    "loai": "chi-ban-ve",
-   "sha256": "5985f143a5725331c0f04b51cf3f24ba1de7bcd906815e44bd3598a6bc1403a5",
-   "byte": 2574
+   "sha256": "51c607d55e94f65a9e48330f29b7f860924a996f9545da17661247bb2f225a11",
+   "byte": 4502
   },
   {
    "duong": "CLAUDE.md",
@@ -97,8 +97,8 @@
   {
    "duong": "chuan/01-kiem-chung-va-trinh-bay-nghien-cuu.md",
    "loai": "chep",
-   "sha256": "a9f5b93b949edd1b021d552738f35f2f67144e75cc6c69353a162be24f708b24",
-   "byte": 11129
+   "sha256": "e92b8f9dc409b54e90a2f1a5abe1ed38d76845dbc589fff88a34a7995fe7acea",
+   "byte": 11332
   },
   {
    "duong": "chuan/02-viet-nguyen-ban-nam-vai.md",
@@ -115,8 +115,8 @@
   {
    "duong": "chuan/04-tu-vung-va-cau-truc-tieng-viet.md",
    "loai": "chep",
-   "sha256": "d4894fe8e821663248ed4d0212cbb90679b96ce72593344f35293b3abc8e888b",
-   "byte": 5256
+   "sha256": "6527ad0a125e8134d53d833f650454891df070e182d91aafa949261f0fa0cfac",
+   "byte": 7929
   },
   {
    "duong": "chuan/README.md",
@@ -127,8 +127,8 @@
   {
    "duong": "docs/BAI-HOC.md",
    "loai": "chep",
-   "sha256": "45f0ca46c200284aac9a3e69b89fb36b0f741cd686f266e8dc80ee01598444ca",
-   "byte": 18534
+   "sha256": "59219d07e74ade7fe59929fee0f0d31650ca59584810a498684af139d1f91c3e",
+   "byte": 17797
   },
   {
    "duong": "docs/DONG-GOP.md",
@@ -151,8 +151,8 @@
   {
    "duong": "dong-goi/kiem-chung.zip",
    "loai": "chi-ban-ve",
-   "sha256": "8bc1c0fef10e59c7c8349be79d0dd307e2e93bd63fe0ca95cfb47b2130e4664a",
-   "byte": 19940
+   "sha256": "2715f6cadf2e4a67d58f8cb23389b7f29ee5cc8498d1d005886695dbb172da56",
+   "byte": 19992
   },
   {
    "duong": "dong-goi/tap-viet.zip",
@@ -187,8 +187,8 @@
   {
    "duong": "dong-goi/tep-cho-du-an/kiem-chung.md",
    "loai": "chi-ban-ve",
-   "sha256": "74b00291b11d2b2263adb7b5f3782eb2d2aedab6bbfbe6373981633f74e885f6",
-   "byte": 36309
+   "sha256": "be4b53fa4f74c30e6a5ceb809adc0181f9860e1ba5ec8db8983bd808cb7a9e2a",
+   "byte": 36385
   },
   {
    "duong": "dong-goi/tep-cho-du-an/tap-viet--accord-accept.md",
@@ -217,8 +217,8 @@
   {
    "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban--tu-vung-va-cau-truc.md",
    "loai": "chi-ban-ve",
-   "sha256": "86630ef0866b43afcaaef37911a00bfcab3a0de8839143453c26400c74df5c97",
-   "byte": 20587
+   "sha256": "901e50b8359daf2eae426d0d8f007de6cb33de038b047f7c688698266cb256e5",
+   "byte": 28221
   },
   {
    "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban--vi-du-ban-chot.md",
@@ -229,8 +229,8 @@
   {
    "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban.md",
    "loai": "chi-ban-ve",
-   "sha256": "d0e275e36b9ad5b8e033095287fb1f56cb9e39be1245e9a1d9a42592194922cc",
-   "byte": 32577
+   "sha256": "6001fe113adc13fdb85325134cd0994636c6d947486aa8dff0a9d464dbe33b5f",
+   "byte": 32759
   },
   {
    "duong": "dong-goi/tep-cho-du-an/viet-thiet-lap--HUONG-DAN.md",
@@ -253,14 +253,14 @@
   {
    "duong": "dong-goi/viet-nguyen-ban.zip",
    "loai": "chi-ban-ve",
-   "sha256": "998bf18653c78c833e30eafc25dbef0f087fb5b78b161194eba1d1cd63a942ce",
-   "byte": 26382
+   "sha256": "9f74690a3db7f90339511bf7d90029b1a1222af33eb93ee0b6b0fd5c91d3f055",
+   "byte": 30016
   },
   {
    "duong": "dong-goi/viet-thiet-lap.zip",
    "loai": "chi-ban-ve",
-   "sha256": "a6c2fed3f826d38d4c22fc723d0a994e45fb3eff72b4f88e62583f6d7c7dab66",
-   "byte": 27812
+   "sha256": "49b306aac90a042f75973dfb40f5149a547e3a5fb1d848dea178b19604b6f5b9",
+   "byte": 28074
   },
   {
    "duong": "khuon/bai-viet/HUONG-DAN-BAI-VIET.md",
@@ -358,8 +358,8 @@
   {
    "duong": "phong-cach/GIONG-VAN.mau.md",
    "loai": "chep",
-   "sha256": "7b53e8dba8fc15eb3d6e3b7f5408366fc443d0f1216ea1da1070dff8e666ab2b",
-   "byte": 4197
+   "sha256": "c638db8252595fba6903836b3735b75a62d68748f5797f8ff918eb0aeecf256b",
+   "byte": 4860
   },
   {
    "duong": "phong-cach/bai-hoc-giong.mau.md",
@@ -400,8 +400,8 @@
   {
    "duong": "skills/kiem-chung/SKILL.md",
    "loai": "chep",
-   "sha256": "74b00291b11d2b2263adb7b5f3782eb2d2aedab6bbfbe6373981633f74e885f6",
-   "byte": 36309
+   "sha256": "be4b53fa4f74c30e6a5ceb809adc0181f9860e1ba5ec8db8983bd808cb7a9e2a",
+   "byte": 36385
   },
   {
    "duong": "skills/kiem-chung/kem.json",
@@ -454,8 +454,8 @@
   {
    "duong": "skills/viet-nguyen-ban/SKILL.md",
    "loai": "chep",
-   "sha256": "d0e275e36b9ad5b8e033095287fb1f56cb9e39be1245e9a1d9a42592194922cc",
-   "byte": 32577
+   "sha256": "6001fe113adc13fdb85325134cd0994636c6d947486aa8dff0a9d464dbe33b5f",
+   "byte": 32759
   },
   {
    "duong": "skills/viet-nguyen-ban/kem.json",
@@ -466,8 +466,8 @@
   {
    "duong": "skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md",
    "loai": "chep",
-   "sha256": "86630ef0866b43afcaaef37911a00bfcab3a0de8839143453c26400c74df5c97",
-   "byte": 20587
+   "sha256": "901e50b8359daf2eae426d0d8f007de6cb33de038b047f7c688698266cb256e5",
+   "byte": 28221
   },
   {
    "duong": "skills/viet-nguyen-ban/references/vi-du-ban-chot.md",
@@ -556,8 +556,8 @@
   {
    "duong": "tools/ra-tu-va-cau-truc.py",
    "loai": "chep",
-   "sha256": "9331c053d500173e7a7f8c015ee01f1e617f1f13762ecd1d48ababc3b316f0b8",
-   "byte": 12058
+   "sha256": "35c7234abe9f80274df2efae425d31d4bbeebdf84b92fb41837b6b8d36d69460",
+   "byte": 14766
   }
  ]
 }

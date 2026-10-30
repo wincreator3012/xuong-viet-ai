@@ -9,9 +9,13 @@ từng lần có mang luận điểm hay nhịp không.
 Nguồn danh sách:
   - A1, A3 và C đọc thẳng từ bảng trong file tham chiếu (cột thứ hai của A1,
     cột đầu của A3, cột thứ hai của C), nên sửa file ấy là đủ.
-  - A2, A4 và D là mẫu cấu trúc, viết sẵn trong script này theo file tham
-    chiếu ngày 16/10/2026; khi sửa các mục ấy trong file tham chiếu, sửa
-    danh sách MAU_* bên dưới cho khớp.
+  - A2, A4, D và D1 là mẫu cấu trúc, viết sẵn trong script này theo file
+    tham chiếu (cập nhật 31/10/2026); khi sửa các mục ấy trong file tham
+    chiếu, sửa danh sách MAU_* và DON_AM_TIET bên dưới cho khớp.
+  - D1 (từ đơn âm tiết cụt) chỉ dò dạng dễ thấy nhất: từ đứng một tiếng ở
+    cuối mệnh đề, và chuỗi "thử, quan sát", "nối lại, nới ra". Phép thử đọc
+    to vẫn là việc của người đọc.
+  - A5 dò thêm câu trộn chữ và số cho đại lượng đo lường.
 
 Dùng:
   python3 tools/ra-tu-va-cau-truc.py bai.md [bai2.md ...]
@@ -65,9 +69,27 @@ MAU_A4 = [
     r'gom lại (\S+ )?ngày', r'mọc lên từ', r'chạm nhẹ vào một vùng', r'đánh đổ một giả định',
     r'nới ra một giả định', r'đọc (năng lượng|tình huống|người khác|cơ thể|phản ứng)',
     r'rất người', r'ở lại với cơ thể', r'làm việc cho người nói',
-    r'mang một gánh (khá )?nặng', r'một khoảng trống rỗng', r'nhiều chỗ để tinh luyện',
     r'tự thoại nội tâm', r'tái định nghĩa thất bại', r'đồng hồ sinh học được cài đặt lại',
+    r'mang một gánh', r'để lại một khoảng trống', r'(nhiều|còn) chỗ để (tinh luyện|cải thiện|phát triển)',
+    r'tìm "?(cái )?bộ lạc"? của', r'phanh phó giao cảm', r'chạy trọn',
+    r'gọi tên (một |những |các )?(cảm xúc|cảm giác|nỗi)', r'giáo sư trợ lý',
 ]
+
+# D1: từ đơn âm tiết cụt. Từ -> các tiếng đứng trước tạo thành từ ghép hợp lệ
+# (khi ấy không tính là đứng một tiếng).
+DON_AM_TIET = {
+    'chăm': set(), 'rèn': {'tôi'},
+    'nghỉ': {'kỳ', 'ngày', 'giờ', 'buổi', 'chỗ', 'nơi', 'an', 'tạm'},
+    'tập': {'bài', 'luyện', 'học', 'thực', 'ôn', 'sưu', 'tuyển', 'biên', 'tổng', 'toàn', 'tạp'},
+    'vững': {'bền', 'kiên', 'chắc', 'ổn', 'vững'},
+    'đủ': {'biết', 'đầy', 'no', 'tạm', 'vừa'},
+    'nặng': {'nặng', 'nghiêm', 'trĩu'}, 'nhẹ': {'nhẹ', 'nhỏ'}, 'ấm': {'ấm', 'sưởi'},
+    'sắc': {'màu', 'bản', 'xuất', 'đặc', 'nhan', 'sắc'}, 'lạ': {'xa', 'kỳ', 'lạ'},
+    'bền': {'bền'}, 'lạnh': {'lạnh', 'giá', 'rét'},
+}
+MAU_D1_CHUOI = [r'thử, quan sát', r'nối lại, nới ra']
+SO_CHU = r'(hai|ba|bốn|năm|sáu|bảy|tám|chín|mười)'
+DON_VI = r'(phút|giờ|ngày|tuần|tháng|lần|bài tập|chỉ số|tầng|vùng|giác quan|bước)'
 
 # D: cấu trúc hạn chế. (tên, mẫu, trần mô tả)
 MAU_D = [
@@ -208,6 +230,25 @@ def ra_file(duong, A1, A3, C):
         if hoi > 1:
             ket.append('section thứ %d có %d câu hỏi: trần 1 cho câu hỏi tu từ; câu hỏi phản tư trao người đọc (F4) không tính, kiểm từng câu' % (i, hoi))
     bao('D. Cấu trúc hạn chế (so trần, rồi hỏi từng lần):', ket)
+
+    ket = []
+    for tu, truoc_ok in DON_AM_TIET.items():
+        for m in re.finditer(r'(?<!' + W + r')(' + W + r'+\s+)?' + tu + r'(\s+dần)?(?=\s*([,.;:!?)\]"]|$))', text, re.I | re.M):
+            truoc = (m.group(1) or '').strip().lower()
+            if truoc in truoc_ok:
+                continue
+            ket.append('dòng %d: "%s"' % (dong_cua(text, m.start()), m.group(0).strip()))
+    for p in MAU_D1_CHUOI:
+        for m in re.finditer(p, text, re.I):
+            ket.append('dòng %d: "%s"' % (dong_cua(text, m.start()), m.group(0)))
+    bao('D1. Từ đơn âm tiết đứng cuối mệnh đề (đọc to, nới thành hai âm tiết theo bảng D1 nếu câu hụt hơi):', ket)
+
+    ket = []
+    for cau in re.finditer(r'[^.!?\n]+', text):
+        c = cau.group(0)
+        if re.search(r'(?<!' + W + ')' + SO_CHU + r'\s+' + DON_VI + r'(?!' + W + ')', c, re.I) and re.search(r'\d', c):
+            ket.append('dòng %d: "%s"' % (dong_cua(text, cau.start()), c.strip()[:80]))
+    bao('A5. Câu trộn chữ và số cho đại lượng (mọi văn bản: dùng chữ số):', ket)
 
     viet_hoa = [dong_cua(text, m.start()) for m in re.finditer(r':\s+[A-ZÀ-Ỹ]', text)]
     if viet_hoa:

@@ -2,6 +2,20 @@
 
 Trợ lý AI đọc tệp này khi người dùng nói "cập nhật xưởng": từ phiên bản ghi trong `XUONG.json` của xưởng tới bản mới nhất, để kể bằng lời thường điều gì mới và điều gì sẽ đổi. Mỗi mục ghi: phiên bản (năm.tháng.ngày), thay đổi, việc trợ lý cần làm trong xưởng đã dựng. Mục mới ở trên cùng.
 
+## 2026.10.31
+
+Hai nếp tiếng Việt tự nhiên và quy ước chữ số, rút từ đợt hiệu đính một cuốn sách thực hành và ứng dụng đi kèm (30/10/2026); gộp luôn các sửa nhỏ ngày 29/10 và 30/10.
+
+- **Nhịp song âm tiết** (`skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md` D1): bảng từ đơn âm tiết cụt và từ thay, kèm phép thử đọc to và thứ tự cách nới.
+- **Thoát lối dịch sát** (cùng tệp, A4b): bảng xếp theo kiểu (lượng từ "một" theo mạo từ Anh, thành ngữ dịch từng chữ, động từ đa nghĩa, thuật ngữ chuyên môn, bị động, chức danh), kèm phép thử dịch ngược.
+- **Quy ước trình bày** (cùng tệp, A5): chữ số Ả Rập cho mọi số đếm và đại lượng ở mọi văn bản, không trộn chữ và số; ngoặc vuông tiếng Anh chỉ khi tiếng Việt chưa tự đủ nghĩa; tên ấn phẩm đúng từng chữ theo bản in cuối.
+- **Chuẩn 04, mục 8**: bản tóm của hai nếp.
+- **`viet-nguyen-ban`**: lượt mạch và câu có một lượt đọc to riêng cho hai nếp.
+- **`kiem-chung`, chuẩn 01**: chức danh nước ngoài theo cách gọi Việt Nam đang dùng: assistant professor là "trợ lý giáo sư" (không "giáo sư trợ lý", không nâng thành "phó giáo sư"), Lead Economist là "chuyên gia kinh tế trưởng".
+- **`tools/ra-tu-va-cau-truc.py`**: dò thêm cụm dịch sát, từ đơn âm tiết đứng cuối mệnh đề (D1) và câu trộn chữ với số (A5).
+
+Việc trong xưởng đã dựng: chép lại các tệp năng lực (`tools/ban-dung.py`); hỏi người dùng có muốn thêm hai dòng mới của mục 5 trong `phong-cach/GIONG-VAN.mau.md` (tiếng Việt tự nhiên, chữ số) vào tệp giọng văn của họ không; đóng gói lại skill riêng (`tools/dong-goi-skill.py`).
+
 ## 2026.10.26
 
 Bản vẽ đầu tiên: Xưởng viết AI chuyển sang mô hình bản vẽ dựng xưởng riêng, như các xưởng web, phim, thiết kế cùng tác giả.
