@@ -3,7 +3,7 @@
  "banVe": "https://github.com/wincreator3012/xuong-viet-ai",
  "nguonTho": "https://raw.githubusercontent.com/wincreator3012/xuong-viet-ai/main/",
  "phienBan": "2026.10.26",
- "ngayLap": "2026-10-28",
+ "ngayLap": "2026-10-30",
  "tong": {
   "chep": 57,
   "mau": 3,
@@ -127,8 +127,8 @@
   {
    "duong": "docs/BAI-HOC.md",
    "loai": "chep",
-   "sha256": "abcde3a0c07ec7d498d948617af5d9d380ab5ff13edc7f474188acf090b34905",
-   "byte": 15971
+   "sha256": "45f0ca46c200284aac9a3e69b89fb36b0f741cd686f266e8dc80ee01598444ca",
+   "byte": 18534
   },
   {
    "duong": "docs/DONG-GOP.md",
@@ -217,8 +217,8 @@
   {
    "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban--tu-vung-va-cau-truc.md",
    "loai": "chi-ban-ve",
-   "sha256": "07f5a360db416c5e0f2a5b32832eae5fd162ef48dd3d95aa868c34cd5bf6cca3",
-   "byte": 18992
+   "sha256": "86630ef0866b43afcaaef37911a00bfcab3a0de8839143453c26400c74df5c97",
+   "byte": 20587
   },
   {
    "duong": "dong-goi/tep-cho-du-an/viet-nguyen-ban--vi-du-ban-chot.md",
@@ -253,8 +253,8 @@
   {
    "duong": "dong-goi/viet-nguyen-ban.zip",
    "loai": "chi-ban-ve",
-   "sha256": "6e018638ca38de24afa5fa78683b9283e062feb15b3904b6be2575251d3c82af",
-   "byte": 25740
+   "sha256": "998bf18653c78c833e30eafc25dbef0f087fb5b78b161194eba1d1cd63a942ce",
+   "byte": 26382
   },
   {
    "duong": "dong-goi/viet-thiet-lap.zip",
@@ -466,8 +466,8 @@
   {
    "duong": "skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md",
    "loai": "chep",
-   "sha256": "07f5a360db416c5e0f2a5b32832eae5fd162ef48dd3d95aa868c34cd5bf6cca3",
-   "byte": 18992
+   "sha256": "86630ef0866b43afcaaef37911a00bfcab3a0de8839143453c26400c74df5c97",
+   "byte": 20587
   },
   {
    "duong": "skills/viet-nguyen-ban/references/vi-du-ban-chot.md",
@@ -556,8 +556,8 @@
   {
    "duong": "tools/ra-tu-va-cau-truc.py",
    "loai": "chep",
-   "sha256": "c1ac93e2bd38297b86f71cd89a5c270238be28710a8d12e933f81d02ec3e9d9b",
-   "byte": 11823
+   "sha256": "9331c053d500173e7a7f8c015ee01f1e617f1f13762ecd1d48ababc3b316f0b8",
+   "byte": 12058
   }
  ]
 }

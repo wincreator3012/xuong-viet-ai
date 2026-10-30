@@ -104,6 +104,14 @@ Nếu người viết thật sự dùng một từ ở đây với nghĩa riêng
 | (lời nói) làm việc cho người nói | có tác dụng với người nói |
 | "[Chủ đề] - nó / chúng + động từ" | "[Chủ đề] + động từ" |
 | điều mình không làm dù được trả tiền | điều mình không làm dù có lợi bao nhiêu chăng nữa |
+| mang một gánh khá nặng | có nhiều gánh nặng |
+| để lại một khoảng trống rỗng | để lại cảm giác trống rỗng |
+| còn nhiều chỗ để tinh luyện nhất | còn nhiều dư địa để phát triển nhất, rèn luyện sâu hơn |
+| tự thoại nội tâm | lời tự nhủ |
+| tái định nghĩa thất bại | học từ thất bại |
+| tìm "bộ lạc" của mình | tìm cộng đồng của mình |
+| đồng hồ sinh học được cài đặt lại | thiết lập lại đồng hồ sinh học |
+| kích hoạt phanh phó giao cảm (trong văn hướng dẫn đại chúng) | kích hoạt "phanh" thư giãn của cơ thể |
 
 Ẩn dụ phải đúng logic của chính hình ảnh: cây mọc từ hạt, không mọc từ rễ.
 
@@ -186,7 +194,8 @@ Câu hỏi khi gặp một từ ở đây: từ này chở thông tin cụ thể
 | Điệp cấu trúc trang trí ("Nói một câu,... Nói một câu,...") | 0 | | gộp bằng "đồng thời" |
 | Đuôi đối lập trang trí (", ít khi ở những cú lật lớn") | 0 | | bỏ vế sau |
 | Ràng buộc định lượng giả khi mời người đọc ("chọn một từ", "viết đúng một câu") | 0 | con số là tham số thiết kế thật | lời mời mở |
-| Từ đơn tiết cụt (nhẹ, ấm, sắc, lạ, bền) | 0 trong văn hướng dẫn | | nhẹ nhàng, ấm áp, sắc bén, mới lạ, bền bỉ |
+| Từ đơn tiết cụt (chăm, nghỉ, vững, rèn, tập, đủ, nối, nới, thử; nhẹ, ấm, sắc, lạ, bền) | 0 trong văn hướng dẫn, sách thực hành và giao diện ứng dụng | từ đơn đứng trong thành ngữ, cụm cố định ("biết đủ"), hoặc khi nhịp câu thật sự cần một tiếng gọn | chăm sóc, nghỉ ngơi, vững vàng, rèn luyện, tập luyện / thực hành, đầy đủ, kết nối, nới lỏng, thử nghiệm; nhẹ nhàng, ấm áp, sắc bén, mới lạ, bền bỉ |
+| Trộn chữ và số cho đại lượng đo lường trong cùng một câu ("sáu chỉ số trên thang 10", "làm ba phút và làm 30 phút") | 0 | dùng chữ số Ả Rập (1, 2, 3...) nhất quán cho mọi đại lượng đo lường, thời lượng, chỉ số, thang đo, số bài tập; chỉ dùng chữ viết (một, hai, vài...) trong quán ngữ bất định ("một chút", "một mình", "một vài", "một bước nhỏ") | "6 chỉ số trên thang 10", "làm 3 phút và làm 30 phút" |
 | "ta", "chúng ta" chung chung không rõ ai | | quan sát chung trước khi chuyển sang "bạn" | "tôi", "bạn", "con người", hoặc nói rõ "chúng tôi" là ai |
 
 ## E. Dùng trong vòng viết

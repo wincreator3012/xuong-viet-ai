@@ -65,6 +65,8 @@ MAU_A4 = [
     r'gom lại (\S+ )?ngày', r'mọc lên từ', r'chạm nhẹ vào một vùng', r'đánh đổ một giả định',
     r'nới ra một giả định', r'đọc (năng lượng|tình huống|người khác|cơ thể|phản ứng)',
     r'rất người', r'ở lại với cơ thể', r'làm việc cho người nói',
+    r'mang một gánh (khá )?nặng', r'một khoảng trống rỗng', r'nhiều chỗ để tinh luyện',
+    r'tự thoại nội tâm', r'tái định nghĩa thất bại', r'đồng hồ sinh học được cài đặt lại',
 ]
 
 # D: cấu trúc hạn chế. (tên, mẫu, trần mô tả)
