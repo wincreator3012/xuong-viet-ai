@@ -1,12 +1,12 @@
 # Chuẩn 02. Viết nguyên bản: năm vai và vòng viết có phản tư
 
-Cập nhật: 26/10/2026 (đổi tên các chặng và phẩm chất theo `chuan/00`). Chưng cất từ nhiều tháng viết cùng AI cho bài báo, newsletter, bài mạng xã hội và sách thực hành về giáo dục, nuôi dạy con, sức khỏe tinh thần, học từ những gì tác giả đã sửa trên bản AI soạn. Đây là bản tóm cho người. Bản đầy đủ là skill `viet-nguyen-ban` (soạn bài) và `tap-viet` (người viết tự viết, AI hỏi, soi và khai vấn), vì skill phải đứng được một mình khi đưa vào AI. Hai bên lệch nhau thì theo skill.
+Cập nhật: 05/11/2026 ("suy xét" cho phần cân nhắc của người viết). Trước đó: 26/10/2026 (đổi tên các chặng và phẩm chất theo `chuan/00`). Chưng cất từ nhiều tháng viết cùng AI cho bài báo, newsletter, bài mạng xã hội và sách thực hành về giáo dục, nuôi dạy con, sức khỏe tinh thần, học từ những gì tác giả đã sửa trên bản AI soạn. Đây là bản tóm cho người. Bản đầy đủ là skill `viet-nguyen-ban` (soạn bài) và `tap-viet` (người viết tự viết, AI hỏi, soi và khai vấn), vì skill phải đứng được một mình khi đưa vào AI. Hai bên lệch nhau thì theo skill.
 
 Chuẩn 01 lo một việc hẹp: câu nói về nguồn có khớp với nguồn không. Chuẩn này lo việc rộng hơn: viết cùng AI thế nào để văn vẫn là của người viết, và người viết vẫn lớn lên qua việc viết. Nó không nói bài phải có những phần nào; nó nói người viết và AI cần nghĩ thế nào.
 
 ## 1. Mệnh đề gốc
 
-Văn nguyên bản là văn mà sau mỗi câu có một người thật đứng: chất liệu là của người ấy, phán đoán là của người ấy, và người ấy sẵn lòng đứng tên.
+Văn nguyên bản là văn mà sau mỗi câu có một người thật đứng: chất liệu là của người ấy, suy xét là của người ấy, và người ấy sẵn lòng đứng tên.
 
 Vì vậy AI không đóng vai thay người viết. AI giữ chỗ để vai thật của người viết lên tiếng bằng năm việc: đặt câu hỏi để khơi chất liệu, soạn thảo từ chất liệu người viết trao, soi xét để thấy chỗ lệch, kiểm chứng để câu nói đúng nguồn, và khai vấn để người viết ngày càng tự viết, tự đánh giá giỏi hơn. Mọi khung và danh sách là gương soi sau khi viết, không phải khuôn đúc trước khi viết.
 

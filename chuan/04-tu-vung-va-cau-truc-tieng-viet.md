@@ -1,6 +1,6 @@
 # Chuẩn 04. Từ và cấu trúc tiếng Việt: cấm, đặc thù, hạn chế
 
-Cập nhật: 31/10/2026 (thêm mục 8, hai nếp tiếng Việt tự nhiên). Bản tóm cho người; bản đầy đủ (mọi danh sách, bảng thay, ví dụ) ở `skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md`. Công cụ: `tools/ra-tu-va-cau-truc.py`. Phương pháp: Thạc sĩ Lương Dũng Nhân.
+Cập nhật: 05/11/2026 (mục 8: lối dịch sát ở cấp câu có bảng D2; không en dash). Trước đó: 31/10/2026 (thêm mục 8, hai nếp tiếng Việt tự nhiên). Bản tóm cho người; bản đầy đủ (mọi danh sách, bảng thay, ví dụ) ở `skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md`. Công cụ: `tools/ra-tu-va-cau-truc.py`. Phương pháp: Thạc sĩ Lương Dũng Nhân.
 
 ## 1. Vì sao một xưởng viết theo phán đoán vẫn cần bảng từ
 
@@ -13,7 +13,7 @@ Chuẩn 02 đặt phán đoán lên trên khuôn: thủ pháp chỉ vào bài kh
 | A. Cấm tuyệt đối | Thuật ngữ người viết đã chốt; cụm sáo AI ở mở bài, chuyển đoạn, kết bài, giữa câu; uy tín giả không nguồn; từ vựng AI hiếm khi có trong giọng người viết thật; kết hợp từ sai và dịch sát; dấu câu và định dạng | Gặp là thay. Chỉ giữ trong trích dẫn nguyên văn của người khác hoặc khi bài bàn về chính từ đó |
 | B. Từ đặc thù của người viết | Khái niệm riêng; những từ trong danh sách C người viết dùng ở nghĩa riêng, kèm điều kiện và ví dụ; cụm câu dấu vân tay; cặp chọn từ người viết đã sửa | Ưu tiên khi mạch gọi, đúng nghĩa đã ghi. Mỗi cụm câu dấu vân tay tối đa một lần một bài |
 | C. Từ ngờ | Từ vựng "khai sáng", "đẹp lời", "to lớn", phóng đại, cảm xúc sáo, ngôn ngữ kinh doanh | Mặc định thay. Giữ khi khớp nghĩa riêng ở B; ngoài B, AI giữ thì phải ghi vào ghi chú bàn giao để người viết quyết |
-| D. Cấu trúc hạn chế | Đối ngẫu phủ định, từ nối đệm, câu hỏi tu từ, câu chốt cô độc, nhóm ba mặc định, liệt kê đối xứng, danh ngữ hóa mở câu, bị động kiểu Anh, biển chỉ đường, tóm ý cuối phần, ràng buộc định lượng giả, từ đơn tiết cụt | Có trần. Vượt trần thì sửa; dưới trần, mỗi lần vẫn hỏi có mang luận điểm hay nhịp không |
+| D. Cấu trúc hạn chế | Đối ngẫu phủ định, từ nối đệm, câu hỏi tu từ, câu chốt cô độc, nhóm ba mặc định, liệt kê đối xứng, danh ngữ hóa mở câu, bị động kiểu Anh, biển chỉ đường, tóm ý cuối phần, ràng buộc định lượng giả, từ đơn tiết cụt (bảng D1), khung câu dịch sát (bảng D2) | Có trần. Vượt trần thì sửa; dưới trần, mỗi lần vẫn hỏi có mang luận điểm hay nhịp không |
 
 ## 3. Từ đặc thù vừa là dấu vân tay vừa là cửa ngoại lệ
 
@@ -47,10 +47,10 @@ Hai lỗi văn máy khó thấy nhất không nằm ở từ cấm mà ở chỗ
 | Nếp | Phép thử | Nơi giữ bảng | Luật đọc |
 |---|---|---|---|
 | Nhịp song âm tiết | Đọc to; dừng ở mỗi động từ, tính từ, danh từ trừu tượng đứng một tiếng ("cần được chăm", "đang khá vững", "nặng", "lời"); hỏi người viết chuẩn mực có viết đủ hai tiếng không | `tu-vung-va-cau-truc.md` D1 | Trần 0 ở mục D; ngoại lệ có điều kiện |
-| Thoát lối dịch sát | Dịch ngược cụm đáng ngờ sang tiếng Anh; ra trọn một cụm quen thuộc ("mang một gánh khá nặng", "tìm bộ lạc của mình", "tự thoại nội tâm") thì viết theo cách người Việt nói | `tu-vung-va-cau-truc.md` A4b | Danh sách A, gặp là thay |
+| Thoát lối dịch sát | Cấp cụm: dịch ngược cụm đáng ngờ sang tiếng Anh; ra trọn một cụm quen thuộc ("mang một gánh khá nặng", "tìm bộ lạc của mình", "tự thoại nội tâm") thì viết theo cách người Việt nói. Cấp câu: che từ, nhìn khung; chủ ngữ là danh từ hóa ("Sự phát triển của..."), "điều này", hay đối tượng bị tác động ("được ... bởi") thì hỏi ai làm gì rồi viết lại | `tu-vung-va-cau-truc.md` A4b (cấp cụm), D2 (cấp câu) | Cấp cụm thuộc danh sách A, gặp là thay; cấp câu có trần ở mục D |
 
 Ngoại lệ chung của hai nếp: thành ngữ và cụm cố định ("biết đủ"); nhãn cột bảng; lời trích nguyên văn; tên gọi ngoài đời đúng như người ta dùng; thuật ngữ chuyên môn đã chốt, định danh một lần ở phần dẫn nghiên cứu rồi đời thường hóa ở phần hành động. Khi nới từ hay đổi cụm, không đẻ từ ghép gượng gạo chỉ để qua phép thử: đó là một kiểu văn máy khác.
 
 Quy ước trình bày đi cùng là mặc định, không phải nguyên lý, nên đứng riêng ở A5: chữ số Ả Rập cho mọi số đếm và đại lượng ở mọi văn bản, không trộn chữ và số; ngoặc vuông tiếng Anh chỉ khi tiếng Việt chưa tự đủ nghĩa, khi là tên phương pháp cố định hoặc gốc sẽ dùng lại; tên ấn phẩm đúng từng chữ theo bản in cuối.
 
-`tools/ra-tu-va-cau-truc.py` dò các cụm dịch sát đã có trong bảng, các từ đơn âm tiết đứng cuối mệnh đề và câu trộn chữ với số, để người đọc xem lại. Nó không biết một cụm mới có phải dịch sát không, cũng không nghe được nhịp; phép thử đọc to và dịch ngược vẫn là việc của người đọc.
+`tools/ra-tu-va-cau-truc.py` dò các cụm dịch sát đã có trong bảng, các từ đơn âm tiết đứng cuối mệnh đề, các khung câu dịch sát dễ thấy (danh từ hóa mở câu, bị động có "bởi", "Điều này" mở câu), en dash và câu trộn chữ với số, để người đọc xem lại. Nó không biết một cụm mới có phải dịch sát không, cũng không nghe được nhịp; phép thử đọc to và dịch ngược vẫn là việc của người đọc.

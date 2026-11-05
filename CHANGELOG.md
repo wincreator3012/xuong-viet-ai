@@ -2,6 +2,18 @@
 
 Trợ lý AI đọc tệp này khi người dùng nói "cập nhật xưởng": từ phiên bản ghi trong `XUONG.json` của xưởng tới bản mới nhất, để kể bằng lời thường điều gì mới và điều gì sẽ đổi. Mỗi mục ghi: phiên bản (năm.tháng.ngày), thay đổi, việc trợ lý cần làm trong xưởng đã dựng. Mục mới ở trên cùng.
 
+## 2026.11.05
+
+Rà soát định kỳ: lối dịch sát ở cấp câu, tên gọi "suy xét", mật độ câu hỏi phản tư.
+
+- **Dịch sát ở cấp câu** (`skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md` D2): bảng khung câu tiếng Anh điền từ tiếng Việt (danh từ hóa làm chủ ngữ, chuỗi "sự... của...", bị động có tác nhân "được ... bởi", bị động đánh giá, "Điều này" mở câu, chủ đề lặp bằng đại từ, "được" thừa) kèm phép thử khung câu và cách Việt hóa; mục D thêm trần cho "Điều này" mở câu. Chuẩn 04, mục 8 nêu nếp thoát lối dịch sát ở cả hai cấp.
+- **Bổ sung bảng**: D1 thêm phẳng, trống, yên, quen, "Lời mở"; A4 thêm "câu hỏi cứ quay lại mỗi khi rảnh tay", "ba thứ đi cùng", "đọc phản ứng"; A5 không dùng cả en dash.
+- **`viet-nguyen-ban` 1.3**: lượt mạch và câu đọc thêm khung câu (D2); câu hỏi phản tư chỉ ở bản lề đắt giá; "suy xét" cho phần cân nhắc của người viết, "phán đoán" giữ cho cách AI tự cân nhắc (cả chuẩn 02, 03, `README.md`, `mau-xuong/CLAUDE.md`, `viet-thiet-lap`).
+- **`tools/ra-tu-va-cau-truc.py`**: dò thêm en dash, danh từ hóa mở câu ("Sự... của", "Việc + động từ"), bị động có "bởi", "Điều này/Điều đó" mở câu, và vài cụm mới ở A4, D1; hết báo nhầm "viết hoa sau hai chấm" với chữ thường có dấu.
+- **`phong-cach/GIONG-VAN.mau.md`** mục 5: dòng tiếng Việt tự nhiên nhắc khung câu (D2); dòng dấu câu nhắc en dash.
+
+Việc trong xưởng đã dựng: chép lại các tệp năng lực (`tools/ban-dung.py`); với `CLAUDE.md` của xưởng (dựng từ `mau-xuong/CLAUDE.md`), đổi "phán đoán là của người viết" thành "suy xét là của người viết"; hỏi người dùng có muốn cập nhật hai dòng dấu câu và tiếng Việt tự nhiên ở mục 5 tệp giọng văn của họ theo bản mẫu mới không; đóng gói lại skill riêng (`tools/dong-goi-skill.py`).
+
 ## 2026.10.31
 
 Hai nếp tiếng Việt tự nhiên và quy ước chữ số, rút từ đợt hiệu đính một cuốn sách thực hành và ứng dụng đi kèm (30/10/2026); gộp luôn các sửa nhỏ ngày 29/10 và 30/10.

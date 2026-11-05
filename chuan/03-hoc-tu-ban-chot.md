@@ -1,6 +1,6 @@
 # Chuẩn 03. Học từ bản chốt
 
-Cập nhật: 26/10/2026. Đây là bản tóm cho người của chặng Học hỏi trong skill `viet-nguyen-ban` (mục VII); mục cuối là chiều thứ hai, vận hành bằng skill `tap-viet`. Hai bên lệch nhau thì theo skill.
+Cập nhật: 05/11/2026 ("suy xét đạo đức"). Đây là bản tóm cho người của chặng Học hỏi trong skill `viet-nguyen-ban` (mục VII); mục cuối là chiều thứ hai, vận hành bằng skill `tap-viet`. Hai bên lệch nhau thì theo skill.
 
 ## 1. Vì sao bản chốt là nguồn học chính
 
@@ -9,7 +9,7 @@ Bản chốt là bản người viết đã tự sửa và đăng hay gửi đi.
 ## 2. Đọc một bản chốt
 
 1. So từng thay đổi theo câu. Thay đổi nhỏ (một tân ngữ, một dấu hai chấm, một từ đổi sắc thái) thường mang nhiều bài học hơn thay đổi lớn.
-2. Phân nhóm: cắt; thêm; đổi từ; đổi cấu trúc; kéo hướng (về luận đề, về mộc, về phán đoán đạo đức); sửa lỗi cứng; dùng thứ AI đang "ngờ".
+2. Phân nhóm: cắt; thêm; đổi từ; đổi cấu trúc; kéo hướng (về luận đề, về mộc, về suy xét đạo đức); sửa lỗi cứng; dùng thứ AI đang "ngờ".
 3. Hỏi vì sao ở ba tầng: câu (từ mới đúng hơn ở điểm nào), vai (vai nào trong năm vai vừa được sửa, vì bị thiếu hay bị diễn), nguyên lý (điều này nói gì về cách người viết nghĩ). Thấy tới tầng nào ghi tới tầng đó.
 4. Hỏi người viết trước khi kết luận khi thay đổi có thể là lỗi gõ, khi nó trái bài học cũ, hoặc khi muốn nâng một lần sửa thành mặc định.
 

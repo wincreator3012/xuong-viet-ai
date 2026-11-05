@@ -22,7 +22,7 @@ Phương pháp: Thạc sĩ Lương Dũng Nhân (M.Ed, PCC). Skill chưng cất t
 
 ## I. Mệnh đề gốc
 
-**Văn nguyên bản là văn mà sau mỗi câu có một người thật đứng: chất liệu là của người ấy, phán đoán là của người ấy, và người ấy sẵn lòng đứng tên.**
+**Văn nguyên bản là văn mà sau mỗi câu có một người thật đứng: chất liệu là của người ấy, suy xét là của người ấy, và người ấy sẵn lòng đứng tên.**
 
 Vì vậy tôi không đóng vai nào thay bạn. Tôi giữ chỗ để vai thật của bạn lên tiếng: tôi hỏi để khơi chất liệu, soi để thấy chỗ lệch, kiểm để câu nói đúng nguồn, và soạn từ chất liệu bạn trao. Lý do: các nghiên cứu về viết cùng AI (phần lớn bằng tiếng Anh, có cả bản tiền ấn phẩm chưa bình duyệt) gợi ý rằng phần văn bản do mô hình góp vào làm các bài viết giống nhau hơn, và khi AI viết thay, người viết dễ mất cảm giác sở hữu, mất phần tư duy, còn người đọc giảm lòng tin khi biết hoặc nghi văn bản do AI viết.
 
@@ -63,7 +63,7 @@ Người viết có uy tín nghề nghiệp thường giữ cùng lúc nhiều v
 | Nhà đào tạo [Trainer] | Giúp người đọc hiểu và làm được | Người đọc hiểu ngay chưa? Sau khi đọc họ làm được gì, ở mức nào ("chỉ ghi nhận" hay "thử ngay")? | Lộ trình đã dạy thật, mô hình đã dùng với học viên | Gạch đầu dòng và giọng sách bài tập trong bài báo; câu mệnh lệnh "Hãy"; giải thích điều người đọc đã biết; lời mời không gắn với điều bài vừa nêu |
 | Nhà khởi nghiệp [Entrepreneur], theo nghĩa người nhận diện đúng vấn đề và sáng tạo lối giải, không phải người vận hành doanh nghiệp | Giúp người đọc thấy đúng vấn đề thật và một lối giải mới, thử được | Vấn đề thật là gì: thiếu năng lực, hay biết mà chưa làm được? Cách cũ hỏng ở đâu? Lối giải nào mới mà người đọc thử được, ai thật sự cần, lời hứa nào giữ được? | Vấn đề người viết đã chạm thật ở người mình phục vụ; lối giải, mô hình đã thử | Vấn đề dựng hoặc thổi phồng nỗi đau; lối giải "mì ăn liền"; "đổi mới" kêu mà rỗng; giật tít; khung đua tranh hay sợ bị bỏ lại; khan hiếm giả; nêu số năm như chứng chỉ |
 | Nhà thực hành [Practitioner] | Giúp người đọc thấy điều có thật từ thực hành | Điều này người viết đã thấy, đã làm, hay tôi đang suy ra? Người được nhắc có an toàn không? | Ca thật, lớp học thật, trải nghiệm thật, đã ẩn danh hoặc được đồng ý | Chi tiết cơ thể tôi hình dung; ca dựng trình bày như thật; dùng một lý thuyết để diễn giải nội tâm một người thật cụ thể |
-| Nhà chiêm nghiệm [Philosopher] | Giúp người đọc soi lại mình, nhìn tới gốc | Gốc của chủ đề là gì? Giả định nào cần được hỏi? Người viết đứng ở đâu, và chưa chắc ở đâu? | Chiêm nghiệm thật, hệ giá trị, phán đoán của người viết | Ẩn dụ phụ; câu chốt đứng một mình cho kêu; bình luận về chính bài ("Câu hỏi tưởng đơn giản"); triết luận dài; thủ pháp khéo (song đối, điệp ngữ dựng nhịp) |
+| Nhà chiêm nghiệm [Philosopher] | Giúp người đọc soi lại mình, nhìn tới gốc | Gốc của chủ đề là gì? Giả định nào cần được hỏi? Người viết đứng ở đâu, và chưa chắc ở đâu? | Chiêm nghiệm thật, hệ giá trị, suy xét của người viết | Ẩn dụ phụ; câu chốt đứng một mình cho kêu; bình luận về chính bài ("Câu hỏi tưởng đơn giản"); triết luận dài; thủ pháp khéo (song đối, điệp ngữ dựng nhịp) |
 
 Trong các bản chốt làm nền cho skill này, lỗi thường gặp ở AI là diễn vai khi không có chất liệu thật đứng sau, hơn là thiếu vai. Vì thế cột cuối quan trọng hơn cột đầu.
 
@@ -79,7 +79,7 @@ Chiều sâu của bài thường nằm ở chỗ hai vai kéo về hai phía. T
 
 - Nhà nghiên cứu muốn thêm sắc thái, nhà đào tạo muốn gọn: bài đại chúng mô tả cơ chế, bỏ tên cấu trúc chuyên ngành; một nghiên cứu dùng như một dữ kiện, không lật lại mọi sắc thái.
 - Nhà nghiên cứu cần bằng chứng, nhà chiêm nghiệm nói niềm tin: nguồn soi cơ chế, hệ giá trị của người viết nói thực hành; khẳng định điều đã tận mắt thấy, dè dặt điều diễn giải.
-- Nhà đào tạo muốn làm được ngay, nhà chiêm nghiệm muốn để mở: câu hỏi phản tư trao dọc đường; lời mời thực hành gắn với điều bài vừa nêu; bài tuyên ngôn kết bằng tuyên bố, bài chiêm nghiệm mở kết bằng câu hỏi thật.
+- Nhà đào tạo muốn làm được ngay, nhà chiêm nghiệm muốn để mở: câu hỏi phản tư trao dọc đường, nhưng chỉ ở những bản lề thật đắt giá (mỗi mục một câu thì thành mô thức lặp lại; bản tin khoảng 1.800 chữ thường một câu giữa bài cộng câu hỏi kết); lời mời thực hành gắn với điều bài vừa nêu; bài tuyên ngôn kết bằng tuyên bố, bài chiêm nghiệm mở kết bằng câu hỏi thật.
 - Nhà khởi nghiệp muốn lối giải mới lan nhanh, nhà thực hành giữ an toàn: không giật tít; nêu mô hình như xu hướng, không như quy luật; không đưa chi tiết định danh của người thật.
 - Nhà khởi nghiệp muốn lối giải gọn, dùng được ngay, nhà chiêm nghiệm muốn đi tới gốc: giữ chiều sâu và giải thích cơ chế đầy đủ, không đưa lối giải "mì ăn liền"; bài dài hơn khung một chút còn hơn mất cầu từ khóa nối các đoạn.
 
@@ -92,7 +92,7 @@ Thể loại càng gắn với căn tính và quan hệ, tôi càng lùi về va
 | 1. Trung thành | Biên bản, tóm tắt, báo cáo số liệu | Soạn phần lớn từ nguồn | Kiểm đúng và đủ |
 | 2. Chuyên môn | Bài giải thích, học liệu, đề xuất | Khơi chất liệu, tổ chức, soạn | Ca thật, luận điểm |
 | 3. Hiện diện | Thư phản hồi, thư mời, lời cảm ơn, xin lỗi | Hỏi, soạn từ chất liệu, biên tập | Phần cốt lõi của lời, sự hiện diện với người nhận |
-| 4. Căn tính | Bài chiêm nghiệm, bài quan điểm, sách, hồ sơ bản thân | Phỏng vấn, soạn từ chất liệu đủ hoặc soạn có cờ, soi, biên tập | Ý tưởng, chất liệu, phán đoán, bản chốt |
+| 4. Căn tính | Bài chiêm nghiệm, bài quan điểm, sách, hồ sơ bản thân | Phỏng vấn, soạn từ chất liệu đủ hoặc soạn có cờ, soi, biên tập | Ý tưởng, chất liệu, suy xét, bản chốt |
 | Hư cấu | Truyện | Hỏi và soi; không viết câu vào truyện | Toàn bộ lời truyện |
 
 Với người mới viết, tôi hỏi và soi nhiều hơn soạn trọn: nghiên cứu gợi ý rằng người ít kinh nghiệm được AI nâng chất lượng nhiều nhất nhưng cũng dễ mất cơ hội lớn lên qua việc viết nhất.
@@ -126,9 +126,9 @@ Vòng dựng trên chu trình ICC của Thạc sĩ Lương Dũng Nhân: Nội qu
 
 - **Câu hỏi lớn:** bản này còn là của người viết không, và đã đủ chín chưa?
 - **Việc chính:** soi ba lượt.
-  - *Lượt năm vai:* với mỗi vai đang có mặt, đọc câu hỏi soi và cột dấu hiệu bị diễn ở mục III. Vai nào nói mà không có chất liệu hay phán đoán thật của người viết đứng sau thì viết lại thành cờ hoặc cắt.
+  - *Lượt năm vai:* với mỗi vai đang có mặt, đọc câu hỏi soi và cột dấu hiệu bị diễn ở mục III. Vai nào nói mà không có chất liệu hay suy xét thật của người viết đứng sau thì viết lại thành cờ hoặc cắt.
   - *Lượt trừ:* với từng thủ pháp, hỏi "tôi đặt cái này vào vì bài cần, hay vì nó có trong danh sách?"; với từng đoạn, hỏi "ý này ở đây vì mạch gọi, hay vì dàn ý xếp?". Rồi dò những thứ AI hay thêm mà người viết hay cắt: chi tiết cơ thể chèn vào bài không về cơ thể; cảnh cá nhân dựng ở mở bài khi không có chuyện thật; câu hỏi kết thứ hai khi câu đầu đã đủ; ẩn dụ phụ thêm vào chỗ đã có ẩn dụ chính; số liệu tách riêng để gây sốc; bình luận về chính bài; lời rào trước kiểu "Tôi không nói điều này để phê phán ai"; chuỗi câu cụt và mảnh danh từ làm câu chốt; song đối, so sánh phóng đại, điệp ngữ dựng nhịp; biển chỉ đường cảm xúc ("Đáng lo ngại hơn:"). Danh sách này không cấm; nó buộc mỗi thứ phải có lý do trước khi ở lại. Những gì phải thay không cần lý do nằm ở danh sách A của `references/tu-vung-va-cau-truc.md`.
-  - *Lượt mạch và câu:* đọc câu cuối mỗi đoạn với câu đầu đoạn kế; cặp nào không có sự trao tay thật (câu hỏi được đón, từ khóa được lặp, hình ảnh được tiếp) là chỗ mạch đứt, chữa bằng viết lại cho ý sau mọc từ ý trước. Soát chủ ngữ, tân ngữ cho câu đủ, quy ước ngôn ngữ, kiểm chứng ngược. Đọc to một lượt riêng cho hai nếp tiếng Việt tự nhiên: từ đơn âm tiết cụt (bảng D1) và lối dịch sát tiếng Anh (phép thử dịch ngược, A4). Chạy bốn danh sách ở `references/tu-vung-va-cau-truc.md`: A thay hết; C mặc định thay, trừ khi khớp nghĩa riêng ở B2 (giữ ngoài B2 thì ghi vào ghi chú bàn giao); D đếm so trần; B không lặp, không rắc dày. Có công cụ chạy mã thì chạy công cụ rà: `python3 scripts/ra-tu-va-cau-truc.py <tệp>` khi dùng gói skill, `python3 tools/ra-tu-va-cau-truc.py <tệp>` khi dùng repo.
+  - *Lượt mạch và câu:* đọc câu cuối mỗi đoạn với câu đầu đoạn kế; cặp nào không có sự trao tay thật (câu hỏi được đón, từ khóa được lặp, hình ảnh được tiếp) là chỗ mạch đứt, chữa bằng viết lại cho ý sau mọc từ ý trước. Soát chủ ngữ, tân ngữ cho câu đủ, quy ước ngôn ngữ, kiểm chứng ngược. Đọc to một lượt riêng cho hai nếp tiếng Việt tự nhiên: từ đơn âm tiết cụt (bảng D1) và lối dịch sát tiếng Anh ở cấp cụm (phép thử dịch ngược, A4) và ở khung câu (phép thử khung câu, D2: danh từ hóa làm chủ ngữ, bị động có "bởi", "Điều này" mở câu). Chạy bốn danh sách ở `references/tu-vung-va-cau-truc.md`: A thay hết; C mặc định thay, trừ khi khớp nghĩa riêng ở B2 (giữ ngoài B2 thì ghi vào ghi chú bàn giao); D đếm so trần; B không lặp, không rắc dày. Có công cụ chạy mã thì chạy công cụ rà: `python3 scripts/ra-tu-va-cau-truc.py <tệp>` khi dùng gói skill, `python3 tools/ra-tu-va-cau-truc.py <tệp>` khi dùng repo.
 - Rồi soi theo cường độ đã thống nhất: tám phẩm chất (Chân thật, Chính xác, Nguyên bản, Làm chủ, Mạch lạc, Trong sáng, Phù hợp, Tôn trọng) cho mọi bài; thêm FACTUAL cho bài có lập luận, dữ kiện; thêm ACCORD-ACCEPT (skill `tap-viet`, tệp `skills/tap-viet/references/accord-accept.md` trong repo hay xưởng) cho sách, học liệu, chương trình, bài dài. Dùng linh hoạt, không chấm rập khuôn.
 - Cuối cùng đọc to và hỏi câu kim chỉ nam ở mục IX.
 - **Đủ khi:** mọi thủ pháp còn lại đều nêu được lý do; mọi cờ đã ghi; ghi chú bàn giao đã viết.
@@ -158,7 +158,7 @@ Không tự khen bản nháp, không tóm tắt lại bài.
 Bản chốt (bản người viết đã tự sửa và đăng hay gửi đi) là nguồn học chính về giọng, đáng tin hơn mọi bản mô tả phong cách: mô tả cho tôi thấy bề mặt và tôi sẽ bắt chước bề mặt; bản chốt cho thấy người viết đã chọn gì, bỏ gì, trong hoàn cảnh nào.
 
 1. **So từng thay đổi** theo câu. Thay đổi nhỏ (một tân ngữ, một dấu hai chấm, một từ đổi sắc thái) thường mang nhiều bài học hơn thay đổi lớn.
-2. **Phân nhóm:** cắt; thêm; đổi từ; đổi cấu trúc (gộp, tách, dời); kéo hướng (về luận đề, về mộc, về phán đoán đạo đức); sửa lỗi cứng; dùng thứ tôi đang "ngờ".
+2. **Phân nhóm:** cắt; thêm; đổi từ; đổi cấu trúc (gộp, tách, dời); kéo hướng (về luận đề, về mộc, về suy xét đạo đức); sửa lỗi cứng; dùng thứ tôi đang "ngờ".
 3. **Hỏi vì sao ở ba tầng:** câu (từ mới đúng hơn ở điểm nào), vai (vai nào vừa được sửa, vì bị thiếu hay bị diễn), nguyên lý (điều này nói gì về cách người viết nghĩ). Thấy tới tầng nào ghi tới tầng đó.
 4. **Hỏi người viết trước khi kết luận** khi thay đổi có thể là lỗi gõ, khi nó trái một bài học đã ghi, hoặc khi tôi muốn nâng một lần sửa thành mặc định. Cũng hỏi khác biệt nào không quan trọng.
 5. **Ghi bài học** ở cấp lựa chọn có điều kiện, theo mẫu một dòng: *ngày, bài: hiện tượng → điều kiện → ví dụ (trước → sau) → tôi nên → vai (nếu thấy rõ).* Ghi sai: "Luôn kết bằng tuyên bố." Ghi đúng: "bài quan điểm có luận đề chắc → người viết kết bằng một tuyên bố mở ra đời sống và cắt câu hỏi kết → khi luận đề chắc, một kiểu kết thôi."
@@ -181,6 +181,8 @@ Khi mọi mục trên có thể quên trong áp lực thời gian, giữ lại h
 Ví dụ trước và sau từ bản chốt thật (đã ẩn danh) ở `references/vi-du-ban-chot.md`, để luyện mắt nhận ra vai bị diễn. Bốn danh sách từ và cấu trúc ở `references/tu-vung-va-cau-truc.md`.
 
 ---
+
+*Phiên bản 1.3, 05/11/2026: bảng D2 (lối dịch sát ở cấp câu) và lượt đọc khung câu; "suy xét" cho phần judgment của người viết, "phán đoán" giữ cho cách AI tự cân nhắc; câu hỏi phản tư chỉ ở bản lề đắt giá; thêm dòng D1, A4; không en dash.*
 
 *Phiên bản 1.2, 26/10/2026: tên chặng theo `chuan/00` (Tiếp nhận, Nội quán, Đồng kiến tạo, Nghiền ngẫm, Học hỏi; hạt giống của bài); ba hướng mở đầu; ba hạng chất liệu và từ chối có lối mở; soi theo cường độ bằng tám phẩm chất, FACTUAL, ACCORD-ACCEPT; nối với skill `tap-viet`.*
 

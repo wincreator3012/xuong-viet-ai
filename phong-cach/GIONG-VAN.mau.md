@@ -40,9 +40,9 @@ Mặc định của xưởng ở dưới; giữ, sửa, hay bỏ dòng nào tùy
 
 - Thuật ngữ nước ngoài: viết thuần Việt, thuật ngữ gốc trong ngoặc vuông ở lần đầu, ví dụ hệ thần kinh giao cảm [sympathetic nervous system]; hoặc viết thuần ngoại ngữ. Không xen lẫn tùy tiện.
 - Ngoặc tròn cho chú thích thông tin; ngoặc vuông cho thuật ngữ gốc hay bản dịch.
-- Không dùng dấu gạch dài kiểu tiếng Anh; dùng dấu hai chấm hoặc gạch ngang thường.
+- Không dùng dấu gạch dài kiểu tiếng Anh (em dash, en dash); dùng dấu hai chấm hoặc gạch ngang thường; khoảng số dùng gạch nối thường ("7-10 phút").
 - Tiêu đề viết hoa chữ đầu câu, hoặc viết hoa toàn bộ; không viết hoa chữ đầu mỗi từ.
-- Tiếng Việt tự nhiên: từ hai âm tiết thay từ một âm tiết cụt ngủn ("chăm sóc", không "chăm"); nói theo lối tiếng Việt, không dịch sát tiếng Anh ("có nhiều gánh nặng", không "mang một gánh khá nặng"). Bảng ở `tu-vung-va-cau-truc.md` D1 và A4b.
+- Tiếng Việt tự nhiên: từ hai âm tiết thay từ một âm tiết cụt ngủn ("chăm sóc", không "chăm"); nói theo lối tiếng Việt, không dịch sát tiếng Anh ("có nhiều gánh nặng", không "mang một gánh khá nặng"); khung câu tiếng Việt với chủ ngữ cụ thể và động từ, không danh từ hóa làm chủ ngữ hay bị động có "bởi" ("AI phát triển nhanh", không "Sự phát triển của AI diễn ra nhanh chóng"). Bảng ở `tu-vung-va-cau-truc.md` D1, A4b và D2.
 - Chữ số: [chữ số Ả Rập cho mọi số đếm và đại lượng ở mọi văn bản, chữ viết chỉ cho quán ngữ, thành ngữ, số thứ tự nói thường; không trộn chữ và số trong một câu / quy ước khác]
 - Kiểu đặt dấu thanh: [kiểu cũ, dấu trên nguyên âm đầu của vần "oa, oe, uy", như hòa, khỏe, thủy / kiểu mới, dấu trên nguyên âm sau của các vần ấy]
 - Quy ước riêng khác: [...]

@@ -9,13 +9,16 @@ từng lần có mang luận điểm hay nhịp không.
 Nguồn danh sách:
   - A1, A3 và C đọc thẳng từ bảng trong file tham chiếu (cột thứ hai của A1,
     cột đầu của A3, cột thứ hai của C), nên sửa file ấy là đủ.
-  - A2, A4, D và D1 là mẫu cấu trúc, viết sẵn trong script này theo file
-    tham chiếu (cập nhật 31/10/2026); khi sửa các mục ấy trong file tham
+  - A2, A4, D, D1 và D2 là mẫu cấu trúc, viết sẵn trong script này theo file
+    tham chiếu (cập nhật 05/11/2026); khi sửa các mục ấy trong file tham
     chiếu, sửa danh sách MAU_* và DON_AM_TIET bên dưới cho khớp.
   - D1 (từ đơn âm tiết cụt) chỉ dò dạng dễ thấy nhất: từ đứng một tiếng ở
     cuối mệnh đề, và chuỗi "thử, quan sát", "nối lại, nới ra". Phép thử đọc
     to vẫn là việc của người đọc.
-  - A5 dò thêm câu trộn chữ và số cho đại lượng đo lường.
+  - D2 (khung câu dịch sát) chỉ dò dạng dễ thấy: danh từ hóa mở câu
+    ("Sự... của", "Việc + động từ"), bị động có tác nhân "được/bị ... bởi",
+    "Điều này/Điều đó" mở câu. Phép thử khung câu vẫn là việc của người đọc.
+  - A5 dò thêm en dash và câu trộn chữ và số cho đại lượng đo lường.
 
 Dùng:
   python3 tools/ra-tu-va-cau-truc.py bai.md [bai2.md ...]
@@ -73,6 +76,7 @@ MAU_A4 = [
     r'mang một gánh', r'để lại một khoảng trống', r'(nhiều|còn) chỗ để (tinh luyện|cải thiện|phát triển)',
     r'tìm "?(cái )?bộ lạc"? của', r'phanh phó giao cảm', r'chạy trọn',
     r'gọi tên (một |những |các )?(cảm xúc|cảm giác|nỗi)', r'giáo sư trợ lý',
+    r'(thứ|điều) đi cùng suốt', r'quay lại mỗi khi rảnh tay',
 ]
 
 # D1: từ đơn âm tiết cụt. Từ -> các tiếng đứng trước tạo thành từ ghép hợp lệ
@@ -85,7 +89,7 @@ DON_AM_TIET = {
     'đủ': {'biết', 'đầy', 'no', 'tạm', 'vừa'},
     'nặng': {'nặng', 'nghiêm', 'trĩu'}, 'nhẹ': {'nhẹ', 'nhỏ'}, 'ấm': {'ấm', 'sưởi'},
     'sắc': {'màu', 'bản', 'xuất', 'đặc', 'nhan', 'sắc'}, 'lạ': {'xa', 'kỳ', 'lạ'},
-    'bền': {'bền'}, 'lạnh': {'lạnh', 'giá', 'rét'},
+    'bền': {'bền'}, 'lạnh': {'lạnh', 'giá', 'rét'}, 'phẳng': {'bằng', 'phẳng'},
 }
 MAU_D1_CHUOI = [r'thử, quan sát', r'nối lại, nới ra']
 SO_CHU = r'(hai|ba|bốn|năm|sáu|bảy|tám|chín|mười)'
@@ -98,8 +102,12 @@ MAU_D = [
     ('"không hẳn vì..., mà vì"', r'không hẳn (là )?vì .{1,80}? mà (là )?vì', 'chỉ khi gỡ ngộ nhận phổ biến'),
     ('song đối "chưa đủ để... nhưng đã đủ để"', r'chưa đủ để .{1,80}? (nhưng )?đã đủ để', '0'),
     ('biển chỉ đường', r'đáng lo ngại hơn:|đặc biệt đáng chú ý:|thật đáng sợ:|câu hỏi còn lại là', '0'),
-    ('danh ngữ hóa mở câu', r'(^|[.!?]\s+)(sự phát triển của|việc ứng dụng|tầm quan trọng của)', '0 ở đầu câu'),
-    ('bị động kiểu Anh', r'được (xem|coi) là|được phản ánh qua', 'chỉ khi tác nhân không quan trọng'),
+    ('danh ngữ hóa mở câu', r'(^|[.!?]\s+)(sự (\S+ ){1,2}của|việc (?!này|đó|ấy|gì|của|làm)\S+|tầm quan trọng của)',
+     '0 ở đầu câu, bảng D2'),
+    ('bị động kiểu Anh', r'được (xem|coi) là|được phản ánh qua|(?<!' + W + r')(được|bị) [^.!?\n,;:]{1,40}? bởi (?!vì)',
+     'chỉ khi tác nhân không quan trọng, bảng D2'),
+    ('"Điều này/Điều đó" mở câu', r'(^|[.!?]\s+)điều (này|đó|ấy)(?!' + W + ')',
+     'không hai câu liền; mỗi lần hỏi thay bằng danh từ cụ thể được không, bảng D2'),
     ('ràng buộc định lượng giả', r'chọn một từ|(viết|chỉ cần) (đúng )?một câu|đúng một điểm|\(một câu\)', '0'),
 ]
 TU_NOI_DEM = ['hơn nữa', 'thêm vào đó', 'bên cạnh đó', 'ngoài ra', 'đặc biệt là', 'mặt khác']
@@ -175,7 +183,7 @@ def ra_file(duong, A1, A3, C):
 
     # A5: dấu câu
     a5 = []
-    for kys, ten in (('—', 'em dash'), ('“”', 'ngoặc cong'), ('…', 'ba chấm Unicode')):
+    for kys, ten in (('—', 'em dash'), ('–', 'en dash'), ('“”', 'ngoặc cong'), ('…', 'ba chấm Unicode')):
         dong = sorted({dong_cua(text, m.start()) for m in re.finditer('[' + re.escape(kys) + ']', text)})
         if dong:
             a5.append('%s ở %d dòng (dòng %s)' % (ten, len(dong), ', '.join(map(str, dong[:15]))))
@@ -250,7 +258,7 @@ def ra_file(duong, A1, A3, C):
             ket.append('dòng %d: "%s"' % (dong_cua(text, cau.start()), c.strip()[:80]))
     bao('A5. Câu trộn chữ và số cho đại lượng (mọi văn bản: dùng chữ số):', ket)
 
-    viet_hoa = [dong_cua(text, m.start()) for m in re.finditer(r':\s+[A-ZÀ-Ỹ]', text)]
+    viet_hoa = [dong_cua(text, m.start()) for m in re.finditer(r':\s+(' + W + ')', text) if m.group(1).isupper()]
     if viet_hoa:
         print('  Viết hoa sau hai chấm: kiểm luật ở dòng %s' % ', '.join(map(str, viet_hoa[:15])))
 

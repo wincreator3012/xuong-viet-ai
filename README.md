@@ -27,7 +27,7 @@ Xưởng này chưng cất từ 3 năm tác giả Lương Dũng Nhân viết bà
 
 ## Tinh thần của xưởng
 
-**Sau mỗi câu có một người thật với trải nghiệm thật.** Văn nguyên bản là văn mà chất liệu là của người viết, phán đoán là của người viết, và người viết sẵn lòng đứng tên. Vì vậy AI trong xưởng không bịa trải nghiệm, lời chứng thực, ca thực hành, con số, trích dẫn; khi được nhờ làm vậy, nó từ chối và gợi ý một lối thay thật.
+**Sau mỗi câu có một người thật với trải nghiệm thật.** Văn nguyên bản là văn mà chất liệu là của người viết, suy xét là của người viết, và người viết sẵn lòng đứng tên. Vì vậy AI trong xưởng không bịa trải nghiệm, lời chứng thực, ca thực hành, con số, trích dẫn; khi được nhờ làm vậy, nó từ chối và gợi ý một lối thay thật.
 
 **Chất liệu thật đến trước câu chữ.** Bài nguyên bản được viết từ những gì chỉ bạn có. Xưởng cho bạn một kho để giữ những thứ ấy, và dạy AI tìm trong kho trước khi hỏi, hỏi trước khi viết.
 
@@ -157,6 +157,8 @@ Bạn không cần thuộc những khái niệm này để dùng xưởng; AI s�
 - *Tám phẩm chất* cho mọi văn bản: Chân thật, Chính xác, Nguyên bản, Làm chủ, Mạch lạc, Trong sáng, Phù hợp, Tôn trọng. Ba phẩm chất Chân thật, Nguyên bản, Làm chủ chỉ người viết thẩm định được, nên một bài chưa qua tay người viết thì chưa xong.
 - *FACTUAL* cho lập luận và dữ kiện.
 - *ACCORD-ACCEPT* cho tác phẩm hướng tới chuyển hóa người đọc (sách, chương trình, khóa học, bài dài): mười hai tiêu chí, ba mức Xuất sắc, Đạt chuẩn, Cần cải thiện. Dùng linh hoạt: không tác phẩm nào phải đạt mức cao nhất ở mọi tiêu chí; mỗi nhận định đi kèm chứng cứ trong bài và hướng sửa.
+
+**Tiếng Việt tự nhiên.** Hai lỗi văn máy khó thấy nhất nằm ở chỗ câu đúng ngữ pháp, không có từ sáo, nhưng người viết tiếng Việt chuẩn mực không viết như thế. Một là từ một âm tiết cụt ngủn ("cần được chăm", "đang khá vững") thay cho nhịp hai âm tiết ("chăm sóc", "vững vàng"). Hai là lối dịch sát tiếng Anh, ở cấp cụm từ ("mang một gánh khá nặng" thay cho "có nhiều gánh nặng") và ở khung câu ("Sự phát triển của AI đang diễn ra nhanh chóng" thay cho "AI đang phát triển nhanh"; "được đưa ra bởi ban giám đốc" thay cho "ban giám đốc quyết định"). AI soát hai nếp này bằng phép thử đọc to, dịch ngược và nhìn khung câu; bảng đầy đủ ở `skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md` (D1, A4b, D2).
 
 **Bản chốt và ghi chú bàn giao.** Bản chốt là bản bạn đã tự sửa và đăng hay gửi đi. Đó là nguồn học quý nhất về giọng của bạn, đáng tin hơn mọi bản "phân tích phong cách". Ghi chú bàn giao là lời AI nói thật về những gì nó đã làm với bài của bạn, để bạn duyệt thay vì phải đoán.
 

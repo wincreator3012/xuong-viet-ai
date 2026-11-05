@@ -108,6 +108,7 @@ Hai lỗi cùng một gốc: câu đúng ngữ pháp, không có từ cấm, nh�
 | năng lực / hiện tượng mọc lên từ... | khởi sinh từ, bắt nguồn từ |
 | chạm nhẹ vào một vùng mới | thử nghiệm một vùng mới |
 | đánh đổ một giả định; nới ra một giả định | phủ định; bớt ràng buộc, linh hoạt hơn |
+| câu hỏi cứ quay lại mỗi khi rảnh tay | câu hỏi cứ khiến mình trăn trở |
 
 Ẩn dụ phải đúng logic của chính hình ảnh: cây mọc từ hạt, không mọc từ rễ.
 
@@ -122,7 +123,9 @@ Hai lỗi cùng một gốc: câu đúng ngữ pháp, không có từ cấm, nh�
 | | rất người | bỏ, hoặc "rất bình thường" |
 | | để một phần chú ý ở lại với cơ thể | chú tâm đến các biểu hiện cơ thể |
 | | điều mình không làm dù được trả tiền | điều mình không làm dù có lợi bao nhiêu chăng nữa |
+| | ba thứ đi cùng suốt sáu ngày | ba nội dung xuyên suốt sáu ngày |
 | Động từ đa nghĩa tiếng Anh dịch theo nghĩa gốc | đọc năng lượng / tình huống / người khác / cơ thể | cảm nhận năng lượng / tình huống / người khác / cơ thể ("đọc" chỉ cho chữ, văn bản, dữ liệu) |
+| | đọc phản ứng; đọc trên | giải mã phản ứng; dựa trên |
 | | (lời nói) làm việc cho người nói | có tác dụng với người nói |
 | | chạy trọn (một quy trình) | thực hiện trọn |
 | | gọi tên, đánh dấu (một cảm xúc, một mẫu hành vi) | nhận diện, nhận ra |
@@ -133,11 +136,11 @@ Hai lỗi cùng một gốc: câu đúng ngữ pháp, không có từ cấm, nh�
 | | "[Chủ đề] - nó / chúng + động từ" | "[Chủ đề] + động từ" |
 | Chức danh đảo trật tự hoặc nâng hạng theo tiếng Anh | giáo sư trợ lý; "phó giáo sư" cho assistant professor | trợ lý giáo sư (skill `kiem-chung`, mục VI) |
 
-Lối dịch sát ở cấp câu đã có trần ở mục D (danh ngữ hóa mở câu, bị động kiểu Anh).
+Lối dịch sát ở cấp câu (danh từ hóa làm chủ ngữ, bị động có tác nhân, "điều này" mở câu, "được" thừa) có bảng riêng ở D2 và trần ở mục D.
 
 ### A5. Dấu câu và định dạng
 
-Theo quy ước ở Cấu hình cá nhân; mặc định: không dấu gạch dài kiểu tiếng Anh (em dash), không ngoặc cong, không ba chấm Unicode, tiêu đề không viết hoa mọi chữ đầu từ, không dùng đường kẻ để ngăn trong văn xuôi. Khoảng số dùng gạch nối thường ("7-10 phút", "trang 61-78").
+Theo quy ước ở Cấu hình cá nhân; mặc định: không dấu gạch dài kiểu tiếng Anh (em dash, en dash), không ngoặc cong, không ba chấm Unicode, tiêu đề không viết hoa mọi chữ đầu từ, không dùng đường kẻ để ngăn trong văn xuôi. Khoảng số dùng gạch nối thường ("7-10 phút", "trang 61-78").
 
 **Chữ số và chữ viết** (mọi văn bản):
 
@@ -214,8 +217,9 @@ Câu hỏi khi gặp một từ ở đây: từ này chở thông tin cụ thể
 | Nhóm ba mặc định (ba tính từ, ba lợi ích, ba ví dụ) | mỗi lần có ba phải vì nội dung có ba | | cắt còn một hai, hoặc một ví dụ sâu |
 | Liệt kê dài đối xứng ("X giúp A, B và C, đồng thời tạo ra D, E và F") | 0 | | tách câu có nhịp khác nhau |
 | Mẫu gạch đầu dòng + in đậm + hai chấm + mô tả | 0 trong văn xuôi | nội dung thật sự là danh sách rời | văn xuôi có mạch |
-| Mở câu bằng danh ngữ hóa làm chủ ngữ: "Sự phát triển của...", "Việc ứng dụng...", "Tầm quan trọng của..." | 0 ở đầu câu | "sự" trước danh từ trừu tượng ở vị trí bổ ngữ vẫn tự nhiên | câu chủ-vị với chủ ngữ cụ thể |
-| Bị động kiểu Anh: "được xem là", "được coi là", "được phản ánh qua" | chỉ trong trường hợp ở cột bên | tác nhân không quan trọng hoặc cần nhấn đối tượng | chủ động với tác nhân thật |
+| Mở câu bằng danh ngữ hóa làm chủ ngữ: "Sự phát triển của...", "Việc ứng dụng...", "Tầm quan trọng của..." | 0 ở đầu câu | "sự" trước danh từ trừu tượng ở vị trí bổ ngữ vẫn tự nhiên | câu chủ-vị với chủ ngữ cụ thể; bảng D2 |
+| Bị động kiểu Anh: "được xem là", "được coi là", "được phản ánh qua", "được/bị ... bởi [tác nhân]" | chỉ trong trường hợp ở cột bên | tác nhân không quan trọng hoặc cần nhấn đối tượng; cấu trúc tâm lý là sản phẩm của một tiến trình ("bị kích hoạt") | chủ động với tác nhân thật; bảng D2 |
+| "Điều này", "Điều đó" mở câu để nối với câu trước (vết của *This means...*, *It is...*) | không hai câu liền nhau; mỗi lần hỏi thay được không | khi không danh từ nào gọi gọn được ý câu trước | gộp vào câu trước, hoặc thế bằng danh từ khái quát cụ thể ("cách dạy ấy", "nỗi sợ đó"); bảng D2 |
 | Câu định nghĩa mở đoạn | 0 ở câu đầu đoạn | định nghĩa đặt giữa đoạn sau khi có chất liệu | |
 | Biển chỉ đường: "Đáng lo ngại hơn:", "Đặc biệt đáng chú ý:", "Câu hỏi còn lại là..." | 0 | | để dữ kiện tự nói; hỏi thẳng câu hỏi |
 | Bình luận về chính bài; tóm ý cuối phần | 0 | | cắt; kết phần bằng hình ảnh hay câu hỏi treo |
@@ -247,17 +251,45 @@ Văn viết tiếng Việt chuẩn mực đi theo nhịp hai âm tiết. Một �
 | | đủ (chỉ mức hoàn chỉnh) | đầy đủ | "không cần đầy đủ"; giữ "biết đủ" khi là khái niệm triết lý |
 | | nặng; lạnh, lạnh dần | nặng nề; lạnh nhạt, lạnh nhạt dần | |
 | | nhẹ, ấm, sắc, lạ, bền | nhẹ nhàng, ấm áp, sắc bén, mới lạ, bền bỉ | |
+| | phẳng, trống, yên | trơ lỳ, trống trải, yên tĩnh (theo nghĩa) | |
+| | quen (việc đã quen) | quen tay | |
 | Danh từ | lời, giọng | lời nói, giọng nói | "bằng giọng nói" |
 | | tin (mức tin), tên (của chính mình), sóng, chê | mức tin tưởng, tên tuổi, làn sóng, chê trách | |
 | | vòng gần, vòng quen | vòng lân cận, người thân cận, vòng quen thuộc | |
+| | đoán (trong "đoán và thật") | phán đoán, điều mình phỏng đoán | "phán đoán và sự thật" |
+| | Lời mở (nhãn mục) | Lời mở đầu | |
 | | bản, ca, trục, khung, lớp, bước, tệp, nguồn khi đứng trơ | bản nháp, trường hợp, trục tư tưởng, khung phân tích, lớp học, bước đi, tệp tài liệu, nguồn dẫn (theo nghĩa) | |
 | Danh từ trừu tượng ở vị trí bổ ngữ | gần gũi, can đảm | sự gần gũi, sự can đảm | "cần sự can đảm" |
 | | dưới ý thức | dưới ngưỡng ý thức | |
 
 Cặp riêng của từng người viết (từ họ hay thấy bị cắt cụt, cụm dịch sát họ đã sửa) ghi ở tệp giọng văn của xưởng (`phong-cach/GIONG-VAN.md`, mục 6), kèm ngày và bài nguồn; bảng này giữ phần chung.
 
+### D2. Câu dịch sát tiếng Anh: khung câu cứng nhắc và cách Việt hóa
+
+A4b bắt lối dịch sát ở cấp cụm từ; mục này bắt lối dịch sát ở cấp câu. Câu đúng ngữ pháp, từ nào cũng sạch danh sách, nhưng khung câu là khung tiếng Anh: tiếng Anh chuộng danh từ hóa, bị động và chủ ngữ giả (*it, this*); tiếng Việt chuộng động từ, chủ động và chủ ngữ cụ thể. Văn AI soạn tiếng Việt mắc lỗi này rất thường, vì mô hình nghĩ bằng khung câu tiếng Anh rồi điền từ tiếng Việt vào. Trần của từng cấu trúc ở mục D.
+
+**Phép thử khung câu:** tạm che các từ, chỉ nhìn khung. Chủ ngữ là một danh từ hóa ("Việc...", "Sự... của..."), một "điều này", hay một đối tượng bị tác động ("... được ... bởi ...")? Hỏi ai làm gì, rồi viết lại với người hay vật làm việc ấy ở vị trí chủ ngữ.
+
+| Kiểu | Dịch sát | Việt hóa |
+|---|---|---|
+| Danh từ hóa làm chủ ngữ (*The development of...*) | "Sự phát triển của AI đang diễn ra nhanh chóng." | "AI đang phát triển nhanh." |
+| | "Việc thực hiện dự án này đòi hỏi sự nỗ lực." | "Thực hiện dự án này đòi hỏi nỗ lực." |
+| | "Tầm quan trọng của việc đọc là rất lớn." | "Đọc rất quan trọng." |
+| Chuỗi "sự... của..." theo *the... of...* | "sự gia tăng của áp lực"; "sự phát triển của nền kinh tế" | "áp lực tăng"; "kinh tế phát triển" |
+| Bị động có tác nhân (*was made by...*) | "Quyết định đã được đưa ra bởi ban giám đốc." | "Ban giám đốc đã quyết định." |
+| Bị động đánh giá (*is considered...*) | "Điều này được xem là quan trọng." | "Đây là điều quan trọng." hoặc "Nhiều người xem đây là điều quan trọng." |
+| | "Kết quả được phản ánh qua số liệu." | "Số liệu phản ánh kết quả." |
+| Chủ ngữ giả "điều này" (*This means..., It is...*) | "AI phát triển nhanh. Điều này đặt ra thách thức cho giáo dục." | "AI phát triển nhanh, đặt ra thách thức cho giáo dục." |
+| | "Học sinh được tự chọn đề tài. Điều này giúp các em chủ động hơn." | "Được tự chọn đề tài, học sinh chủ động hơn." |
+| Chủ đề lặp bằng đại từ (*X, it is...*) | "Cộng hưởng - nó là khả năng cùng cảm." | "Cộng hưởng là khả năng cùng cảm." |
+| "được" thừa | "Tôi được biết rằng..."; "Dự án được hoàn thành." | "Tôi biết..."; "Dự án hoàn thành." |
+
+Một câu gộp đủ các kiểu: "Việc áp dụng phương pháp này mang lại sự cải thiện đáng kể về mặt kết quả học tập của học sinh, và điều này được phản ánh thông qua các số liệu khảo sát." Việt hóa: "Áp dụng phương pháp này, học sinh học tốt lên rõ rệt. Số liệu khảo sát cho thấy điều đó."
+
+**Được giữ khi:** bị động chở đúng nghĩa: tác nhân không quan trọng hay cần nhấn đối tượng, và cấu trúc tâm lý là sản phẩm của tiến trình ("cấu trúc được hóa giải", "bị kích hoạt"); "sự" trước danh từ trừu tượng ở vị trí bổ ngữ ("cần sự can đảm", D1); "điều này" khi không danh từ nào gọi gọn được ý câu trước. "Bị" chỉ cho việc tiêu cực ("bị ảnh hưởng tốt" sai sắc thái). Gỡ khung Anh xong, đọc lại cả đoạn: nếu còn lại chuỗi câu cụt, gộp theo quan hệ đã có sẵn giữa các ý, không chèn từ nối để dán.
+
 ## E. Dùng trong vòng viết
 
 - **Khi soạn:** viết thẳng bằng từ B và cấu trúc tự nhiên; lọc sau chỉ gỡ được từ, không gỡ được nhịp.
-- **Khi rà:** đọc to một lượt riêng cho hai nếp tiếng Việt tự nhiên: phép thử đọc to ở D1 và phép thử dịch ngược ở A4. Rồi chạy A như mục cứng; với C, thay hoặc ghi vào ghi chú bàn giao; với D, đếm so trần rồi hỏi từng lần dưới trần; với B, kiểm có cụm nào lặp hay rắc dày không. Có công cụ chạy mã thì chạy `scripts/ra-tu-va-cau-truc.py` (gói skill) hoặc `tools/ra-tu-va-cau-truc.py` (repo) cho phần máy đếm được.
+- **Khi rà:** đọc to một lượt riêng cho hai nếp tiếng Việt tự nhiên: phép thử đọc to ở D1, phép thử dịch ngược ở A4 và phép thử khung câu ở D2. Rồi chạy A như mục cứng; với C, thay hoặc ghi vào ghi chú bàn giao; với D, đếm so trần rồi hỏi từng lần dưới trần; với B, kiểm có cụm nào lặp hay rắc dày không. Có công cụ chạy mã thì chạy `scripts/ra-tu-va-cau-truc.py` (gói skill) hoặc `tools/ra-tu-va-cau-truc.py` (repo) cho phần máy đếm được.
 - **Khi học từ bản chốt:** người viết nói rõ "không dùng" thì thêm vào A1; người viết giữ hay tự viết một từ ở C với nghĩa riêng thì thêm vào B2 kèm ví dụ; người viết gộp hay cắt một cấu trúc thì xem lại trần ở D. Mỗi dòng mới ghi ngày và bài nguồn.

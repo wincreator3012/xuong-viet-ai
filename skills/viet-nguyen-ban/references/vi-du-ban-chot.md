@@ -49,8 +49,8 @@ Các cặp dưới đây giữ đúng mô thức của những lần tác giả 
 
 | Bản AI | Bản chốt | Bài học |
 |---|---|---|
-| "khiến người nghe biết thêm người nói nghĩ gì về mình" | "khiến người nghe tin chắc hơn rằng mình tệ" | Gọi thẳng tác hại khi người viết đã phán đoán |
-| "dự đoán" | "dự đoán lệch lạc" | Chọn từ theo phán đoán, không chỉ theo nghĩa |
+| "khiến người nghe biết thêm người nói nghĩ gì về mình" | "khiến người nghe tin chắc hơn rằng mình tệ" | Gọi thẳng tác hại khi người viết đã suy xét |
+| "dự đoán" | "dự đoán lệch lạc" | Chọn từ theo suy xét, không chỉ theo nghĩa |
 | Một vòng lặp còn tiếp diễn "khép lại" | "cứ siết dần" | Quá trình còn tiếp diễn cần động từ tăng dần, không động từ kết thúc |
 | Hai nhận định người viết đặt ngang hàng, AI nối bằng "dù" | Nối bằng "và" | Không tự đổi quan hệ logic người viết đã đặt |
 
