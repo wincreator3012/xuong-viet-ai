@@ -1,6 +1,6 @@
 # Chuẩn 00. Tên gọi và hệ mô hình
 
-Cập nhật: 26/10/2026. Nơi giữ tên chính thức của các khái niệm trong repo; chuẩn và skill khác dùng đúng tên ở đây. Mỗi khái niệm một danh từ, cả tiếng Việt lẫn tiếng Anh.
+Cập nhật: 16/11/2026 (thêm tên gọi của việc kết cụm chủ đề). Trước đó: 26/10/2026. Nơi giữ tên chính thức của các khái niệm trong repo; chuẩn và skill khác dùng đúng tên ở đây. Mỗi khái niệm một danh từ, cả tiếng Việt lẫn tiếng Anh.
 
 Các mô hình dưới đây là của Thạc sĩ Lương Dũng Nhân (M.Ed, PCC), trừ chỗ ghi tác giả khác. Khi dùng lại, ghi công tác giả (giấy phép CC BY 4.0).
 
@@ -19,6 +19,8 @@ Vòng viết thêm một chặng ở đầu và một chặng ở cuối: **Ti�
 Năm yếu tố IF-SIP: thông tin độc đáo [Information], cảm xúc chân thật [Feeling], câu chuyện cá nhân [Story], ý tưởng nguyên bản [Idea], triết lý sống [Philosophy]. Chất liệu nằm ở năm hình thái: ký ức và nội tâm; lời nói (ghi âm); bản viết của chính người viết; dữ liệu và tư liệu do người khác tạo; hình ảnh và đồ vật. Trong xưởng đã dựng, năm hình thái là năm ngăn của **kho tư liệu nguyên bản** (thêm ngăn `0 Moi them` cho tư liệu chưa xếp), có mục lục ghi nguồn, mức riêng tư và nơi đã dùng (khuôn ở `khuon/kho-tu-lieu/`).
 
 Ba hạng chất liệu: ca thật (ẩn danh hoặc có đồng ý); ca ghép từ ít nhất ba người thật, có ghi rõ; hư cấu được gọi rõ ngay trong câu. Không trình bày nhân vật dựng như người thật.
+
+**Từ một buổi nói hay một quãng phản tư tới bài** (skill `ket-cum-chu-de`): *hạt chất liệu* là một mẩu chất liệu còn nguyên nghĩa khi đứng riêng (một chuyện, một hình ảnh, một ý, một lời tự bộc lộ, một câu buột miệng), khác "hạt giống của bài"; *cụm chủ đề* là vài hạt chất liệu khác tầng cùng xoay quanh một nghịch lý, đủ chất liệu cho một bài, gọi tên bằng một câu hỏi; *bản đồ cụm* gồm các cụm, khung đi xuyên các cụm, chất liệu để dành và cờ cần người viết xem; *lời khơi gợi* là chuyện và ý của người khác đã gợi người viết phản tư. AI đề xuất bản đồ, người viết chọn cụm và nói ra hạt giống của bài.
 
 ## 3. Năm thành tố của tác phẩm nguyên bản
 

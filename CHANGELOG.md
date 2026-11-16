@@ -2,6 +2,17 @@
 
 Trợ lý AI đọc tệp này khi người dùng nói "cập nhật xưởng": từ phiên bản ghi trong `XUONG.json` của xưởng tới bản mới nhất, để kể bằng lời thường điều gì mới và điều gì sẽ đổi. Mỗi mục ghi: phiên bản (năm.tháng.ngày), thay đổi, việc trợ lý cần làm trong xưởng đã dựng. Mục mới ở trên cùng.
 
+## 2026.11.16
+
+Skill mới: kết cụm chủ đề từ chất liệu nói và phản tư.
+
+- **`skills/ket-cum-chu-de/` 1.0**: từ transcript bài nói, bản gỡ băng, ghi chép phản tư nhiều ngày, lập bản đồ vài cụm chủ đề, mỗi cụm quanh một nghịch lý có trong lời người viết, kết bằng câu hỏi để họ nghĩ tiếp. 6 nhịp (Đọc thấm, Tách hạt, Tìm nghịch lý, Kết cụm, Thử cụm, Trao lại), 5 phép thử cho một cụm, 3 chế độ (một nguồn chất liệu, nhiều ngày, bổ sung). Không soạn bài; lời người khác giữ riêng như lời khơi gợi; chất liệu riêng tư gắn nhãn "Chỉ để bạn nghĩ". Kèm `skills/ket-cum-chu-de/references/phieu-cum.md` và `skills/ket-cum-chu-de/references/co-so-phuong-phap.md`.
+- **Chuẩn 00**, mục 2: thêm tên gọi hạt chất liệu, cụm chủ đề, bản đồ cụm, lời khơi gợi.
+- **`skills/viet-nguyen-ban/references/tu-vung-va-cau-truc.md`** A4b và `tools/ra-tu-va-cau-truc.py`: thêm nhóm thuật ngữ phương pháp nghiên cứu dịch sát đưa vào văn làm việc ("thế căng" thành "nghịch lý", "dấu vết truy được" thành "lần ngược được về lời gốc", "độ dày" thành "đủ chất liệu", "ứng viên mạnh", "phép lai", "chủ đề nổi lên", "mã nguyên văn").
+- **Tài liệu**: `README.md`, `BAT-DAU.md`, `skills/README.md`, `mau-xuong/CLAUDE.md`, `dong-goi/README.md` nhắc skill thứ sáu.
+
+Việc trong xưởng đã dựng: chép lại các tệp năng lực (`tools/ban-dung.py`); thêm dòng `skills/ket-cum-chu-de/` vào bảng "Việc nào, skill nào" trong `CLAUDE.md` của xưởng; đóng gói lại skill riêng (`tools/dong-goi-skill.py`) và mời người dùng lưu gói `xuong-viet-ket-cum-chu-de` nếu họ hay nói, hay ghi chép phản tư.
+
 ## 2026.11.05
 
 Rà soát định kỳ: lối dịch sát ở cấp câu, tên gọi "suy xét", mật độ câu hỏi phản tư.

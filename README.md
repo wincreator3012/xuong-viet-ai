@@ -10,7 +10,7 @@ Xưởng miễn phí, mở, dùng lại được theo giấy phép CC BY 4.0 (t�
 
 > **Repo này là bản vẽ, không phải phần mềm để tải về.** Bạn không cần bấm nút mã nguồn [Code] hay tải tệp nén [Download ZIP]. Bạn đưa đường dẫn repo cho trợ lý AI của mình; trợ lý đọc bản vẽ, hỏi bạn vài câu, rồi dựng trên máy bạn **một xưởng viết riêng**, kèm **kho tư liệu nguyên bản** để bạn đưa tư liệu của chính mình vào. Bạn là trợ lý AI đang đọc repo này: bắt đầu từ [`AGENTS.md`](AGENTS.md).
 
-Mục lục: [Vì sao có xưởng này](#vì-sao-có-xưởng-này) · [Tinh thần của xưởng](#tinh-thần-của-xưởng) · [Bắt đầu bằng một câu](#bắt-đầu-bằng-một-câu) · [Bạn sẽ có gì trên máy](#bạn-sẽ-có-gì-trên-máy) · [Kho tư liệu nguyên bản](#kho-tư-liệu-nguyên-bản) · [Năm skill của xưởng](#năm-skill-của-xưởng) · [Một buổi làm việc mẫu](#một-buổi-làm-việc-mẫu-minh-họa) · [Những khái niệm bạn sẽ gặp](#những-khái-niệm-bạn-sẽ-gặp) · [Xưởng không làm gì](#xưởng-không-làm-gì) · [Câu hỏi thường gặp](#câu-hỏi-thường-gặp) · [Ghi công và giấy phép](#ghi-công-và-giấy-phép)
+Mục lục: [Vì sao có xưởng này](#vì-sao-có-xưởng-này) · [Tinh thần của xưởng](#tinh-thần-của-xưởng) · [Bắt đầu bằng một câu](#bắt-đầu-bằng-một-câu) · [Bạn sẽ có gì trên máy](#bạn-sẽ-có-gì-trên-máy) · [Kho tư liệu nguyên bản](#kho-tư-liệu-nguyên-bản) · [Sáu skill của xưởng](#sáu-skill-của-xưởng) · [Một buổi làm việc mẫu](#một-buổi-làm-việc-mẫu-minh-họa) · [Những khái niệm bạn sẽ gặp](#những-khái-niệm-bạn-sẽ-gặp) · [Xưởng không làm gì](#xưởng-không-làm-gì) · [Câu hỏi thường gặp](#câu-hỏi-thường-gặp) · [Ghi công và giấy phép](#ghi-công-và-giấy-phép)
 
 ## Vì sao có xưởng này
 
@@ -81,7 +81,7 @@ Bạn đưa tư liệu vào bằng cách kéo thả tệp vào đúng ngăn, r�
 
 Về riêng tư: kho nằm trên máy bạn; trợ lý chỉ đọc khi bạn mở thư mục làm việc trong một phiên, chỉ đọc phần cần cho việc đang làm, và phần đã đọc được gửi tới dịch vụ AI bạn dùng như mọi điều bạn gõ vào khung chat. Tư liệu ghi "chỉ để mình đọc" không bao giờ được trích vào bài; chuyện của người khác dùng khi đã ẩn danh hoặc có đồng ý. Trợ lý không sửa, xóa, chuyển tệp nào trong kho khi bạn chưa đồng ý, và gói skill không mang theo tư liệu nào.
 
-## Năm skill của xưởng
+## Sáu skill của xưởng
 
 Mỗi skill là một thư mục trong `skills/`, có tệp `SKILL.md` đứng được một mình.
 
@@ -93,6 +93,8 @@ Mỗi skill là một thư mục trong `skills/`, có tệp `SKILL.md` đứng �
 - **Định hình:** bạn biết muốn nói gì nhưng chưa biết nên viết thành gì. AI đưa hai ba phương án thể loại, thể thức, nói rõ cái được và cái giá của mỗi phương án.
 - **Soi bản tự viết:** AI hỏi trước, nhận định sau, chỉ ra vài chỗ đáng sửa nhất kèm chứng cứ trong bài và hướng sửa, không viết lại thay bạn. Mức soi (nhanh, vừa, sâu) tùy chất lượng bạn muốn và thời gian còn lại.
 - **Nhìn lại:** sau mỗi bài, hai câu hỏi ngắn để thấy điều bài viết đã dạy mình, và một hồ sơ người viết do chính bạn giữ.
+
+**Kết cụm chủ đề (`ket-cum-chu-de`): khi bạn có một buổi nói hay một quãng ghi chép và chưa biết trong đó có những bài nào.** AI đọc trọn transcript, bản gỡ băng hay ghi chép phản tư nhiều ngày của bạn, tách từng hạt chất liệu, tìm những nghịch lý nằm trong chính lời bạn, rồi trao một bản đồ vài cụm chủ đề. Mỗi cụm đủ chất liệu cho một bài và kết bằng vài câu hỏi để bạn nghĩ tiếp. AI không soạn bài ở bước này; lời của người khác trong buổi nói được giữ riêng như lời khơi gợi.
 
 **Viết nguyên bản (`viet-nguyen-ban`): khi bạn cần AI soạn từ chất liệu của bạn.** Bài chiêm nghiệm, bài quan điểm, bản tin, bài mạng xã hội chuyên môn, bài chuyển từ bài nói hay podcast, thư gửi học viên. AI tìm trong kho trước, rồi hỏi bạn chọn: phỏng vấn để lấy chất liệu còn thiếu; soạn ngay một bản có "cờ" ở chỗ cần chuyện thật của bạn; hoặc bạn viết thô trước. Bản nháp luôn kèm **ghi chú bàn giao**. Khi bạn gửi lại bản đã sửa, AI học từ chính những chỗ bạn sửa.
 
@@ -108,6 +110,7 @@ Bạn không cần nhớ tên skill: nói việc bằng lời thường, trợ l
 |---|---|---|
 | Một ý, một trăn trở | Nghĩ cho rõ trước khi viết | `tap-viet`, cửa cùng nghĩ |
 | Ý rõ, chưa biết viết thành gì | Chọn thể loại, nơi đăng, độ dài | `tap-viet`, cửa định hình |
+| Transcript một buổi nói, ghi chép phản tư nhiều ngày | Biết trong đó có những bài nào đang chờ | `ket-cum-chu-de` |
 | Chuyện thật, ghi âm, ghi chép trong kho | AI soạn thành bài | `viet-nguyen-ban` |
 | Một bản tự viết | Được soi và góp ý, tự sửa | `tap-viet`, cửa soi bản tự viết |
 | Bản thảo sách, chương trình, khóa học | Thẩm định kỹ theo ACCORD-ACCEPT | `tap-viet`, kèm `kiem-chung` |
@@ -212,7 +215,7 @@ Có. Nhật ký thay đổi ở `CHANGELOG.md`; bài học mới ở `docs/BAI-H
 | `BAN-DUNG.json` | Danh mục từng tệp: chép vào xưởng, mẫu để điền, hay chỉ ở bản vẽ; vân tay sha256 |
 | `CHANGELOG.md` | Nhật ký thay đổi: trợ lý đọc khi cập nhật xưởng của bạn |
 | `HUONG-DAN.md` | Cách dùng xưởng hằng ngày (được chép vào xưởng) |
-| `skills/` | Năm skill; `skills/README.md` giải thích skill và cách lưu vào tài khoản |
+| `skills/` | Sáu skill; `skills/README.md` giải thích skill và cách lưu vào tài khoản |
 | `chuan/` | Bản tóm cho người đọc: `00` tên gọi và hệ mô hình, `01` kiểm chứng, `02` viết nguyên bản, `03` học từ bản chốt, `04` từ và cấu trúc tiếng Việt |
 | `khuon/` | Khuôn kho tư liệu (sáu ngăn, hướng dẫn, mục lục) và thư mục bài |
 | `phong-cach/` | Bản khởi đầu giọng văn, sổ bài học giọng, hồ sơ người viết (`.mau.md`) |

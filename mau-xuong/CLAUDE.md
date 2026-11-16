@@ -35,6 +35,7 @@ Ba đích cùng lúc: hoàn thành công việc (từng văn bản như người
 |---|---|
 | "thiết lập", "bắt đầu", lần đầu dùng; "xếp kho", "đưa tư liệu vào kho", "kho tư liệu"; "đổi giọng văn", "từ nay gọi tôi là..."; "kiểm tra xưởng"; "lưu skill vào tài khoản", "đóng gói lại skill"; "xưởng làm được gì", "giới thiệu xưởng" | `skills/viet-thiet-lap/` |
 | "tập viết", "nghĩ cùng tôi", "tôi đang có một ý", "nên viết thành gì", "đọc bản tôi tự viết", "góp ý nhưng đừng viết lại", "thẩm định bản thảo sách", "đánh giá chương trình", "nhìn lại bài vừa rồi" | `skills/tap-viet/` |
+| "nghiền ngẫm transcript này", "từ buổi nói này viết được những bài nào", "gom cụm chủ đề", "kết cụm", "lẻ mẻ quá, gom lại", "xem ghi chép phản tư của tôi có gì"; gửi transcript, bản gỡ băng, nhật ký để tìm chủ đề viết | `skills/ket-cum-chu-de/` |
 | "viết bài", "soạn bài báo", "bản tin", "bài mạng xã hội", "chuyển bài nói thành bài viết"; gửi bản đã sửa, "đây là bản chốt", "chốt" | `skills/viet-nguyen-ban/` (bản chốt: mục VII) |
 | "kiểm chứng", "rà trích dẫn", "soát nguồn", "danh mục tham khảo" | `skills/kiem-chung/` |
 | "rà FACTUAL", "rà lập luận", "văn bản này có đáng tin không" | `skills/factual-review/` |

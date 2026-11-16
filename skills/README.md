@@ -8,12 +8,13 @@ Skill là một cách làm việc đã được kiểm chứng, viết thành t�
 
 Skill không phải phần mềm cài vào máy và không chạy ngầm. Nó chỉ là chỉ dẫn; trợ lý đọc nó khi việc bạn nhờ khớp với phần mô tả ở đầu tệp. Khi skill bảo tìm trong kho tư liệu, trợ lý chỉ đọc được kho trong phiên bạn đã gắn thư mục làm việc.
 
-## Xưởng có năm skill
+## Xưởng có sáu skill
 
 | Skill trong xưởng | Tên trên tài khoản AI của bạn | Trợ lý dùng khi bạn |
 |---|---|---|
 | `skills/viet-thiet-lap/` | `xuong-viet-thiet-lap` | thiết lập lần đầu, xếp kho tư liệu, đổi giọng văn, hỏi "xưởng làm được gì", nhờ đóng gói lại skill |
 | `skills/tap-viet/` | `xuong-viet-tap-viet` | muốn tự nghĩ, tự viết; cần hỏi, phản biện, soi, nhìn lại; thẩm định bản thảo theo ACCORD-ACCEPT |
+| `skills/ket-cum-chu-de/` | `xuong-viet-ket-cum-chu-de` | gửi transcript một buổi nói hay ghi chép phản tư nhiều ngày và muốn biết trong đó có những bài nào đang chờ |
 | `skills/viet-nguyen-ban/` | `xuong-viet-nguyen-ban` | nhờ soạn bài đứng tên bạn từ chất liệu thật; gửi bản chốt để trợ lý học giọng |
 | `skills/kiem-chung/` | `xuong-viet-kiem-chung` | bài có nguồn, con số, nhà nghiên cứu, lời trích |
 | `skills/factual-review/` | `xuong-viet-factual-review` | rà lập luận và dữ kiện của một văn bản theo FACTUAL |

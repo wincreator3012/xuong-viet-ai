@@ -77,6 +77,8 @@ MAU_A4 = [
     r'tìm "?(cái )?bộ lạc"? của', r'phanh phó giao cảm', r'chạy trọn',
     r'gọi tên (một |những |các )?(cảm xúc|cảm giác|nỗi)', r'giáo sư trợ lý',
     r'(thứ|điều) đi cùng suốt', r'quay lại mỗi khi rảnh tay',
+    r'thế căng', r'điểm căng', r'dấu vết truy', r'độ dày (của )?(cụm|chất liệu|bài)', r'ứng viên mạnh',
+    r'phép lai', r'đơn vị phân tích', r'mã nguyên văn', r'chủ đề (nổi lên|được kiến tạo)',
 ]
 
 # D1: từ đơn âm tiết cụt. Từ -> các tiếng đứng trước tạo thành từ ghép hợp lệ

@@ -64,7 +64,7 @@ Trả lời tới đâu trợ lý ghi tới đó vào `xuong-viet-ai/phong-cach/
 
 **Kho tư liệu (10-20 phút).** Trợ lý giải thích kho, chỉ bạn thư mục `Kho tu lieu` trên máy và sáu ngăn của nó, rồi gợi ý ba đến năm tư liệu đầu tiên hợp với điều bạn sắp viết. Bạn tự kéo thả tệp vào đúng ngăn (không biết để đâu thì thả vào `0 Moi them`), hoặc kể ngay một chuyện để trợ lý ghi lại đúng lời bạn. Rồi trợ lý "xếp kho": đề xuất một dòng mục lục cho mỗi tư liệu (nội dung, loại chất liệu, nguồn và ngày, mức riêng tư), bạn duyệt rồi mới ghi. Chưa có tư liệu lúc này cũng không sao: thả sau, rồi nói "xếp kho".
 
-**Bộ skill riêng (5-10 phút).** Skill là một cách làm việc đã kiểm chứng viết thành tệp chữ, để trợ lý mở ra đúng lúc, như một cuốn sổ tay nghề. Trợ lý đóng gói năm skill mang cấu hình và bản chụp giọng văn của bạn vào `Viet AI/Bai viet/_skill/` (không mang tư liệu nào trong kho), rồi dẫn bạn lưu vào tài khoản AI. Bạn tự bấm tải lên; trợ lý chỉ từng bước. Không muốn lưu lúc này cũng được: xưởng vẫn chạy đủ khi bạn mở thư mục.
+**Bộ skill riêng (5-10 phút).** Skill là một cách làm việc đã kiểm chứng viết thành tệp chữ, để trợ lý mở ra đúng lúc, như một cuốn sổ tay nghề. Trợ lý đóng gói sáu skill mang cấu hình và bản chụp giọng văn của bạn vào `Viet AI/Bai viet/_skill/` (không mang tư liệu nào trong kho), rồi dẫn bạn lưu vào tài khoản AI. Bạn tự bấm tải lên; trợ lý chỉ từng bước. Không muốn lưu lúc này cũng được: xưởng vẫn chạy đủ khi bạn mở thư mục.
 
 **Giới thiệu xưởng (khoảng 10 phút).** Trợ lý giải thích xưởng làm được gì cho bạn, một bài đi qua những bước nào, việc nào chỉ bạn làm được, vài thói quen nuôi kho, những gì xưởng chưa làm, rồi cùng bạn chọn bài đầu tiên. Muốn nghe lại lúc nào cũng được: "giới thiệu lại xưởng".
 
@@ -154,6 +154,7 @@ Bạn làm việc với tôi theo Xưởng viết AI (phương pháp của Thạ
 Chọn skill theo việc:
 - Thiết lập, ghi giọng văn, sắp xếp tư liệu: làm theo viet-thiet-lap.md (chế độ nhẹ).
 - Tôi muốn tự nghĩ, tự viết, nhờ góp ý mà không viết lại, chọn thể loại, nhìn lại sau bài, hay thẩm định bản thảo, chương trình: làm theo tap-viet.md.
+- Tôi gửi transcript một buổi nói hay ghi chép phản tư và muốn biết viết được những bài nào: làm theo ket-cum-chu-de.md.
 - Tôi nhờ soạn bài dưới tên tôi: làm theo viet-nguyen-ban.md; tìm trong tư liệu của tôi trước khi hỏi.
 - Văn bản có nguồn, con số, nhà nghiên cứu, lời trích: làm theo kiem-chung.md.
 - Tôi nhờ rà lập luận theo FACTUAL: làm theo factual-review.md.

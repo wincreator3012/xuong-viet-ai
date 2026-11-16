@@ -135,6 +135,13 @@ Hai lỗi cùng một gốc: câu đúng ngữ pháp, không có từ cấm, nh�
 | Bị động và đại từ kiểu Anh | đồng hồ sinh học được cài đặt lại | thiết lập lại đồng hồ sinh học |
 | | "[Chủ đề] - nó / chúng + động từ" | "[Chủ đề] + động từ" |
 | Chức danh đảo trật tự hoặc nâng hạng theo tiếng Anh | giáo sư trợ lý; "phó giáo sư" cho assistant professor | trợ lý giáo sư (skill `kiem-chung`, mục VI) |
+| Thuật ngữ phương pháp nghiên cứu dịch sát đưa vào văn làm việc | thế căng, điểm căng [tension] | nghịch lý, cặp đối lập, mâu thuẫn |
+| | dấu vết truy được, truy xuất được [traceable] | lần ngược được về lời gốc |
+| | độ dày của cụm, của chất liệu [thickness] | đủ chất liệu |
+| | ứng viên mạnh cho... [strong candidate] | điều người viết đang nung nấu; dấu hiệu rõ nhất |
+| | phép lai giữa các phương pháp [hybrid] | kết hợp nhiều phương pháp |
+| | chủ đề nổi lên, chủ đề được kiến tạo [themes emerge, are constructed] | cụm khởi sinh từ chất liệu |
+| | mã nguyên văn, đơn vị phân tích [in vivo code, unit of analysis] ngoài phần dẫn phương pháp | giữ nguyên lời người viết; hạt chất liệu |
 
 Lối dịch sát ở cấp câu (danh từ hóa làm chủ ngữ, bị động có tác nhân, "điều này" mở câu, "được" thừa) có bảng riêng ở D2 và trần ở mục D.
 
